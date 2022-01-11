@@ -43,14 +43,17 @@ export default function Home(props) {
 			<div className={styles.landingHeroTextA}>{process.env.creatorName}</div>
 			<Link href="/nft">
 				<a className={styles.landingHeroTextB}>
-					NFT<br />CATALOG
+					NFTs
 				</a>
 			</Link>
-			<div className={styles.landingSpec}>
+			<footer className={styles.footerHome}>
+				{chainId > 1 &&
+					<div className={styles.alertIsTestnet}>{chainParams(chainId).chainName}</div>
+				}
 				<div>Artist {chainParams(chainId).nativeCurrency.symbol} address : {explorerAddressLink(chainId, creatorAddress)}</div>
 				<div>Smart Contract address : {explorerAddressLink(chainId, contractAddress)}</div>
 				<div>NFT type : ERC721</div>
-			</div>
+			</footer>
 		</Layout>
 	)
 }

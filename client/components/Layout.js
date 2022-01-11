@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '@components/Layout.module.css'
 import Link from 'next/link'
 
-import { chainParams } from "@utils/chain-spec.js";
+import { chainParams, explorerAddressLink } from "@utils/chain-spec.js";
 
 export default function Layout({ children, home, nft, context }) {
 	const router = useRouter()
@@ -33,23 +33,24 @@ export default function Layout({ children, home, nft, context }) {
 					<Link href="/"><a>{process.env.creatorName}</a></Link>
 					{" · "}
 					{router.pathname === "/nft" ?
-						"CATALOG" :
-						<Link href="/nft"><a>CATALOG</a></Link>}
+						"NFTs" :
+						<Link href="/nft"><a>NFTs</a></Link>}
 					{router.pathname === "/nft/[tokenId]" &&
-						<span>{" · NFT #"}{nft.tokenId}</span>}
+						<span>{" · #"}{nft.tokenId}</span>}
 				</header>
 			}
 
 			<main>{children}</main>
 
-			<footer className={home ? styles.footerHome : styles.footer}>
-				<Link href="https://github.com/stephanfowler/nft-surface">
-					<a>NFT Surface</a>
-				</Link>
+			{!home && 
+				<footer className={styles.footer}>
 				{context.chainId > 1 &&
 					<div className={styles.alertIsTestnet}>{chainParams(context.chainId).chainName}</div>
 				}
-			</footer>
+				<Link href="https://github.com/stephanfowler/nft-surface">
+					<a>NFT Surface</a>
+				</Link>
+			</footer>}
 		</div>
 	)
 }

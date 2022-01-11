@@ -1,23 +1,24 @@
 {
     "NFTs": [
         {
-            "tokenId": 18,
+            "tokenId": 16,
             "weiPrice": "100000000000000000",
-            "sourceImage": "images/Architecture_18.jpg",
+            "sourceImage": "images/Architecture_16.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
-                "name": "Architecture 18",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "name": "Architecture 16",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmbpwaokVqTqQuMoxJEPHaHNPsWgBW28GNEUGqh2tXqkkM",
                 "width": 1536,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACMQAAEDBAIBBQAAAAAAAAAAAAECAwQABhEhBUESEzEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM5Nt2+xI49l54odLawsKYX8s9a3+/VBmW3bglvhuYyUBagk+J2M66qQuSZLPLF2RJdkOIOQpxWTs4wT3TiOYlBCcCOBj29FNKVOv//Z",
-            "webOptimizedImage": "images/Architecture_18_web.jpg",
-            "tokenURI": "ipfs://QmURSoSJ4tWVL9mceBpBuWe5V3PNpmoLvvxmhgEMTaiRRc",
-            "signature": "0x1fefca539223a874836d921c9409e284cca31546e7317992f695e2eb8cdfa03718136252004cb7d5ed603773a5abbed402b6402777bf99edb2c9fee55cfc57941c"
+            "webOptimizedImage": "images/Architecture_16_web.jpg",
+            "tokenURI": "ipfs://QmbFJE16Uvzd3cTSHHZaeNmFvt4aN6wbMfKyxvahiEznQo",
+            "signature": "0xe9fc8bdc0503572c0572811870ed79f214f003b1bac7e5cc092ff6e65b5ddd1d78c39e05d621a28ab626b30f0fa9445497ffcc641d39777f6394843a54fc949e1c"
         },
         {
             "tokenId": 15,
@@ -25,18 +26,18 @@
             "sourceImage": "images/Architecture_15.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 15",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmbnXQ4EY1umcHT2pLmuHPsmcscTA6DvDkv35jVGV4VBR1",
                 "width": 1537,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEEQUGIVESEyIy/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AgtP3Htv3r7b+8imkBVngMixI2Plhhie89UePfu8bSNba31KGSGECNHMjkso4B/XQrHorINBJ94HkOMU0unqVBMjcilVDcP/Z",
             "webOptimizedImage": "images/Architecture_15_web.jpg",
-            "tokenURI": "ipfs://QmUFnzU3g5NQjZcXFLmvuPDWv4Z7VzgQQ33i7jnp8QJx9c",
-            "signature": "0x40b18654efbd30ff8eda4ff7e9d43c94b28ea34bc995bd916a7be3925880115734b38787b325786b3cfb2cc51bc48c993b8d05055e7c0cb77363eda5906fa0151c"
+            "tokenURI": "ipfs://QmUFnzU3g5NQjZcXFLmvuPDWv4Z7VzgQQ33i7jnp8QJx9c"
         },
         {
             "tokenId": 14,
@@ -44,18 +45,19 @@
             "sourceImage": "images/Architecture_14.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 14",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmZ6JqLyArWxXfrjKuchqKirRgrShuPayGtWgShUPseVNn",
                 "width": 1535,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAIhAAAgIBAwQDAAAAAAAAAAAAAQIDBAYABREHEiFBNJHC/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/xAAaEQABBQEAAAAAAAAAAAAAAAABAAIDESES/9oADAMBAAIRAxEAPwDH6dYxi9DHUuZMVVDJJCyhS8h9ghR51XLQ6dLK4F1uASPjuPzoTkOxxWcqeVJpoXaONh2MRwQvg/Y0Ys7nbFiUNKSQ55IHHvU0N720wuMeVi//2Q==",
             "webOptimizedImage": "images/Architecture_14_web.jpg",
-            "tokenURI": "ipfs://QmWKDzA4rDqMWX9AU9TiGAG4WQZzU8vbUkdLw6mSftTP9J",
-            "signature": "0xaa99fc2e3bbee79ce8bb4d48c76dbf70efd3bb39b3e6924ee0a26e9846ad01b74145a43b3c630185f898d5f8cc6530e9cac1f7bd92d4c3e33ad8ce203ef7a31e1b"
+            "tokenURI": "ipfs://QmYwguubsfBur3Am8GewTGoXt83R42Q2L7tHiBLaPcYNG9",
+            "signature": "0x3b06acc0d68f6510c956866c19714ac04703c8560facc0e6fbc4aecc9b602c594802adab9e04b4b1ae2bda655c0e304d5a4673ebe45ae0e08f117ce32c139e031c"
         },
         {
             "tokenId": 13,
@@ -63,18 +65,19 @@
             "sourceImage": "images/Architecture_13.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 13",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://Qmepa56FdWnh5Vaauxh5y6mz27bfbkMFCqMNAxAf27Eohf",
                 "width": 1534,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIRAAMEBRIhMQZBcdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwDFc3GVMhL9vUky9XBja9oiCOyGnn7IPFAN5Zqu4zlZPfq+/wC0Y2fdIKpCEiCw7iqFhYFBol//2Q==",
             "webOptimizedImage": "images/Architecture_13_web.jpg",
-            "tokenURI": "ipfs://QmX2TQnSR7St5eaCirZeSmg4D3ebzP9ybsKG4obaVMu1De",
-            "signature": "0x98e145e859a5c5872aa9cae80ededecc82ac007c0cfaa4c9941d6b7252f1bcd35cc3026cb9290e41e6bbd34b5fce2f2bb26d2a76f81fef64229c9057dcaf9a7c1c"
+            "tokenURI": "ipfs://QmTHojE5dbKFiPTwUYmQToXhz27pfwnko66L4EF3itsCjr",
+            "signature": "0xba1809237dc31cdabf0429737b34b2c12f5d0f7146246eb8cf7171991a5728111eb970cab720308d48305a38ec406934b3ae76fda6a798c6e8cf89fde24cbfa61b"
         },
         {
             "tokenId": 12,
@@ -82,18 +85,19 @@
             "sourceImage": "images/Architecture_12.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 12",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://Qmc885iWwoVMgeRyEogcb1R1DmP8yn3Bxne48gVfUCNovk",
                 "width": 1534,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAREgUGIYETFKH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8Awod6dVt3bNL4Ranqni8qsoV9eOak6BHvBpuqzNNIxrTKSxJHHevYOSi/1oZDEoBcHZwB7krOx5uNnetjx+ZEYGQ23//Z",
             "webOptimizedImage": "images/Architecture_12_web.jpg",
-            "tokenURI": "ipfs://QmNxmDnjUEXPDkNfuKMqUxg64WeRXTqvrzVPSAV1djYduk",
-            "signature": "0xfa155fc963d5128d9ea7c3dd613e64fb488ef6b3c37dcb93aa9f5a0710d1564368a7a7f3762c74ff4217f3db9316400bb578ed1728346cc10141b773f58298351b"
+            "tokenURI": "ipfs://QmdXgobDzEfgwGBNMryG7BMQ2C7NFMsqgQ3GuY2vQG3eyv",
+            "signature": "0x9c4e3e059d4e57955f4d8b3ecbec4b2621d3a449353a05eaa574bb0c0d12d5613581c93411825e72b35c0b81d86850bf79ea5dde0b3b8220e5e18543f26e839d1c"
         },
         {
             "tokenId": 11,
@@ -101,18 +105,19 @@
             "sourceImage": "images/Architecture_11.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 11",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmXskYpBsmGypBfFwpx1545SKoL3HudatCWKa73SpLWjVg",
                 "width": 1490,
                 "height": 1490
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwL/xAAlEAACAQMDAgcAAAAAAAAAAAABAgQDESEABSIGQRIUIyRCUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwCd6rVI8dYyj29UDC2Ba3b8vofntB89I5Rx6jYpQPEgz8SckfR02blTR+kILuis9qvIi5wMZ0dR+MekFwAoAA7Y0aU6LryjdP/Z",
             "webOptimizedImage": "images/Architecture_11_web.jpg",
-            "tokenURI": "ipfs://QmbCZKqJ4iTWXXhPUVja77M1JSA8S6asSCMaM93fNA4iB7",
-            "signature": "0x139441dfb317ef414158de73923f86bc310032a648e3540a2bc6faecc42dbc466a3f3a9bdbb372a89e8af8014d6e09fe6f77e9bdcebd982aeeb3e8c9411126471c"
+            "tokenURI": "ipfs://QmTz4yTKM5auKS5abgSsVYsA9GBuLdfMWa5muHxadc16ja",
+            "signature": "0x4efdc7f01397d5f87427853909b2ce161a03653a3ba5de0f2fd54f1ed7f3717b06d5d1b26c72d9afa3390a50d3d7fb7891cd3085ea57e44b1e2c0ea9b4938d121b"
         },
         {
             "tokenId": 10,
@@ -120,18 +125,19 @@
             "sourceImage": "images/Architecture_10.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 10",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmeEAwBspHHjQTZEYe5QVeqBNEeQtytjjTEdWKuw7UgJnZ",
                 "width": 2048,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAAFIQYRE0ESMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDKxp6HItr8y2uBiU2grU24MLSMnxPoHajBU0STytHfvNXrASuM8FkqHEvBz0KB7D4KBoS//9k=",
             "webOptimizedImage": "images/Architecture_10_web.jpg",
-            "tokenURI": "ipfs://QmNrmEFoDKKhHyodQCee7e7s4iW45x1uQbsDetFQBo2F7k",
-            "signature": "0x7dabc7b1ebf4d3313b98bddb67454bdc2811286649c1655ad207594fb4aab50f024cc81df8497ab41b433c6617f8d37060a93ffe5b0cc752593605237d4933591c"
+            "tokenURI": "ipfs://QmVgUn9Ejnhf2twQKhGw8KZ5Q9TbZfZCrDnrTTv7C2nkFn",
+            "signature": "0x1671e8b5d646dff9e2d9281f425be977e8f08509d760ad9e342a02c56a028f4a628765c3f5afee7dcd2f41a30f5065851595f498f572ec89cb98a06007c77f421c"
         },
         {
             "tokenId": 9,
@@ -139,18 +145,19 @@
             "sourceImage": "images/Architecture_09.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 09",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmZYDmn5ydwtnNMVuiMSsDitNPkihHkzpbRyq3mdQ9LiDV",
                 "width": 1414,
                 "height": 1415
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMDBQEAAAAAAAAAAAABAgMEAAUhEhUxBzJBQ2HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI29LU7YLpMtyG4jMdbEeOlofFnk9x05J+0L3y6jAuMwAeA6qmYSEdOZIQAkbpwMepv9NT9SjqOTzRrGE//Z",
             "webOptimizedImage": "images/Architecture_09_web.jpg",
-            "tokenURI": "ipfs://QmPASpT9mU9fopJtng6tf29yjxZxQ9P13doG5mLHcPWwQ8",
-            "signature": "0x7581dbcd9b9ca3fb8a8a19aafd008936f1189db20ffe6ed42b008c73360ddde65086027579c42074865bebe60d3af3f7a5be61f6ad7216a892414b9192dc18d41c"
+            "tokenURI": "ipfs://QmczU9RBBJYLauT8tTsxE7V1V3frrC7Eqpg1uS1qF5jEr3",
+            "signature": "0x13944aa23e949fc21ba4953ad12e0966c2be71aed376f986700e4bc5e712c8a867b3bb93e5c83643209f5c97967a2b00f693dc435dd7d507ccd89f4e11ad0fa31b"
         },
         {
             "tokenId": 8,
@@ -158,18 +165,19 @@
             "sourceImage": "images/Architecture_08.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 08",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmfMd366yaDEU5D4FDKcTyGHD46pD54SbiDybmU56G8MX3",
                 "width": 2048,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAgUCBwAAAAAAAAAAAAECAwARBAYSIUEFExUjMkJRYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMuyu8c+GnfGRIEjcozoLBNIuGA42P5Q/hT+/Gyq/Ki9gfilcDMuXeq6WI84jY/QqihUdlNh6RxRUkf/2Q==",
             "webOptimizedImage": "images/Architecture_08_web.jpg",
-            "tokenURI": "ipfs://QmPek18nbCLqAK2DMU6MHX9Azcd14sDff8SUdQ87uYqJ2N",
-            "signature": "0x0351274c50631e5675bb2a5ddcef93c9d15d83c154aa26782506d67ca7c0f22e47d31fd39f4cc2380a884eaac5264f5d4ccce253e923c9bc8041b11ace760b941b"
+            "tokenURI": "ipfs://Qma4r9yYrZZSbwWizJe8A1YJF5DjrcsjEwCpDNNMKbUoQW",
+            "signature": "0x4b294fe999a9dcf6d984f83940c06dab8cc31b9bad73ce94cb91787ca7cc155352f718dd8d15ac94cda0b5a27c8e96d4e86c1cb18fdb5bba673900d6b6fb56731b"
         },
         {
             "tokenId": 7,
@@ -177,18 +185,19 @@
             "sourceImage": "images/Architecture_07.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 07",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmR3KUNCTzhaBpr6F2pqz3SsmRNCf7cV6MtkNGtTaosLxw",
                 "width": 1016,
                 "height": 1355
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAEDBAAHAQAAAAAAAAAAAAECAwQABRESBxMxQVJhsXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAQADAAAAAAAAAAAAAAAAAAABA1H/2gAMAwEAAhEDEQA/AC/iHa2J8hu4NJCFuNkcsY1SARjAH6OfYondTo4tPiSKVYG8+5z0SFkpZbwgDoBrt9ovuAxPkgdnVfTUq8Mv/9k=",
             "webOptimizedImage": "images/Architecture_07_web.jpg",
-            "tokenURI": "ipfs://QmUSDaDZ5dto9uU1kTco6kZgmNwEg1eVi2g7Uu5AZKj8C4",
-            "signature": "0xc629aada65485ba69053ee3dc7b24a629b8591e969bdd6f1635dad24c6a64c130b0d210914621363658e4ddc4d44b35650a1aeb4d23f4fb77f1c1a8b340256811b"
+            "tokenURI": "ipfs://QmP9i7i8nY7iyjfbLZDfrBX92qwAkDtwJSbDfkBky74tTd",
+            "signature": "0x23b7c50b91f0cda5d77c4fab4c014009633aee73cc27b290a7ae43a762768e8c39bdce885de641b991be3523dd46929fffc61cc8fce60defff98de53dfeaa95c1c"
         },
         {
             "tokenId": 6,
@@ -196,18 +205,19 @@
             "sourceImage": "images/Architecture_06.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 06",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmQXppD2qBo2n9GweeYp7dWSsF6KGqMGDHJmKkffFhfLrT",
                 "width": 1533,
                 "height": 2045
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAcJ/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQIDBAAFEQYSMRMhgQckcZGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIEESH/2gAMAwEAAhEDEQA/AKV69OsTdMC1rCvc5AVs3JycAA/JPjsaCc9noTpLWMdNxSfokVoPf7I1cJrE2W84tphQCY/bbnPOeecHxQH1U2G9T3dCeEzHgP2akirlDef/2Q==",
             "webOptimizedImage": "images/Architecture_06_web.jpg",
-            "tokenURI": "ipfs://QmRx8h3gPLZPoTNfFvr7G1esy5uZc1fxfZWytqoTuoejfP",
-            "signature": "0xed8accca5611e11a3ea9a5c66cd243f9ffbc55da7bacddfa84a521221c2f11bb0242ffb815026e230c42129a18cd6a65025a999fbc9d9e5d34c83927604856a31b"
+            "tokenURI": "ipfs://QmbvUnthMu8hhBCPtBNevuqi4mxVNJ8kmWz5HT2r1sAvHT",
+            "signature": "0x857d13724a687eed3d25d8a8022c91a17068abb1ad3d83f05a164e66a3732fdf44bdd16cf0f62ed77fd283b26c6c2755add63b2edd78f86532e9096607fcb4071c"
         },
         {
             "tokenId": 5,
@@ -215,18 +225,19 @@
             "sourceImage": "images/Architecture_05.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 05",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmfJ3UMRftRp9RoJNQ5EjvpBbCXotkMkJsDDFfHHPcBUrZ",
                 "width": 1639,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAACAX/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAYRBQcSITEjUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCJupcGnXTbM93TFPpkjjzaUypsJBOMFKusYzgjsEe0cCMEinVvDZ+jxLNmTI8cofbB4kH7B9oLuD5Ffpq0f//Z",
             "webOptimizedImage": "images/Architecture_05_web.jpg",
-            "tokenURI": "ipfs://QmYuWHhaTsnziydWG54grj62xuWVueQHasF7C9n5cSpKib",
-            "signature": "0xedbf36f6407e44292b3a498f90a3a08bfa5becade35d6ac7a83020a4c9bb35614414ce8a56f571ef148d96f78dbbe7d393238057de8149e6ebce40ee89ccea461b"
+            "tokenURI": "ipfs://QmbJTDMdn9wDuS4UitVSNauZLuS3Su6s5CNmwdg3J1Fpjn",
+            "signature": "0x0360650a41e4b60aec6ef9b46e14ce91c240ebb24bc09c365bcf7c276b191ffc2fa5891e43474644f1d297e244af60ab07b8aed590526e56a1875f501f0c1e0f1b"
         },
         {
             "tokenId": 4,
@@ -234,18 +245,19 @@
             "sourceImage": "images/Architecture_04.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 04",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://Qmej6ACmo7x3p4xAT7QduL4CNJc5DeMyKb6czYNdFESRru",
                 "width": 1757,
                 "height": 1757
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAQFIQcRBjFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AIfjbIR5DKQWtzBJdQSwlQDK6FnXYdej2p9jXvdO0fCmMuI1mlkZZJAHYFVYgnZ2V39oK4XVT5t40CoILr3r7W3QB0NVbpCL/9k=",
             "webOptimizedImage": "images/Architecture_04_web.jpg",
-            "tokenURI": "ipfs://QmcNcWMNAJHygeGRQtB71vi3f8hDa7zHsz9WKJxx3gusDF",
-            "signature": "0x5c3a470c1dbef39accd9412242313d19119d2bd6c9e8941b117f6de1082b930a3900f395f03287f5f419df8d67753155d9ead9ba7ba4b465659f119ea36bb1871b"
+            "tokenURI": "ipfs://QmXE3ZD5mVRgefXMeMe3FimHirupqUv5H93WV2aZ3GbSgs",
+            "signature": "0xfbbd69ba67bac318dd4ac98672a2f8e861937ec490397e5250faf72bb1e4174535e8933e70f8c184d423c0cf4294a409d212143ca0afd15fdc5eadce738d06bf1b"
         },
         {
             "tokenId": 3,
@@ -253,18 +265,19 @@
             "sourceImage": "images/Architecture_03.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 03",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmQK4YgAdPsyvYyG4E8PPK4c3a1SGbAJvcPZpn96Msxqn9",
                 "width": 2048,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAkEAEAAgAEBQUAAAAAAAAAAAABAgMABAURBgchYYESMUFCUf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCacrtFjqWi8QXUZeq7P1lUapTirVHfeTH469DCxkM+ASpkSPc74M5XqcPcRI7JWyOyAj4QfGLjmKKm+xaob+p+p+4D/9k=",
             "webOptimizedImage": "images/Architecture_03_web.jpg",
-            "tokenURI": "ipfs://QmP9QF843XgtieZoa1eQA9NZWxUoVjsNEwE55ejUPWMjtC",
-            "signature": "0xdc3676e97a82495c1a00f0a766d55d1be03f8a7aad10363fe9a04076eb619f4f19193eafe639976c327d56a2c5093aaab61dc021b14ffd811e1fb8b67cc266ca1c"
+            "tokenURI": "ipfs://QmePKdEBktnjBM8bCbTk4di8HjpKTBosSFt44LVbxECDW8",
+            "signature": "0x6672185cffb0b2ec13a9836f9eeccdde8aaa370ceb0e034a4c0d82d8377262e80ffc25e656f2a03e25301dd10a6f956ae248b8e56e86b5b13c0a6e63587785ac1c"
         },
         {
             "tokenId": 2,
@@ -272,18 +285,19 @@
             "sourceImage": "images/Architecture_02.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 02",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmTTUhTpQ6MYhRcLEEUZFip4wkfsTzfdBCpqw2W1SihYKU",
                 "width": 2048,
                 "height": 2048
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAnEAABAwIFAgcAAAAAAAAAAAABAgMEAAUGERIhMhNxFBUiQVFSYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AHRsODPIXrYyzbjDdCJXQ8KeotenMhtzf65HbaiYseCDuzYIrjR4L18h7HjVcx1Cirn2xS4zClJQhsEtgkJ1D09vyjE62wBNkAQooAcUAA0n57VRFZYH/9k=",
             "webOptimizedImage": "images/Architecture_02_web.jpg",
-            "tokenURI": "ipfs://QmNSf3UdWR5CRLKDXgEj6efphatQiphj3mrocPewoVEcur",
-            "signature": "0xf75f35196915ad9779ee5bd46c0b6c34d6ec206a10b7772520ef6b67e9347dd260956f5ad0c9bfa52c55422af86e7c974b835ac521864fb5e3fec057a02e491b1b"
+            "tokenURI": "ipfs://QmdLBWjkoGY13Z3p48msyNBGxnYmnZuakUd2GCPXFC2dmh",
+            "signature": "0xad0a1fc25dd2b8b2e19f80dbcd1ca3b0bffa83e0e2a752caa039c053fe32920d27b2c846ef787f11c75051cfa885d5974d1bc6076a438b6e7df95ffe1b5d2b761b"
         },
         {
             "tokenId": 1,
@@ -291,18 +305,19 @@
             "sourceImage": "images/Architecture_01.jpg",
             "metadata": {
                 "creator": "GlupoX",
+                "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 01",
-                "description": "Medieval data structure",
-                "external_url": "",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
                 "image": "ipfs://QmTgBVtj2hrhGFm14Sg8Y9vFzPMQ1dhfR82opbyERpTfew",
                 "width": 551,
                 "height": 551
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURABMhBgcSIjFBUXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AE0XZektFJMvWkF/jq0ONy3iNqfBBwwcgkj2zwPn901tPYS31Nqo5xZhNuwo+49e6l8qDkgcAn6GtFoiyDxdQynggjI1dEPCJFT0qFAAHAA0H/9k=",
             "webOptimizedImage": "images/Architecture_01_web.jpg",
-            "tokenURI": "ipfs://QmNnWbuqhQYLhYiGq5RnRihgSCJemKiBAuEy9eAgqWy3Yd",
-            "signature": "0x62895c73b55f6d2b15077a0850f1521d7f810c2b9109f23a8988062a85434998281fc91161313dd5d5065d9d743efa4798016f8b2efd2e912ad3595896a680201b"
+            "tokenURI": "ipfs://QmNRm9Pg59bAmewnVPsfHAvqqabyxcbEpEWeQCNvNDwQXa",
+            "signature": "0xfb5dabdccf7086b34d4cb5249bdd3d60d5baad8f48a7abbbcec670261816cd1a09118505bf05972b5dbbfe22408257b02a0f7bcc5f1b8830f85aff0007ea6d401c"
         }
     ],
     "context": {
