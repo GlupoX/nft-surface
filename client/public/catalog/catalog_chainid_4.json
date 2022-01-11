@@ -1,248 +1,329 @@
 {
     "NFTs": [
         {
-            "tokenId": 71,
-            "weiPrice": "0",
-            "sourceImage": "images/tooth_and_claw.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Tooth and Claw",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmNSi1nX4LRUVmgFHC8b9C15r3VRDhJosZ7uLptbKqV2p6",
-                "width": 700,
-                "height": 933
-            },
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgAH/8QAJBAAAQMEAAYDAAAAAAAAAAAAAQIDEQAEEiEFBiIxQYETM1H/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAwDAQACEQMRAD8AaMONPXzVypkreP1uSAgRH6fOtjvS/FxXUXLkk76Va9R4rPbtD/D2l3dq/ElQ+JSBhGWPYRvZ3U1zGoNIytt4icXlpHoTqgVOXg94j//Z",
-            "webOptimizedImage": "images/tooth_and_claw_web.jpg",
-            "tokenURI": "ipfs://QmbDSk3baMQpQk2PKWCLJBD16PAN2kLKtLn1AnCFfGZbDN",
-            "signature": "0xdbe88e31e493afb5ef6a1521cd6043f3f71f9a29a84891a4222f502d11b033932e013bd4e0e7c0970a4e389efc43d9a59c5967fdb4f2ff5a1490597f196b44591c"
-        },
-        {
-            "tokenId": 70,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/chin_zan_bee.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Chin Zan Bee",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmVAs5s6juAsdCUjwwKNueABHKXaPo5h6MkpDSxWN4Ngd5",
-                "width": 995,
-                "height": 746
-            },
-            "tokenURI": "ipfs://QmUccqBSY1SJUPdyGnwUEKaVcmFg2UM6dgQpATkVhMDcqy",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAIRAAAQMEAQUAAAAAAAAAAAAAAQACEQMEEiEiBRQxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABsRAAICAwEAAAAAAAAAAAAAAAECAAMSISIx/9oADAMBAAIRAxEAPwCZ9+zuK1LEy0NaBO49wPH3ZWCeuWtMlj7q7ybxPGdhERQY2MgOhKt2i2N6Z//Z",
-            "webOptimizedImage": "images/chin_zan_bee_web.jpg",
-            "signature": "0xb77a991d5a0c4c4433e6443793c6cbd5bce24ab51cf03dbad5e3ac3be7a3070b41557fd1955f8917b68cc22ba6de01ca9151ba338a9201aaba0f2640a422c9de1b"
-        },
-        {
-            "tokenId": 69,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/disco_at_gloop_island.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Disco at Gloop Island",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmeL2qbcAdK8sbmSd8wp5ixq95xR8BDWKgi2kG3ruybXEM",
-                "width": 778,
-                "height": 1038
-            },
-            "tokenURI": "ipfs://QmTH58jQNpuAJKRQq4pwT9vFwT369e2fuPTLcgycKxZeFz",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQMG/8QAJBAAAgEDBAAHAAAAAAAAAAAAAQIDBBEhAAUSFBUiMUFRobH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EABwRAAICAgMAAAAAAAAAAAAAAAECAAMEMREh0f/aAAwDAQACEQMRAD8AG2fZkTYY06alWDB2ZRflby+/qNZ2Wsqo5HTxCiXiStjgi2p1FTVClll7D8lvFkDIxn90WahwbFYyfkg5+9TUwXR2awg8669iHyRYoCDU/9k=",
-            "webOptimizedImage": "images/disco_at_gloop_island_web.jpg",
-            "signature": "0x6184d681ff0327dc81b1e02ce94c49be1b332bd45ba535e69058497eb5a2560169482cca9b3cdf0707f94040d9396d43da27afc88fb0d1d26dd0df3a598762851c"
-        },
-        {
-            "tokenId": 68,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/endangered_species.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Endangered Species",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://Qma5t9cXiZgop5G5WRqfUjbNZNrvue3kdsFvCUSHPbxRmW",
-                "width": 753,
-                "height": 1004
-            },
-            "tokenURI": "ipfs://Qmb1pEd1nuLy65sHDrJRKDRkx6dzLP2yUAN3M73bBjxEyp",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIxAAAQQCAQMFAAAAAAAAAAAAAQIDBBEAIRIFBkETMUJRkf/EABQBAQAAAAAAAAAAAAAAAAAAAAX/xAAbEQEAAgIDAAAAAAAAAAAAAAABABECAwRCYf/aAAwDAQACEQMRAD8Ar999SWqAIkvnKivj3TtTdfIEeL+8zVtlXpp4yGVJoUbG8fS5bj8t+O6VGO02ElsGgonz+arDy5MSOtTI6bFUGzw5EbNavATZ0C0jXHM9do1fk//Z",
-            "webOptimizedImage": "images/endangered_species_web.jpg",
-            "signature": "0x217c3d3cce2efa6e7ef4e77147e22a548b220849b92ff88725066bec4e791ff9060aa3bae5e9c5ceb3bd74ec02abba5b70799f9c3d12033bf3adb323a29e8c551b"
-        },
-        {
-            "tokenId": 67,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/jungian_archetypes.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Jungian Archetypes",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmecsjcW1buG91jtuJXq81cvwjaysd1cVvETmqbczvpSMD",
-                "width": 1033,
-                "height": 742
-            },
-            "tokenURI": "ipfs://QmbGthLaXnx9VNKkXAGmREhC8aMDQwBfwRp7vgMbUopVQF",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAIhAAAQQBAgcAAAAAAAAAAAAAAQADBBEFAiESEyJBgaLh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAaEQEAAgMBAAAAAAAAAAAAAAACAAMEESJB/9oADAMBAAIRAxEAPwDGx+Tgw+jWye25F388Kl3PQubruEyDxGwGRt7IijWJWntexheyeZ//2Q==",
-            "webOptimizedImage": "images/jungian_archetypes_web.jpg",
-            "signature": "0x4af90b7af7dcceeb89f724ce448898461e978026b087d202c04541d450ccd97425624a43f835676270c3214ef3b32b075b71ae2da5db63d1d17d007b4a9694481c"
-        },
-        {
-            "tokenId": 66,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/land_of_wonder.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Land of Wonder",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmdFEnXonjRCy5VnVeV12c3B61rzgMpdrXUF6fKtaLvMJt",
-                "width": 782,
-                "height": 1043
-            },
-            "tokenURI": "ipfs://QmYWzxX5cTioRwLcvmrP8m3o4JPF5UPzjYnDggNA7RaB9N",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECB//EACYQAAICAQEGBwAAAAAAAAAAAAECAxEEAAUTMTJhgRQhIkFxkeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAESIUH/2gAMAwEAAhEDEQA/ANCyFYzADKmiPiN6gVwWahw6D0/mrieTdpS7NqhzSNffy0Ypbagd5GKzY6CVH417VXY/eliGVMWFQ6UEUcnT50MdQ6tH/9k=",
-            "webOptimizedImage": "images/land_of_wonder_web.jpg",
-            "signature": "0xe425e9fe5dc5bf8e31419ad67c745c8ae44321061488bd712d1cd6258f1e999e4ec962f6433af8f30871d6ff3077205dd462d5a6baff386f8cc1b60bb60e6ffe1b"
-        },
-        {
-            "tokenId": 65,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/sir_gawain.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Sir Gawain",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://Qmbovdf5ATbnD9z8sdQzkT9BMemyK8gFwcnNMzhHY5mnK4",
-                "width": 985,
-                "height": 739
-            },
-            "tokenURI": "ipfs://QmX3NXd2w6QgCodkVYMynPFTgBagHfu5wfDEdhmiX8BGSH",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIG/8QAIRAAAgIBAgcAAAAAAAAAAAAAAQIABBEDBQcSIWGBkcH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABoRAAICAwAAAAAAAAAAAAAAAAECABEDITH/2gAMAwEAAhEDEQA/ANttG51KdcGqFGmVIwmpgoeyj34kjikqAIQpK9M8yn7EQMALM4J4Za1CtT//2Q==",
-            "webOptimizedImage": "images/sir_gawain_web.jpg",
-            "signature": "0xffb73338571e00e9b40ed064d955cc24931b0615d7f11471ef55bcd4211a0ac216fd84a4a4a37f868e2f1669d372afc40d78bb86126f8645eddc7c9cb0e208e41c"
-        },
-        {
-            "tokenId": 64,
-            "weiPrice": "10000000000000000",
-            "sourceImage": "images/tin_lion_duel.jpg",
-            "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Tin Lion Duel",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmNS7FG6Cnq7wbLd56HMn1vRdPbDMDCWhwgpw1frx23NuA",
-                "width": 980,
-                "height": 735
-            },
-            "tokenURI": "ipfs://QmZ3xrrFd3pg2rRoTZpkfC8B6pwPNDaudMQZiDYTnvefZm",
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUG/8QAIBABAAEDAwUAAAAAAAAAAAAAAQIABBEDBSESIjGBwf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAXEQADAQAAAAAAAAAAAAAAAAAAASEx/9oADAMBAAIRAxEAPwDdbZrluxS4jpye2Bg8cJg94q27/OKxbjk4cdB9pSjyIZXT/9k=",
-            "webOptimizedImage": "images/tin_lion_duel_web.jpg",
-            "signature": "0x949f971dacb4916d03a798c4f0061541c78f717201e8ee527369071534386f522d142b09530c566a9746511cc1c7a798f7512ce87f3c5c8fae0ab5216e72cdc01b"
-        },
-        {
-            "tokenId": 63,
+            "tokenId": 16,
             "weiPrice": "100000000000000000",
-            "sourceImage": "images/fossil_panoply.jpg",
+            "sourceImage": "images/Architecture_16.jpg",
             "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "New Fossil Panoply",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmZdKzb4ZYwpPUrx3RtQawzisZhUbC1wCRZ2B7AJQwaXr6",
-                "width": 760,
-                "height": 1013
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 16",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmbpwaokVqTqQuMoxJEPHaHNPsWgBW28GNEUGqh2tXqkkM",
+                "width": 1536,
+                "height": 2048
             },
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUHCP/EACQQAQABAgQGAwAAAAAAAAAAAAECAxEABAUhBhITQXGhFTFT/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQEBAQEBAAAAAAAAAAAAAAABAgARIf/aAAwDAQACEQMRAD8AZcE14RoSqkAFIN3Y73B9ecVCnqMIU4x+Pk2Auzhv7xm3S9XzEKPKSSX3zDZTuPnB0eJc8RDq1Nj9HAB9dO7ZOSd3/9k=",
-            "webOptimizedImage": "images/fossil_panoply_web.jpg",
-            "tokenURI": "ipfs://QmP457e7eKie2XwEooM3DkTBEwJZYTHtHForMBtmdLC2rJ",
-            "signature": "0x8e494384ddcb9a1c9e140d43c878b905bfb0cf79f45a07a7a833445b578ed3291319222959cae784a3b7d91e4020c9f1c33a7a906252d28d7288daf22451d0651c"
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACMQAAEDBAIBBQAAAAAAAAAAAAECAwQABhEhBUESEzEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM5Nt2+xI49l54odLawsKYX8s9a3+/VBmW3bglvhuYyUBagk+J2M66qQuSZLPLF2RJdkOIOQpxWTs4wT3TiOYlBCcCOBj29FNKVOv//Z",
+            "webOptimizedImage": "images/Architecture_16_web.jpg",
+            "tokenURI": "ipfs://QmbFJE16Uvzd3cTSHHZaeNmFvt4aN6wbMfKyxvahiEznQo",
+            "signature": "0xe9fc8bdc0503572c0572811870ed79f214f003b1bac7e5cc092ff6e65b5ddd1d78c39e05d621a28ab626b30f0fa9445497ffcc641d39777f6394843a54fc949e1c"
         },
         {
-            "tokenId": 62,
+            "tokenId": 15,
             "weiPrice": "100000000000000000",
-            "sourceImage": "images/cake_acid_afternoon.jpg",
+            "sourceImage": "images/Architecture_15.jpg",
             "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Cake Acid Afternoon",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmSeL5pxy3YPQWFaupQrPb8YnFCYyyccsT87x4ZWVDDTun",
-                "width": 773,
-                "height": 1031
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 15",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmbnXQ4EY1umcHT2pLmuHPsmcscTA6DvDkv35jVGV4VBR1",
+                "width": 1537,
+                "height": 2048
             },
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EACIQAAIBBAIBBQAAAAAAAAAAAAECAwAEESEFEkEUYYGR4f/EABUBAQEAAAAAAAAAAAAAAAAAAAQF/8QAGREAAwADAAAAAAAAAAAAAAAAAAECAyFB/9oADAMBAAIRAxEAPwBZDKZ7tIpZis8iksGBdFH3sjHg+9LU5WOJFjZZCVHUkKcHHxRC64NLSP1wlWS4N11YtH5Y4JG9aNLI+Gdo1Zrx8kAnC/tTXlhaoW5fD//Z",
-            "webOptimizedImage": "images/cake_acid_afternoon_web.jpg",
-            "tokenURI": "ipfs://QmNUr9jf2dsbyb5ZPH4kMwV8LH6boRfxXwdug3cHwbanCW",
-            "signature": "0xb740d120a8e8a138fc1faff228a4053b356eb81f77307b90fafa6b6b514216c4064bcc76562af6fb3478a05b50d3793e57a19adba8a85e821ddc083eb4750a111c"
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEEQUGIVESEyIy/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AgtP3Htv3r7b+8imkBVngMixI2Plhhie89UePfu8bSNba31KGSGECNHMjkso4B/XQrHorINBJ94HkOMU0unqVBMjcilVDcP/Z",
+            "webOptimizedImage": "images/Architecture_15_web.jpg",
+            "tokenURI": "ipfs://QmUFnzU3g5NQjZcXFLmvuPDWv4Z7VzgQQ33i7jnp8QJx9c"
         },
         {
-            "tokenId": 61,
+            "tokenId": 14,
             "weiPrice": "100000000000000000",
-            "sourceImage": "images/street_of_delusion.jpg",
+            "sourceImage": "images/Architecture_14.jpg",
             "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Street of Delusion.jpg",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmWw2rFfPcm7YcxDWwGPZuRLjaKgr3paAyVem49ifH1oXC",
-                "width": 745,
-                "height": 993
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 14",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmZ6JqLyArWxXfrjKuchqKirRgrShuPayGtWgShUPseVNn",
+                "width": 1535,
+                "height": 2048
             },
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQEG/8QAJRAAAgIBAgQHAAAAAAAAAAAAAQIDEQQAEyEiJDEFBhUjMmGB/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAAMAAwAAAAAAAAAAAAAAAAABAhEhMv/aAAwDAQACEQMRAD8A1C5szz5Ec6MEN9Qr3FKwNcQCObl7Vpn03d9yMYoR+ZblcGj+amP5fxB4rUaqMaJmk2WBa3v5Xdg8B9adiyItpOkg7Dut6FVKHgR1s//Z",
-            "webOptimizedImage": "images/street_of_delusion_web.jpg",
-            "tokenURI": "ipfs://Qmcnj95in8UvLGSnRY7HXUFBs3Fz2q9ujwHSbLndgdGVtk",
-            "signature": "0x888199a12f1bfa594bc0a977eb916129271b1e591605b3d0e59ea810a6bf072a2acf83b65892f2907f950d8df6fd75a66f0fab9bb5416d66cf2b374aaefb94a01b"
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAIhAAAgIBAwQDAAAAAAAAAAAAAQIDBAYABREHEiFBNJHC/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/xAAaEQABBQEAAAAAAAAAAAAAAAABAAIDESES/9oADAMBAAIRAxEAPwDH6dYxi9DHUuZMVVDJJCyhS8h9ghR51XLQ6dLK4F1uASPjuPzoTkOxxWcqeVJpoXaONh2MRwQvg/Y0Ys7nbFiUNKSQ55IHHvU0N720wuMeVi//2Q==",
+            "webOptimizedImage": "images/Architecture_14_web.jpg",
+            "tokenURI": "ipfs://QmYwguubsfBur3Am8GewTGoXt83R42Q2L7tHiBLaPcYNG9",
+            "signature": "0x3b06acc0d68f6510c956866c19714ac04703c8560facc0e6fbc4aecc9b602c594802adab9e04b4b1ae2bda655c0e304d5a4673ebe45ae0e08f117ce32c139e031c"
         },
         {
-            "tokenId": 60,
-            "sourceImage": "images/street_of_dreams.jpg",
+            "tokenId": 13,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_13.jpg",
             "metadata": {
-                "creator": "FLOX",
-                "date": "2021",
-                "name": "Street of Dreams",
-                "description": "FLOX is a multi-generational crypto art collective based in London UK",
-                "external_url": "https://nft-agent.vercel.app/",
-                "collection": "Gloop Dreams",
-                "image": "ipfs://QmNMcUDCZvvzniLogY86wYoXm8McKTEqGW9QYda6SYXJf8",
-                "width": 754,
-                "height": 1005
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 13",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://Qmepa56FdWnh5Vaauxh5y6mz27bfbkMFCqMNAxAf27Eohf",
+                "width": 1534,
+                "height": 2048
             },
-            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgME/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQIDBAAREhMhMVEFBkEU/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQIREv/aAAwDAQACEQMRAD8AXlmRGaY0Y7bhab1HClVkL7GR3HBtbn7U1Sg+oupjkpcOYNn+Dv8ABSL2nxH5vCTQZLiyAdMgBJSRbrkW2t1WKI0hERlGJOKEi+RF9qlmem9Fpo//2Q==",
-            "webOptimizedImage": "images/street_of_dreams_web.jpg",
-            "tokenURI": "ipfs://QmaxRk26ML7TmeRBmoBJPg4xF3AWAiLkjpBVkjydATALkW"
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIRAAMEBRIhMQZBcdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwDFc3GVMhL9vUky9XBja9oiCOyGnn7IPFAN5Zqu4zlZPfq+/wC0Y2fdIKpCEiCw7iqFhYFBol//2Q==",
+            "webOptimizedImage": "images/Architecture_13_web.jpg",
+            "tokenURI": "ipfs://QmTHojE5dbKFiPTwUYmQToXhz27pfwnko66L4EF3itsCjr",
+            "signature": "0xba1809237dc31cdabf0429737b34b2c12f5d0f7146246eb8cf7171991a5728111eb970cab720308d48305a38ec406934b3ae76fda6a798c6e8cf89fde24cbfa61b"
+        },
+        {
+            "tokenId": 12,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_12.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 12",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://Qmc885iWwoVMgeRyEogcb1R1DmP8yn3Bxne48gVfUCNovk",
+                "width": 1534,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAREgUGIYETFKH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8Awod6dVt3bNL4Ranqni8qsoV9eOak6BHvBpuqzNNIxrTKSxJHHevYOSi/1oZDEoBcHZwB7krOx5uNnetjx+ZEYGQ23//Z",
+            "webOptimizedImage": "images/Architecture_12_web.jpg",
+            "tokenURI": "ipfs://QmdXgobDzEfgwGBNMryG7BMQ2C7NFMsqgQ3GuY2vQG3eyv",
+            "signature": "0x9c4e3e059d4e57955f4d8b3ecbec4b2621d3a449353a05eaa574bb0c0d12d5613581c93411825e72b35c0b81d86850bf79ea5dde0b3b8220e5e18543f26e839d1c"
+        },
+        {
+            "tokenId": 11,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_11.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 11",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmXskYpBsmGypBfFwpx1545SKoL3HudatCWKa73SpLWjVg",
+                "width": 1490,
+                "height": 1490
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwL/xAAlEAACAQMDAgcAAAAAAAAAAAABAgQDESEABSIGQRIUIyRCUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwCd6rVI8dYyj29UDC2Ba3b8vofntB89I5Rx6jYpQPEgz8SckfR02blTR+kILuis9qvIi5wMZ0dR+MekFwAoAA7Y0aU6LryjdP/Z",
+            "webOptimizedImage": "images/Architecture_11_web.jpg",
+            "tokenURI": "ipfs://QmTz4yTKM5auKS5abgSsVYsA9GBuLdfMWa5muHxadc16ja",
+            "signature": "0x4efdc7f01397d5f87427853909b2ce161a03653a3ba5de0f2fd54f1ed7f3717b06d5d1b26c72d9afa3390a50d3d7fb7891cd3085ea57e44b1e2c0ea9b4938d121b"
+        },
+        {
+            "tokenId": 10,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_10.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 10",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmeEAwBspHHjQTZEYe5QVeqBNEeQtytjjTEdWKuw7UgJnZ",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAAFIQYRE0ESMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDKxp6HItr8y2uBiU2grU24MLSMnxPoHajBU0STytHfvNXrASuM8FkqHEvBz0KB7D4KBoS//9k=",
+            "webOptimizedImage": "images/Architecture_10_web.jpg",
+            "tokenURI": "ipfs://QmVgUn9Ejnhf2twQKhGw8KZ5Q9TbZfZCrDnrTTv7C2nkFn",
+            "signature": "0x1671e8b5d646dff9e2d9281f425be977e8f08509d760ad9e342a02c56a028f4a628765c3f5afee7dcd2f41a30f5065851595f498f572ec89cb98a06007c77f421c"
+        },
+        {
+            "tokenId": 9,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_09.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 09",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmZYDmn5ydwtnNMVuiMSsDitNPkihHkzpbRyq3mdQ9LiDV",
+                "width": 1414,
+                "height": 1415
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMDBQEAAAAAAAAAAAABAgMEAAUhEhUxBzJBQ2HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI29LU7YLpMtyG4jMdbEeOlofFnk9x05J+0L3y6jAuMwAeA6qmYSEdOZIQAkbpwMepv9NT9SjqOTzRrGE//Z",
+            "webOptimizedImage": "images/Architecture_09_web.jpg",
+            "tokenURI": "ipfs://QmczU9RBBJYLauT8tTsxE7V1V3frrC7Eqpg1uS1qF5jEr3",
+            "signature": "0x13944aa23e949fc21ba4953ad12e0966c2be71aed376f986700e4bc5e712c8a867b3bb93e5c83643209f5c97967a2b00f693dc435dd7d507ccd89f4e11ad0fa31b"
+        },
+        {
+            "tokenId": 8,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_08.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 08",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmfMd366yaDEU5D4FDKcTyGHD46pD54SbiDybmU56G8MX3",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAgUCBwAAAAAAAAAAAAECAwARBAYSIUEFExUjMkJRYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMuyu8c+GnfGRIEjcozoLBNIuGA42P5Q/hT+/Gyq/Ki9gfilcDMuXeq6WI84jY/QqihUdlNh6RxRUkf/2Q==",
+            "webOptimizedImage": "images/Architecture_08_web.jpg",
+            "tokenURI": "ipfs://Qma4r9yYrZZSbwWizJe8A1YJF5DjrcsjEwCpDNNMKbUoQW",
+            "signature": "0x4b294fe999a9dcf6d984f83940c06dab8cc31b9bad73ce94cb91787ca7cc155352f718dd8d15ac94cda0b5a27c8e96d4e86c1cb18fdb5bba673900d6b6fb56731b"
+        },
+        {
+            "tokenId": 7,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_07.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 07",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmR3KUNCTzhaBpr6F2pqz3SsmRNCf7cV6MtkNGtTaosLxw",
+                "width": 1016,
+                "height": 1355
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAEDBAAHAQAAAAAAAAAAAAECAwQABRESBxMxQVJhsXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAQADAAAAAAAAAAAAAAAAAAABA1H/2gAMAwEAAhEDEQA/AC/iHa2J8hu4NJCFuNkcsY1SARjAH6OfYondTo4tPiSKVYG8+5z0SFkpZbwgDoBrt9ovuAxPkgdnVfTUq8Mv/9k=",
+            "webOptimizedImage": "images/Architecture_07_web.jpg",
+            "tokenURI": "ipfs://QmP9i7i8nY7iyjfbLZDfrBX92qwAkDtwJSbDfkBky74tTd",
+            "signature": "0x23b7c50b91f0cda5d77c4fab4c014009633aee73cc27b290a7ae43a762768e8c39bdce885de641b991be3523dd46929fffc61cc8fce60defff98de53dfeaa95c1c"
+        },
+        {
+            "tokenId": 6,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_06.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 06",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmQXppD2qBo2n9GweeYp7dWSsF6KGqMGDHJmKkffFhfLrT",
+                "width": 1533,
+                "height": 2045
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAcJ/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQIDBAAFEQYSMRMhgQckcZGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIEESH/2gAMAwEAAhEDEQA/AKV69OsTdMC1rCvc5AVs3JycAA/JPjsaCc9noTpLWMdNxSfokVoPf7I1cJrE2W84tphQCY/bbnPOeecHxQH1U2G9T3dCeEzHgP2akirlDef/2Q==",
+            "webOptimizedImage": "images/Architecture_06_web.jpg",
+            "tokenURI": "ipfs://QmbvUnthMu8hhBCPtBNevuqi4mxVNJ8kmWz5HT2r1sAvHT",
+            "signature": "0x857d13724a687eed3d25d8a8022c91a17068abb1ad3d83f05a164e66a3732fdf44bdd16cf0f62ed77fd283b26c6c2755add63b2edd78f86532e9096607fcb4071c"
+        },
+        {
+            "tokenId": 5,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_05.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 05",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmfJ3UMRftRp9RoJNQ5EjvpBbCXotkMkJsDDFfHHPcBUrZ",
+                "width": 1639,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAACAX/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAYRBQcSITEjUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCJupcGnXTbM93TFPpkjjzaUypsJBOMFKusYzgjsEe0cCMEinVvDZ+jxLNmTI8cofbB4kH7B9oLuD5Ffpq0f//Z",
+            "webOptimizedImage": "images/Architecture_05_web.jpg",
+            "tokenURI": "ipfs://QmbJTDMdn9wDuS4UitVSNauZLuS3Su6s5CNmwdg3J1Fpjn",
+            "signature": "0x0360650a41e4b60aec6ef9b46e14ce91c240ebb24bc09c365bcf7c276b191ffc2fa5891e43474644f1d297e244af60ab07b8aed590526e56a1875f501f0c1e0f1b"
+        },
+        {
+            "tokenId": 4,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_04.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 04",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://Qmej6ACmo7x3p4xAT7QduL4CNJc5DeMyKb6czYNdFESRru",
+                "width": 1757,
+                "height": 1757
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAQFIQcRBjFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AIfjbIR5DKQWtzBJdQSwlQDK6FnXYdej2p9jXvdO0fCmMuI1mlkZZJAHYFVYgnZ2V39oK4XVT5t40CoILr3r7W3QB0NVbpCL/9k=",
+            "webOptimizedImage": "images/Architecture_04_web.jpg",
+            "tokenURI": "ipfs://QmXE3ZD5mVRgefXMeMe3FimHirupqUv5H93WV2aZ3GbSgs",
+            "signature": "0xfbbd69ba67bac318dd4ac98672a2f8e861937ec490397e5250faf72bb1e4174535e8933e70f8c184d423c0cf4294a409d212143ca0afd15fdc5eadce738d06bf1b"
+        },
+        {
+            "tokenId": 3,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_03.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 03",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmQK4YgAdPsyvYyG4E8PPK4c3a1SGbAJvcPZpn96Msxqn9",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAkEAEAAgAEBQUAAAAAAAAAAAABAgMABAURBgchYYESMUFCUf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCacrtFjqWi8QXUZeq7P1lUapTirVHfeTH469DCxkM+ASpkSPc74M5XqcPcRI7JWyOyAj4QfGLjmKKm+xaob+p+p+4D/9k=",
+            "webOptimizedImage": "images/Architecture_03_web.jpg",
+            "tokenURI": "ipfs://QmePKdEBktnjBM8bCbTk4di8HjpKTBosSFt44LVbxECDW8",
+            "signature": "0x6672185cffb0b2ec13a9836f9eeccdde8aaa370ceb0e034a4c0d82d8377262e80ffc25e656f2a03e25301dd10a6f956ae248b8e56e86b5b13c0a6e63587785ac1c"
+        },
+        {
+            "tokenId": 2,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_02.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 02",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmTTUhTpQ6MYhRcLEEUZFip4wkfsTzfdBCpqw2W1SihYKU",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAnEAABAwIFAgcAAAAAAAAAAAABAgMEAAUGERIhMhNxFBUiQVFSYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AHRsODPIXrYyzbjDdCJXQ8KeotenMhtzf65HbaiYseCDuzYIrjR4L18h7HjVcx1Cirn2xS4zClJQhsEtgkJ1D09vyjE62wBNkAQooAcUAA0n57VRFZYH/9k=",
+            "webOptimizedImage": "images/Architecture_02_web.jpg",
+            "tokenURI": "ipfs://QmdLBWjkoGY13Z3p48msyNBGxnYmnZuakUd2GCPXFC2dmh",
+            "signature": "0xad0a1fc25dd2b8b2e19f80dbcd1ca3b0bffa83e0e2a752caa039c053fe32920d27b2c846ef787f11c75051cfa885d5974d1bc6076a438b6e7df95ffe1b5d2b761b"
+        },
+        {
+            "tokenId": 1,
+            "weiPrice": "100000000000000000",
+            "sourceImage": "images/Architecture_01.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture 01",
+                "description": "Structures, cathedrals, and neo-organic cities",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmTgBVtj2hrhGFm14Sg8Y9vFzPMQ1dhfR82opbyERpTfew",
+                "width": 551,
+                "height": 551
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURABMhBgcSIjFBUXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AE0XZektFJMvWkF/jq0ONy3iNqfBBwwcgkj2zwPn901tPYS31Nqo5xZhNuwo+49e6l8qDkgcAn6GtFoiyDxdQynggjI1dEPCJFT0qFAAHAA0H/9k=",
+            "webOptimizedImage": "images/Architecture_01_web.jpg",
+            "tokenURI": "ipfs://QmNRm9Pg59bAmewnVPsfHAvqqabyxcbEpEWeQCNvNDwQXa",
+            "signature": "0xfb5dabdccf7086b34d4cb5249bdd3d60d5baad8f48a7abbbcec670261816cd1a09118505bf05972b5dbbfe22408257b02a0f7bcc5f1b8830f85aff0007ea6d401c"
         }
     ],
     "context": {
-        "creatorAddress": "0x72dAd71E89a5e4ED46754b0A0fb28Cb6AF721844",
-        "contractAddress": "0x1211b395c018130d87468e7c3DE822AFA3D48968",
-        "chainId": 4,
-        "royaltyBasisPoints": 495
+        "creatorAddress": "0xa861DfE09358A43fE007ef5873c50d45fcDa3765",
+        "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "chainId": 31337,
+        "royaltyBasisPoints": 500
     }
 }
