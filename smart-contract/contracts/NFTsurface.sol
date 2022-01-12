@@ -19,10 +19,11 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     event Bought(uint256 id, address buyer);
 
     address public immutable owner;
-    uint16 public immutable royaltyBasisPoints;
 
     uint256 public totalSupply;
     uint256 public idFloor;
+    uint256 public immutable royaltyBasisPoints;
+
     mapping(uint256 => string) private tokenURIs;
     mapping(uint256 => bool) private revokedIds;
     mapping(uint256 => uint256) private prices;
@@ -36,7 +37,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     constructor(
         string memory name,
         string memory symbol,
-        uint16 royaltyBasisPoints_
+        uint256 royaltyBasisPoints_
     ) ERC721(name, symbol) EIP712("NFTsurface", "1.0.0") {
         owner = _msgSender();
         royaltyBasisPoints = royaltyBasisPoints_;
@@ -174,7 +175,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
         require(_msgSender() == owner, "unauthorized to revoke id");
         require(vacant(id));
         revokedIds[id] = true;
-        IdRevoked(id);
+        emit IdRevoked(id);
     }
 
     /**
@@ -185,7 +186,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
         require(_msgSender() == owner, "unauthorized to set idFloor");
         require(floor > idFloor, "must exceed current floor");
         idFloor = floor;
-        IdFloorSet(idFloor);
+        emit IdFloorSet(idFloor);
     }
 
     /**
