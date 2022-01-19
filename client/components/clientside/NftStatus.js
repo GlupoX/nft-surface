@@ -18,7 +18,9 @@ import {
 	chainParams,
 	switchChain,
 	explorerAddressLink,
-	explorerTxLink
+	explorerTokenLink,
+	explorerTxLink,
+	ipfsLink
 } from "@utils/chain-spec.js";
 
 const NftStatus = ({ nft, context }) => {
@@ -31,10 +33,13 @@ const NftStatus = ({ nft, context }) => {
 	const [connecting, setConnecting] = useState();
 	const [render, forceRender] = useState();
 
+	const tokenId = nft.tokenId;
+	const creatorAddress = context.creatorAddress;
 	const contractAddress = context.contractAddress;
 	const chainId = context.chainId;
 	const chainName = chainParams(chainId).chainName;
 	const coin = chainParams(chainId).nativeCurrency.symbol;
+	const royaltyBasisPoints = context.royaltyBasisPoints;
 
 	const userIsOwner = (walletAddress && owner && (ethers.utils.getAddress(walletAddress) === ethers.utils.getAddress(owner)));
 	const userIsNotOwner = (walletAddress && owner && (ethers.utils.getAddress(walletAddress) !== ethers.utils.getAddress(owner)));
@@ -261,7 +266,33 @@ const NftStatus = ({ nft, context }) => {
 
 									: <></>}
 					</div>
-				</div>
+
+					<div className={styles.nftSection}>
+						<div className={styles.nftDetails}>
+
+							<div>
+								{"Token ID : "}
+								{status === "minted" ?
+									explorerTokenLink(chainId, contractAddress, tokenId)
+									: tokenId}
+							</div>
+							<div>
+								{"Contract : "}{explorerAddressLink(chainId, contractAddress)}
+							</div>
+							<div>
+								{"Creator : "}{explorerAddressLink(chainId, creatorAddress)}
+							</div>
+							<div>
+								{"IPFS immutable "}
+								{ipfsLink(nft.tokenURI, "metadata")}
+								{" / "}
+								{ipfsLink(nft.metadata.image, "image")}
+							</div>
+							<div>{"Secondary sale royalty : "}{royaltyBasisPoints / 100}{"%"}</div>
+							<div>Token type : ERC-721</div>
+							<div>Blockchain : {chainParams(chainId).chainName}</div>
+						</div>
+					</div></div>
 	);
 };
 

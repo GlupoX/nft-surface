@@ -2,35 +2,28 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
-import "@openzeppelin/contracts/finance/PaymentSplitter.sol";
-import "@openzeppelin/contracts/access/AccessControl.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
 
 /**
  *  @title NFT Smart Contract
  *  @author Stephan Fowler
- *  @notice ERC721 contract for stand-alone NFT collections with separable "agent" role, payment splitting, and lazy-minting capability
+ *  @notice ERC721 contract for stand-alone NFT collections with lazy-minting capability
  *  @dev Enables lazy-minting by any user via precomputed signatures
  */
-contract NFTsurface is
-    ERC721,
-    ERC721Burnable,
-    EIP712,
-    AccessControl,
-    PaymentSplitter
-{
+contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     event IdRevoked(uint256 tokenId);
     event IdFloorSet(uint256 idFloor);
+    event Receipt(uint256 value);
+    event Withdrawal(uint256 value);
+    event PriceSet(uint256 id, uint256 price);
+    event Bought(uint256 id, address buyer);
 
-    bytes32 public constant AGENT_ROLE = keccak256("AGENT_ROLE");
-
-    // See NFT Provenance notes regarding why these are immutable
     address public immutable owner;
-    uint16 public immutable royaltyBasisPoints;
 
     uint256 public totalSupply;
     uint256 public idFloor;
+    uint256 public immutable royaltyBasisPoints;
+
     mapping(uint256 => string) private tokenURIs;
     mapping(uint256 => bool) private revokedIds;
     mapping(uint256 => uint256) private prices;
@@ -39,33 +32,34 @@ contract NFTsurface is
      *  @dev Constructor immutably sets "owner" to the message sender; be sure to deploy contract using the account of the creator/artist/brand/etc.
      *  @param name ERC721 token name
      *  @param symbol ERC721 token symbol
-     *  @param admin The administrator address can reassign roles
-     *  @param agent The agent address is authorised for all minting, signing, and revoking operations
-     *  @param payees Array of PaymentSplitter payee addresses
-     *  @param shares Array of PaymentSplitter shares
      *  @param royaltyBasisPoints_ Percentage basis-points for royalty on secondary sales, eg 495 == 4.95%
      */
     constructor(
         string memory name,
         string memory symbol,
-        address admin,
-        address agent,
-        address[] memory payees,
-        uint256[] memory shares,
-        uint16 royaltyBasisPoints_
-    )
-        ERC721(name, symbol)
-        EIP712("NFTsurface", "1.0.0")
-        PaymentSplitter(payees, shares)
-    {
+        uint256 royaltyBasisPoints_
+    ) ERC721(name, symbol) EIP712("NFTsurface", "1.0.0") {
         owner = _msgSender();
         royaltyBasisPoints = royaltyBasisPoints_;
-        _setupRole(DEFAULT_ADMIN_ROLE, admin);
-        _setupRole(AGENT_ROLE, agent);
     }
 
-    event PriceSet(uint256 id, uint256 price);
-    event Bought(uint256 id, address buyer);
+    /**
+     *  @notice Receive ETH
+     */
+    receive() external payable {
+        emit Receipt(msg.value);
+    }
+
+    /**
+     *  @notice Withdraw ETH balance
+     */
+    function withdraw() external {
+        require(_msgSender() == owner, "unauthorized to withdraw");
+        uint256 balance = address(this).balance;
+        (bool success, ) = _msgSender().call{value: balance}("");
+        require(success, "transfer failed");
+        emit Withdrawal(balance);
+    }
 
     /**
      *  @notice Minting by the agent only
@@ -78,7 +72,7 @@ contract NFTsurface is
         uint256 id,
         string memory uri
     ) external {
-        require(hasRole(AGENT_ROLE, _msgSender()), "unauthorized to mint");
+        require(_msgSender() == owner, "unauthorized to mint");
         require(vacant(id));
         _mint(recipient, id, uri);
     }
@@ -115,10 +109,7 @@ contract NFTsurface is
     ) public view returns (bool) {
         require(vacant(id));
         require(
-            hasRole(
-                AGENT_ROLE,
-                ECDSA.recover(_hash(weiPrice, id, uri), signature)
-            ),
+            owner == ECDSA.recover(_hash(weiPrice, id, uri), signature),
             "signature invalid or signer unauthorized"
         );
         return true;
@@ -181,10 +172,10 @@ contract NFTsurface is
      *  @param id The token Id that can no longer be minted
      */
     function revokeId(uint256 id) external {
-        require(hasRole(AGENT_ROLE, _msgSender()), "unauthorized to revoke id");
+        require(_msgSender() == owner, "unauthorized to revoke id");
         require(vacant(id));
         revokedIds[id] = true;
-        IdRevoked(id);
+        emit IdRevoked(id);
     }
 
     /**
@@ -192,13 +183,10 @@ contract NFTsurface is
      *  @param floor The floor for token Ids minted from now onward
      */
     function setIdFloor(uint256 floor) external {
-        require(
-            hasRole(AGENT_ROLE, _msgSender()),
-            "unauthorized to set idFloor"
-        );
+        require(_msgSender() == owner, "unauthorized to set idFloor");
         require(floor > idFloor, "must exceed current floor");
         idFloor = floor;
-        IdFloorSet(idFloor);
+        emit IdFloorSet(idFloor);
     }
 
     /**
@@ -215,7 +203,7 @@ contract NFTsurface is
     function supportsInterface(bytes4 interfaceId)
         public
         view
-        override(ERC721, AccessControl)
+        override(ERC721)
         returns (bool)
     {
         return super.supportsInterface(interfaceId);

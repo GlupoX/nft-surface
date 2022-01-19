@@ -1,12 +1,6 @@
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 
-import { 
-	chainParams,
-	explorerAddressLink,
-	explorerTokenLink,
-	ipfsLink } from "@utils/chain-spec.js";
-
 const NftStatus = dynamic(
 	() => import('../components/clientside/NftStatus'),
 	{ ssr: false }
@@ -60,29 +54,6 @@ export default function Nft({ nft, context }) {
 
 				<div className={styles.nftSection}>
 					<NftStatus nft={nft} context={context} />
-				</div>
-
-				<div className={styles.nftSection}>
-					<div className={styles.nftDetails}>
-						<div>
-							{"Token ID : "}{explorerTokenLink(chainId, contractAddress, tokenId)}
-						</div>
-						<div>
-							{"Contract : "}{explorerAddressLink(chainId, contractAddress)}
-						</div>
-						<div>
-							{"Creator : "}{explorerAddressLink(chainId, creatorAddress)}
-						</div>
-						<div>
-							{"IPFS immutable "}
-							{ipfsLink(nft.tokenURI, "metadata")}
-							{" / "}
-							{ipfsLink(nft.metadata.image, "image")}
-						</div>
-						<div>{"Secondary sale royalty : "}{context.royaltyBasisPoints / 100}{"%"}</div>
-						<div>Token type : ERC-721</div>
-						<div>Blockchain : {chainParams(chainId).chainName}</div>
-					</div>
 				</div>
 			</div>
 		</div>
