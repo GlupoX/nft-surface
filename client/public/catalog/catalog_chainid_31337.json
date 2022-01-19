@@ -1,15 +1,235 @@
 {
     "NFTs": [
         {
+            "tokenId": 27,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_27.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #27",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "width": 1299,
+                "height": 1732,
+                "image": "ipfs://QmSZuE43dftQFbsQafkXBC8qLk8pHrPJ2S5R6KnXdMM49V"
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQQFB//EACQQAAAEBQMFAAAAAAAAAAAAAAECAwQABRESMQYHFCEjUpGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQEAAgMAAAAAAAAAAAAAAAABABECAyH/2gAMAwEAAhEDEQA/AKU2nu6eq5C6ljuXoyc5E+WR+yUOmY9hg7eRzX5DzbczdFJukmGiGKlpQLedZS41AyPXMbqDdMGwp0AQoIQOMn4F9RKY7DtkVk//2Q==",
+            "webOptimizedImage": "images/Architecture_27_web.jpg",
+            "tokenURI": "ipfs://QmdLSjUWdx3CFLCceWHdje9dUjC6S1kaTmLr1kHKeJ5czW",
+            "signature": "0x7b14f493fff9c2cda55e84bce6f36f9d6215263f8a7eca4705f50e17de7da4891f2f61133e55fdb2848a710b60172701aa97972830e786c2ae54bba32a67cee21b"
+        },
+        {
+            "tokenId": 26,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_26.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #26",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmSLuMQjtksC2KckinCbLf3Wv1yb5tGKvxr5rqGpXJq3QK",
+                "width": 1442,
+                "height": 1922
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACQQAAEEAQMDBQAAAAAAAAAAAAECAwQFEQAGIQcSIghSYnGx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AO7OoeoOl0i8uEtJn37LbECOwAgQ45PccA+7xzjJweTydK+36Ckl0FbIkuRXX3ozTji0nhSigEkfZ0M+oG9esdyVEVTaGmK+ChLSUfI5P4NOlPcKRUQUFtSylhA7luZUrxHJOOToklHG//9k=",
+            "webOptimizedImage": "images/Architecture_26_web.jpg",
+            "tokenURI": "ipfs://Qmamz3c6oBgMVQrHtRbjQhPfMfsoRRz5FcUk1Cb1F4byG7",
+            "signature": "0x8d784a26f1ab61ea8feab7f5919684a7f204d156b10cdce217325a0ac80cce156047e9863ead0e13765b920c82c6f42d5a96dd1a84a1b7b9dcc4fd048754c7281b"
+        },
+        {
+            "tokenId": 25,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_25.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #25",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmW4GcTiNs5NTbnNvQbKutZBDZrki8un46bwo6EPNm1VBs",
+                "width": 1538,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwYHCP/EACIQAAICAgEDBQAAAAAAAAAAAAECAwQFEQAGITETIiOh0f/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAZEQADAAMAAAAAAAAAAAAAAAAAAQIDQVH/2gAMAwEAAhEDEQA/AL5H1LTC0hbK15bblY4zIrHXfR+uHXqTDsoYZKpojY+Vf3mE7fWeWnzlTJy2JGvV3HpuW9qhe40o7eeLU+VtPNIxlcFmJOm0PPAWOtsd1PD/2Q==",
+            "webOptimizedImage": "images/Architecture_25_web.jpg",
+            "tokenURI": "ipfs://QmeZAPBrxviBYDCXMhN91SezNvWfPfFhVGwLkr6WaHrSdu",
+            "signature": "0x0ac5b29fb0e73fc14d9727e3c25fc00741d5c3ae40ae0c536c039c393d72730f5f7a120b2f6bcb429858c2507c443e20370f06f56d1eced1372e4aad37399e481c"
+        },
+        {
+            "tokenId": 24,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_24.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #24",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmRrHV8y5gwGian6qavqZu5F6sVJ3t7KSYKSdwNcQzsNoP",
+                "width": 988,
+                "height": 1317
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwQG/8QAJBAAAQMDBAEFAAAAAAAAAAAAAQIDEQAGIQQSMTIFUWFiodL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABoRAAEFAQAAAAAAAAAAAAAAAAABAhEhQVH/2gAMAwEAAhEDEQA/AE25LTvVtjZ4i51usjELkFKRwkZJPuokkn04rOJtG9ikbrhXMZ7/AKpPGsdkqBIhG/n4gx91anVuKSDDeRPWpLsUVw//2Q==",
+            "webOptimizedImage": "images/Architecture_24_web.jpg",
+            "tokenURI": "ipfs://QmNx8K159ugKFDBpbGYSEP5DYMWKSSzemSFdsKppbDQMVK",
+            "signature": "0x5488516dea82d806435e6ceeab1ed4e30c8e72352fe48ad257edff46871963fb1325e4d91084b0bf92fc73773e0c64470afb78c42f6a980866ec29ab981898c31b"
+        },
+        {
+            "tokenId": 23,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_23.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #23",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmePnjZtvi3cx3TTMBTthcgyhrnMGE4s5ifFhgVbmbA7ZC",
+                "width": 1515,
+                "height": 2020
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAUH/8QAIxAAAgEDBAEFAAAAAAAAAAAAAQIDBAURAAYhMQcXQlFWk//EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGREAAwADAAAAAAAAAAAAAAAAAAECETFB/9oADAMBAAIRAxEAPwCNtqo2zdfKNS9yigWnlKvNDMizIxYyErkjKKGYEYIwBzxrcvTzaH1u1/gNB61Vc1DPR3JJC08s5V8+4H50gqTed9ipYY47jUqioqqofoAcDrU7xOxqXw//2Q==",
+            "webOptimizedImage": "images/Architecture_23_web.jpg",
+            "tokenURI": "ipfs://QmbKbyhRtCXL61WvnAs176d9dheLY2i1GQV2DJXVrgiWHx",
+            "signature": "0x0506b91a3086eb7b13cf80e718beec1f42b289c95618a3aadc65be8055a73da876ba08df64c87a1b8fad2121c4498469b3795cc8603e5890a2daadc40e1d33e41b"
+        },
+        {
+            "tokenId": 22,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_22.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #22",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmXtnKC94N2RX8zygQVM6yQ9FMTCHQ4xv32LB4Rn51vnCX",
+                "width": 1369,
+                "height": 1825
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAJRAAAgECBQMFAAAAAAAAAAAAAQIDBAUABhESMSJBYQcWITKR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQIEE//aAAwDAQACEQMRAD8A0i253sdVbbpUwmRYraQJV2BmcFFYFAD1DqA8HnTBGf1fy4s8ipa6+RQxAfYF3DXnQ8YnWGhp4smQzwR7KmGnnkDtowPIGoI7fngYGe9YB8SWKkdx9mEjDU9zp2xfVsFXif/Z",
+            "webOptimizedImage": "images/Architecture_22_web.jpg",
+            "tokenURI": "ipfs://QmXzHwVVutBySJy7zUGUVz19HFuGrPPSBqE6FXPFbc9MYM",
+            "signature": "0x3a4db2f113ccab1058f7e2be5e63cd9d44c6985dbe56492eb0d18bc76745965c31d6286ca8435734b5c21773ae49f45bcd17a239d54e7f0eab33c3c9fb4f27341c"
+        },
+        {
+            "tokenId": 21,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_21.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #21",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmY2KScVbAG932pwzPxzPpTfxgfF3C33BJcJ38w3YjQAn6",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAwIEBwAAAAAAAAAAAAECAwQFEQASIjFBcQYTIVKRofD/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABgRAQEAAwAAAAAAAAAAAAAAAAEAAxEh/9oADAMBAAIRAxEAPwBncr/b7XRFY1heTbkKxwAPcx6D8NZrL4lpWldjW1xJJOUiAU9hjlqPrry4VVePzOHfxNkfHU986BF4qGG4NIM+uN/L61HMSnZd3//Z",
+            "webOptimizedImage": "images/Architecture_21_web.jpg",
+            "tokenURI": "ipfs://QmU3d8jVZLWbePZymhMLJ4aBMY88oAbKKq4WSHhMphTRCr",
+            "signature": "0x6e420b02aad3c212095eb0533db62f8b0ee10521153eaaaab45f05482da5d02059a977b0cfcd6de58bf8b68970ebfea049ddee41b7eb3b0c87e3a9c541b308d81c"
+        },
+        {
+            "tokenId": 20,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_20.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #20",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmSukF3nzivQv5Pw1W5NDHhaY5J4QrsLotGgVpDdmtkLS3",
+                "width": 991,
+                "height": 1321
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGCP/EACUQAAIBBAEBCQAAAAAAAAAAAAECAwAEBRESIQYTFDJRcXKRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACEf/aAAwDAQACEQMRAD8Azlj8TPBZJkLi3LxShu7QqdkAeb2/dGmSdnbh0V5L20R2G2Ri21PoelGjyDvjsRGyjjFb7+XEkgfZqffLXzuzeJkHI70D0FQ66WW//9k=",
+            "webOptimizedImage": "images/Architecture_20_web.jpg",
+            "tokenURI": "ipfs://QmadeeQLng2bHBEgZ26sxqEaFXRgVdPR4zg66aSABWYhGT",
+            "signature": "0x4a7f7b8abaa4d4673a2bbe934f835e7ceb54154f21ec4b4f61c3ab55828e6f12274d50b7855ec8094b7de844fce74266418a95da5ad92666bfddc653197680551c"
+        },
+        {
+            "tokenId": 19,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_19.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #19",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmY9D2993FfGrifPw3FsqBDkXjnxPjkwWPh1JKqjLPP5Rm",
+                "width": 1352,
+                "height": 1804
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFB//EACUQAAIBAwMCBwAAAAAAAAAAAAEDAgQFEQAhUQYTEhciQXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIRAxEAPwDCV9EVj6qpRT3Cnn2SR3CJCMjnGx+R+aY8pusJ+qNuXIHcEVC9/vV63U6rTb0vBbUNaBKIZPEIHHAGfbnREKomoWwUKgJxEsFjDjI58WkFp1oL/9k=",
+            "webOptimizedImage": "images/Architecture_19_web.jpg",
+            "tokenURI": "ipfs://QmfTePZqktaNTb7TJPVkCtXbDk2euWqzn5d9T6gmTVFM8j",
+            "signature": "0xfd5f749aa169a64de733f6604527cc28e8919beb57c20e1cc9360af4f95e1755798da9dc1f7e62f2c032cc9f7ec0e4473596d6951834176fd912235ae828f6251c"
+        },
+        {
+            "tokenId": 18,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_18.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #18",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmSMTpM54eQoxx2hz13MToMgaf2UbY7eFpLrW6FTkqPUn8",
+                "width": 669,
+                "height": 893
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAIhAAAgIBBAEFAAAAAAAAAAAAAQIDBBEABQYhExQxQmGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAZEQEAAgMAAAAAAAAAAAAAAAABAAMREhP/2gAMAwEAAhEDEQA/ADLl0+58Yro7WLElSVjCvjtFmSQYJVjgdEe3WRjBzo9s8h3drEp9XMuWJwHOB3rTWIDudizHZkJijiWRUx8j0WP3jUq/RhivWY1HSyMo/CdRLhcR5az/2Q==",
+            "webOptimizedImage": "images/Architecture_18_web.jpg",
+            "tokenURI": "ipfs://QmWpbJrgUzEVF33zVc5QLXXAkzWT7nJruit6XoftpWY3L9",
+            "signature": "0x77a2e219acbe267621262eedb68cfdc1e3982175e014e798640b83f73e7c308c3d2df74b170e0e8a568e2fec417c251ed3bbf509b10045a169bbfc804010ae8c1b"
+        },
+        {
+            "tokenId": 17,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_17.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #17",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmWbQh2rxk6c7P4ALC3X8psDRDQ95s8yWfUwk7sZw5YL1y",
+                "width": 1489,
+                "height": 1987
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgUGB//EACMQAAICAQMDBQAAAAAAAAAAAAEDAgQRAAUTEiExBkFSYaH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAMBAQAAAAAAAAAAAAAAAAABAhEx/9oADAMBAAIRAxEAPwDMFb5u9Yci7F228xWoQ48QPUSw/eYx/NE/1PuDnMalLJKnIygR7gntpxduLg/gr1oK6oTnyjBnE4EexIwOwx41Ivq7KhzExoXOlcjAYukeDj46SrCNSq6f/9k=",
+            "webOptimizedImage": "images/Architecture_17_web.jpg",
+            "tokenURI": "ipfs://Qmev2tFakLinTuPpbAJZyBSVyHQTEpzQjNyfUGuNJWTqiT",
+            "signature": "0x871223ee424b9e79d9b01f22f0fd56045e2ab579e8111e261dbf585289b5500f40c6cb8429dc33ef4a80657efce7cbb2db666fbd0a7313c8d93f95bdb05a9f3e1c"
+        },
+        {
             "tokenId": 16,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_16.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 16",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmbpwaokVqTqQuMoxJEPHaHNPsWgBW28GNEUGqh2tXqkkM",
                 "width": 1536,
@@ -17,19 +237,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACMQAAEDBAIBBQAAAAAAAAAAAAECAwQABhEhBUESEzEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM5Nt2+xI49l54odLawsKYX8s9a3+/VBmW3bglvhuYyUBagk+J2M66qQuSZLPLF2RJdkOIOQpxWTs4wT3TiOYlBCcCOBj29FNKVOv//Z",
             "webOptimizedImage": "images/Architecture_16_web.jpg",
-            "tokenURI": "ipfs://QmbFJE16Uvzd3cTSHHZaeNmFvt4aN6wbMfKyxvahiEznQo",
-            "signature": "0xe9fc8bdc0503572c0572811870ed79f214f003b1bac7e5cc092ff6e65b5ddd1d78c39e05d621a28ab626b30f0fa9445497ffcc641d39777f6394843a54fc949e1c"
+            "tokenURI": "ipfs://QmWKYgQbFtiSuELVzZsJnhxz1iPgR8jJqdbcGdWxoKHZTm",
+            "signature": "0xc1dd8b33230c4230d38163f1dbc2f5b7d0f4287f1501b86f3f63b39b4d17465923ca75bd3b23a0eebf86a43f05fef67aaa4abf61863126d7e1f84050f6975ae31b"
         },
         {
             "tokenId": 15,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_15.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 15",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmbnXQ4EY1umcHT2pLmuHPsmcscTA6DvDkv35jVGV4VBR1",
                 "width": 1537,
@@ -37,18 +257,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEEQUGIVESEyIy/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AgtP3Htv3r7b+8imkBVngMixI2Plhhie89UePfu8bSNba31KGSGECNHMjkso4B/XQrHorINBJ94HkOMU0unqVBMjcilVDcP/Z",
             "webOptimizedImage": "images/Architecture_15_web.jpg",
-            "tokenURI": "ipfs://QmUFnzU3g5NQjZcXFLmvuPDWv4Z7VzgQQ33i7jnp8QJx9c"
+            "tokenURI": "ipfs://QmdBDqH3ViAQGRXbnpGzdRT9Utm2pVeq8SEkKXwK3JADBh",
+            "signature": "0x9b6012de9a4348f06cbf92eee4a1a7a054a0ced9682ec0658b200d05dc25effb5f3cb37ffcffc20d27b7e6878867eb08a11ff8c5cb3e3c5e85f50ba46ebcbc901c"
         },
         {
             "tokenId": 14,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_14.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 14",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmZ6JqLyArWxXfrjKuchqKirRgrShuPayGtWgShUPseVNn",
                 "width": 1535,
@@ -56,19 +277,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAIhAAAgIBAwQDAAAAAAAAAAAAAQIDBAYABREHEiFBNJHC/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/xAAaEQABBQEAAAAAAAAAAAAAAAABAAIDESES/9oADAMBAAIRAxEAPwDH6dYxi9DHUuZMVVDJJCyhS8h9ghR51XLQ6dLK4F1uASPjuPzoTkOxxWcqeVJpoXaONh2MRwQvg/Y0Ys7nbFiUNKSQ55IHHvU0N720wuMeVi//2Q==",
             "webOptimizedImage": "images/Architecture_14_web.jpg",
-            "tokenURI": "ipfs://QmYwguubsfBur3Am8GewTGoXt83R42Q2L7tHiBLaPcYNG9",
-            "signature": "0x3b06acc0d68f6510c956866c19714ac04703c8560facc0e6fbc4aecc9b602c594802adab9e04b4b1ae2bda655c0e304d5a4673ebe45ae0e08f117ce32c139e031c"
+            "tokenURI": "ipfs://QmXM5CbUUfXdKhLBHywjrdD22Em1QgWhPgQS9MHbNnLcAa",
+            "signature": "0xc789799efb83b0c9c9044130a0ea4a326ef57f8f827c674e38322cac0402c51e709929cc7f9497c697e1bdb49a1bc666dd9a8dff3d0e160527f9238ee87121f51b"
         },
         {
             "tokenId": 13,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_13.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 13",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://Qmepa56FdWnh5Vaauxh5y6mz27bfbkMFCqMNAxAf27Eohf",
                 "width": 1534,
@@ -76,19 +297,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIRAAMEBRIhMQZBcdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwDFc3GVMhL9vUky9XBja9oiCOyGnn7IPFAN5Zqu4zlZPfq+/wC0Y2fdIKpCEiCw7iqFhYFBol//2Q==",
             "webOptimizedImage": "images/Architecture_13_web.jpg",
-            "tokenURI": "ipfs://QmTHojE5dbKFiPTwUYmQToXhz27pfwnko66L4EF3itsCjr",
-            "signature": "0xba1809237dc31cdabf0429737b34b2c12f5d0f7146246eb8cf7171991a5728111eb970cab720308d48305a38ec406934b3ae76fda6a798c6e8cf89fde24cbfa61b"
+            "tokenURI": "ipfs://QmdjdpuszJ2Ft7atiSfPDKzLMd2hz5oAQ3B4irgHu6gYih",
+            "signature": "0x4b768c912d186f6f5d2e2ae7d198ff7bf2d7fb6b42a6e2b3d1b0085ef9012c4e30bf060991aa6fc7b84d92c7bf059563ce0d660052b0f9aba645137ff1d5fae11c"
         },
         {
             "tokenId": 12,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_12.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 12",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://Qmc885iWwoVMgeRyEogcb1R1DmP8yn3Bxne48gVfUCNovk",
                 "width": 1534,
@@ -96,19 +317,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAREgUGIYETFKH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8Awod6dVt3bNL4Ranqni8qsoV9eOak6BHvBpuqzNNIxrTKSxJHHevYOSi/1oZDEoBcHZwB7krOx5uNnetjx+ZEYGQ23//Z",
             "webOptimizedImage": "images/Architecture_12_web.jpg",
-            "tokenURI": "ipfs://QmdXgobDzEfgwGBNMryG7BMQ2C7NFMsqgQ3GuY2vQG3eyv",
-            "signature": "0x9c4e3e059d4e57955f4d8b3ecbec4b2621d3a449353a05eaa574bb0c0d12d5613581c93411825e72b35c0b81d86850bf79ea5dde0b3b8220e5e18543f26e839d1c"
+            "tokenURI": "ipfs://QmXfgE8PtugpaoeYnTebHsVpyY1PuHL5cRCew4Q7wJ5b7H",
+            "signature": "0x2b7e618200449a21ebbe7f0c278b8c8f83689405cf14bbcb605e2e3e838bc2d90582381902846c5c0a19a5e3d90acb48ff7c1e0a454e30b07a3643cbd15375331b"
         },
         {
             "tokenId": 11,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_11.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 11",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmXskYpBsmGypBfFwpx1545SKoL3HudatCWKa73SpLWjVg",
                 "width": 1490,
@@ -116,19 +337,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwL/xAAlEAACAQMDAgcAAAAAAAAAAAABAgQDESEABSIGQRIUIyRCUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwCd6rVI8dYyj29UDC2Ba3b8vofntB89I5Rx6jYpQPEgz8SckfR02blTR+kILuis9qvIi5wMZ0dR+MekFwAoAA7Y0aU6LryjdP/Z",
             "webOptimizedImage": "images/Architecture_11_web.jpg",
-            "tokenURI": "ipfs://QmTz4yTKM5auKS5abgSsVYsA9GBuLdfMWa5muHxadc16ja",
-            "signature": "0x4efdc7f01397d5f87427853909b2ce161a03653a3ba5de0f2fd54f1ed7f3717b06d5d1b26c72d9afa3390a50d3d7fb7891cd3085ea57e44b1e2c0ea9b4938d121b"
+            "tokenURI": "ipfs://Qmck4Acu8JxJB6ucerdLize6mEmhJJ2aFxkbDpxs5NRLYV",
+            "signature": "0x0c751a90db198c4ac642c2d8058741cc81f4034e3665ac12762cb252d4ea48fe1eed0cfac28c0f49d7a6e32c2490974cb7a75a79c5b8848a2e3d172bc18e5b9d1c"
         },
         {
             "tokenId": 10,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_10.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 10",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmeEAwBspHHjQTZEYe5QVeqBNEeQtytjjTEdWKuw7UgJnZ",
                 "width": 2048,
@@ -136,19 +357,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAAFIQYRE0ESMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDKxp6HItr8y2uBiU2grU24MLSMnxPoHajBU0STytHfvNXrASuM8FkqHEvBz0KB7D4KBoS//9k=",
             "webOptimizedImage": "images/Architecture_10_web.jpg",
-            "tokenURI": "ipfs://QmVgUn9Ejnhf2twQKhGw8KZ5Q9TbZfZCrDnrTTv7C2nkFn",
-            "signature": "0x1671e8b5d646dff9e2d9281f425be977e8f08509d760ad9e342a02c56a028f4a628765c3f5afee7dcd2f41a30f5065851595f498f572ec89cb98a06007c77f421c"
+            "tokenURI": "ipfs://QmecsF2mM2awo3rro2WNJvfUDGtPVbRfbn7wg9qw16hXw5",
+            "signature": "0x4c005f3d958e5cce0ecbe9f27249d0a4c1da0ed39409823753220677a29dfa2f7c9fb01e46500b3327e1b2166cf394d93fc59427a8437d2ed1ebdfbc50a23ffc1c"
         },
         {
             "tokenId": 9,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_09.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 09",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmZYDmn5ydwtnNMVuiMSsDitNPkihHkzpbRyq3mdQ9LiDV",
                 "width": 1414,
@@ -156,19 +377,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMDBQEAAAAAAAAAAAABAgMEAAUhEhUxBzJBQ2HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI29LU7YLpMtyG4jMdbEeOlofFnk9x05J+0L3y6jAuMwAeA6qmYSEdOZIQAkbpwMepv9NT9SjqOTzRrGE//Z",
             "webOptimizedImage": "images/Architecture_09_web.jpg",
-            "tokenURI": "ipfs://QmczU9RBBJYLauT8tTsxE7V1V3frrC7Eqpg1uS1qF5jEr3",
-            "signature": "0x13944aa23e949fc21ba4953ad12e0966c2be71aed376f986700e4bc5e712c8a867b3bb93e5c83643209f5c97967a2b00f693dc435dd7d507ccd89f4e11ad0fa31b"
+            "tokenURI": "ipfs://QmeDaifiZfv4Mqt63SQM2MZGj94rpzvxvsHq4E48utM5fq",
+            "signature": "0x361e724562bab1aacc668854f72607adb5fef570610b8f9667fc33cdd68f03110d69776c0c8c3afa9b7257f1f601adda23df20beeae797d8db923c99968ede441c"
         },
         {
             "tokenId": 8,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_08.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 08",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmfMd366yaDEU5D4FDKcTyGHD46pD54SbiDybmU56G8MX3",
                 "width": 2048,
@@ -176,19 +397,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAgUCBwAAAAAAAAAAAAECAwARBAYSIUEFExUjMkJRYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMuyu8c+GnfGRIEjcozoLBNIuGA42P5Q/hT+/Gyq/Ki9gfilcDMuXeq6WI84jY/QqihUdlNh6RxRUkf/2Q==",
             "webOptimizedImage": "images/Architecture_08_web.jpg",
-            "tokenURI": "ipfs://Qma4r9yYrZZSbwWizJe8A1YJF5DjrcsjEwCpDNNMKbUoQW",
-            "signature": "0x4b294fe999a9dcf6d984f83940c06dab8cc31b9bad73ce94cb91787ca7cc155352f718dd8d15ac94cda0b5a27c8e96d4e86c1cb18fdb5bba673900d6b6fb56731b"
+            "tokenURI": "ipfs://QmQNuv34RdfbDf2i8GQswikFx6bTc4nkVMzZvidEUK4AeS",
+            "signature": "0xc1dfb6f915d3424a82ec2b32f0586fe2aba1a4290b8d0c1072c336e86e86351b26db73ac59b779e952e2a9a7789fa5ce7a6a5d633f747218dcdb70e0a191ea561b"
         },
         {
             "tokenId": 7,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_07.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 07",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmR3KUNCTzhaBpr6F2pqz3SsmRNCf7cV6MtkNGtTaosLxw",
                 "width": 1016,
@@ -196,19 +417,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAEDBAAHAQAAAAAAAAAAAAECAwQABRESBxMxQVJhsXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAQADAAAAAAAAAAAAAAAAAAABA1H/2gAMAwEAAhEDEQA/AC/iHa2J8hu4NJCFuNkcsY1SARjAH6OfYondTo4tPiSKVYG8+5z0SFkpZbwgDoBrt9ovuAxPkgdnVfTUq8Mv/9k=",
             "webOptimizedImage": "images/Architecture_07_web.jpg",
-            "tokenURI": "ipfs://QmP9i7i8nY7iyjfbLZDfrBX92qwAkDtwJSbDfkBky74tTd",
-            "signature": "0x23b7c50b91f0cda5d77c4fab4c014009633aee73cc27b290a7ae43a762768e8c39bdce885de641b991be3523dd46929fffc61cc8fce60defff98de53dfeaa95c1c"
+            "tokenURI": "ipfs://QmUMMUaDMDwoazT8Q6wpJt7TYexvoMh5Ky9xQd8XUqQTTm",
+            "signature": "0x0e5ab7e957088416f19d66b8b49efd3054b15b49db0e426be08fc8482279c1aa326dd839a65dbc45d8ae5c9e296459dd95c5e1f94f1b687a7a9708a192efd8f51b"
         },
         {
             "tokenId": 6,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_06.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 06",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmQXppD2qBo2n9GweeYp7dWSsF6KGqMGDHJmKkffFhfLrT",
                 "width": 1533,
@@ -216,19 +437,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAcJ/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQIDBAAFEQYSMRMhgQckcZGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIEESH/2gAMAwEAAhEDEQA/AKV69OsTdMC1rCvc5AVs3JycAA/JPjsaCc9noTpLWMdNxSfokVoPf7I1cJrE2W84tphQCY/bbnPOeecHxQH1U2G9T3dCeEzHgP2akirlDef/2Q==",
             "webOptimizedImage": "images/Architecture_06_web.jpg",
-            "tokenURI": "ipfs://QmbvUnthMu8hhBCPtBNevuqi4mxVNJ8kmWz5HT2r1sAvHT",
-            "signature": "0x857d13724a687eed3d25d8a8022c91a17068abb1ad3d83f05a164e66a3732fdf44bdd16cf0f62ed77fd283b26c6c2755add63b2edd78f86532e9096607fcb4071c"
+            "tokenURI": "ipfs://QmXAFEVVPxioQiVfaNf12t7Bb7NM8koQitNcDoKp9s7ZPt",
+            "signature": "0x680a27d80228825879ee42b690e1654ae8bb201751aabb25e199aa8bd36fd6f8241682257bb6d1a4ff622fd3fdef489c7dbc34f9ac8fc079e7a5736f0d141d5c1c"
         },
         {
             "tokenId": 5,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_05.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 05",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmfJ3UMRftRp9RoJNQ5EjvpBbCXotkMkJsDDFfHHPcBUrZ",
                 "width": 1639,
@@ -236,19 +457,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAACAX/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAYRBQcSITEjUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCJupcGnXTbM93TFPpkjjzaUypsJBOMFKusYzgjsEe0cCMEinVvDZ+jxLNmTI8cofbB4kH7B9oLuD5Ffpq0f//Z",
             "webOptimizedImage": "images/Architecture_05_web.jpg",
-            "tokenURI": "ipfs://QmbJTDMdn9wDuS4UitVSNauZLuS3Su6s5CNmwdg3J1Fpjn",
-            "signature": "0x0360650a41e4b60aec6ef9b46e14ce91c240ebb24bc09c365bcf7c276b191ffc2fa5891e43474644f1d297e244af60ab07b8aed590526e56a1875f501f0c1e0f1b"
+            "tokenURI": "ipfs://QmZykYxnDGEtCFH4gkovH7PnbwESBoyLN8bvo7sDujLJHu",
+            "signature": "0x6bddf3b958d80cbac469df38d157ace92f271cadce91df5d3a73f7671bab958d4e2e99d41f2ea587a5c775188b260d14fd294dfb4109ba9ef61b25481f88d2471b"
         },
         {
             "tokenId": 4,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_04.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 04",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://Qmej6ACmo7x3p4xAT7QduL4CNJc5DeMyKb6czYNdFESRru",
                 "width": 1757,
@@ -256,19 +477,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAQFIQcRBjFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AIfjbIR5DKQWtzBJdQSwlQDK6FnXYdej2p9jXvdO0fCmMuI1mlkZZJAHYFVYgnZ2V39oK4XVT5t40CoILr3r7W3QB0NVbpCL/9k=",
             "webOptimizedImage": "images/Architecture_04_web.jpg",
-            "tokenURI": "ipfs://QmXE3ZD5mVRgefXMeMe3FimHirupqUv5H93WV2aZ3GbSgs",
-            "signature": "0xfbbd69ba67bac318dd4ac98672a2f8e861937ec490397e5250faf72bb1e4174535e8933e70f8c184d423c0cf4294a409d212143ca0afd15fdc5eadce738d06bf1b"
+            "tokenURI": "ipfs://QmeCfSNkz2BGj5EBfGF8aVUgbgf1uoyZV8UdxZG3nWPpwP",
+            "signature": "0xd01a3c9f0b5ca515010e3cfd2025c71d0e53d22848e7817b76e113c1bd5a1cfd756787d45c13a8a6923572c9a99b00185a29ec2fdddbc6e7eb9d9b5fe9bb81981c"
         },
         {
             "tokenId": 3,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_03.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 03",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmQK4YgAdPsyvYyG4E8PPK4c3a1SGbAJvcPZpn96Msxqn9",
                 "width": 2048,
@@ -276,19 +497,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAkEAEAAgAEBQUAAAAAAAAAAAABAgMABAURBgchYYESMUFCUf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCacrtFjqWi8QXUZeq7P1lUapTirVHfeTH469DCxkM+ASpkSPc74M5XqcPcRI7JWyOyAj4QfGLjmKKm+xaob+p+p+4D/9k=",
             "webOptimizedImage": "images/Architecture_03_web.jpg",
-            "tokenURI": "ipfs://QmePKdEBktnjBM8bCbTk4di8HjpKTBosSFt44LVbxECDW8",
-            "signature": "0x6672185cffb0b2ec13a9836f9eeccdde8aaa370ceb0e034a4c0d82d8377262e80ffc25e656f2a03e25301dd10a6f956ae248b8e56e86b5b13c0a6e63587785ac1c"
+            "tokenURI": "ipfs://QmcsCQ1iwJZZ7FraUSCUwPxiJ9wixqTQVVJtCU54gvoZjJ",
+            "signature": "0x91c2884044a915cc714fddf64d89a39077c2841094fd0b3157e0fce42b987c1242a1a886049e12da12a8537d832735483b46af04c28a70783a1c42f1ae51b3351b"
         },
         {
             "tokenId": 2,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_02.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 02",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmTTUhTpQ6MYhRcLEEUZFip4wkfsTzfdBCpqw2W1SihYKU",
                 "width": 2048,
@@ -296,19 +517,19 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAnEAABAwIFAgcAAAAAAAAAAAABAgMEAAUGERIhMhNxFBUiQVFSYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AHRsODPIXrYyzbjDdCJXQ8KeotenMhtzf65HbaiYseCDuzYIrjR4L18h7HjVcx1Cirn2xS4zClJQhsEtgkJ1D09vyjE62wBNkAQooAcUAA0n57VRFZYH/9k=",
             "webOptimizedImage": "images/Architecture_02_web.jpg",
-            "tokenURI": "ipfs://QmdLBWjkoGY13Z3p48msyNBGxnYmnZuakUd2GCPXFC2dmh",
-            "signature": "0xad0a1fc25dd2b8b2e19f80dbcd1ca3b0bffa83e0e2a752caa039c053fe32920d27b2c846ef787f11c75051cfa885d5974d1bc6076a438b6e7df95ffe1b5d2b761b"
+            "tokenURI": "ipfs://QmWRCWC22uEUsqFe2oP9u4K7xoSjN7y8jUubckT8vUVNeH",
+            "signature": "0x9591bbc25cd4cdc5760d224aa5c6edcda0b27fcd49345328ac9c5fd42b8fd437774341316926bb7c996fc826024f59590e0c23462a95e25167f86b223ad4f68f1b"
         },
         {
             "tokenId": 1,
-            "weiPrice": "100000000000000000",
+            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_01.jpg",
             "metadata": {
                 "creator": "GlupoX",
                 "collection": "Architectures",
                 "date": "2022",
                 "name": "Architecture 01",
-                "description": "Structures, cathedrals, and neo-organic cities",
+                "description": "Structure and Abstraction",
                 "external_url": "https://glupox.com/",
                 "image": "ipfs://QmTgBVtj2hrhGFm14Sg8Y9vFzPMQ1dhfR82opbyERpTfew",
                 "width": 551,
@@ -316,14 +537,17 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURABMhBgcSIjFBUXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AE0XZektFJMvWkF/jq0ONy3iNqfBBwwcgkj2zwPn901tPYS31Nqo5xZhNuwo+49e6l8qDkgcAn6GtFoiyDxdQynggjI1dEPCJFT0qFAAHAA0H/9k=",
             "webOptimizedImage": "images/Architecture_01_web.jpg",
-            "tokenURI": "ipfs://QmNRm9Pg59bAmewnVPsfHAvqqabyxcbEpEWeQCNvNDwQXa",
-            "signature": "0xfb5dabdccf7086b34d4cb5249bdd3d60d5baad8f48a7abbbcec670261816cd1a09118505bf05972b5dbbfe22408257b02a0f7bcc5f1b8830f85aff0007ea6d401c"
+            "tokenURI": "ipfs://QmZc9nmLT741Dq6nSmfYFdCgosMUHQasT5GrUuXxJ8NYrd",
+            "signature": "0x9545be746b514e89d2a47158abba5e6093cd0057e146d0f213ac3db167ac2cd63f7ff262e2b230f72d5f0910c855338556a03e13469802fabf65d8aa2abc78191c"
         }
     ],
     "context": {
         "creatorAddress": "0xa861DfE09358A43fE007ef5873c50d45fcDa3765",
         "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
         "chainId": 31337,
-        "royaltyBasisPoints": 500
+        "royaltyBasisPoints": {
+            "type": "BigNumber",
+            "hex": "0x01f4"
+        }
     }
 }
