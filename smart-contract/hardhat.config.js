@@ -434,7 +434,7 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 		}
 
 		// Get the royalty rate, for info
-		const royaltyBasisPoints = await contract.royaltyBasisPoints();
+		const royaltyBasisPoints = (await contract.royaltyBasisPoints()).toNumber();
 
 		// OK all's good
 
