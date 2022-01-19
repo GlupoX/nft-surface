@@ -1,6 +1,26 @@
 {
     "NFTs": [
         {
+            "tokenId": 28,
+            "weiPrice": "50000000000000000",
+            "sourceImage": "images/Architecture_28.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #28",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmNy8vuKhTPDKaTCDPs7BhZujcUivBK5gERr6cFauCnD1C",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAgEAABBAICAwEAAAAAAAAAAAABAgMEEQAFBkESGHFz/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIDEf/aAAwDAQACEQMRAD8AXzzjRucdm7qFIcmwYqFLWWGzavEWQkKq8KvZXT9cd2Vfu3gZL388awxQ8oMlFlIJr5kosAKIrvDjymbFv//Z",
+            "webOptimizedImage": "images/Architecture_28_web.jpg",
+            "tokenURI": "ipfs://Qmaou82yMgXDQYC8vhnS1tjogFEPtSPE7QTcFApyo1v5KY",
+            "signature": "0x0af13d5f676f83a1862f2f6279848331af304ffd237a7741b05e06b9bc5106f76dd4684d5e93c0b3ceb9c51de0da5305d92a80959dddf5791c082f4793169bee1b"
+        },
+        {
             "tokenId": 27,
             "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_27.jpg",
