@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
 
 /**
  *  @title NFT Smart Contract
  *  @author Stephan Fowler
- *  @notice ERC721 contract for stand-alone NFT collections with lazy-minting capability
+ *  @notice ERC721 contract for stand-alone NFT collections with lazy-minting
  *  @dev Enables lazy-minting by any user via precomputed signatures
  */
-contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
+contract NFTsurface is ERC721, EIP712 {
     event IdFloorSet(uint256 idFloor);
     event Receipt(uint256 value);
     event Withdrawal(uint256 value);
@@ -110,6 +110,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
         bytes calldata signature
     ) public view returns (bool) {
         require(vacant(id));
+        require(mintPrice > 0 || balanceOf(_msgSender()) == 0, "free mint already used");
         require(
             owner == ECDSA.recover(_hash(id, uri), signature),
             "signature invalid or signer unauthorized"
@@ -119,7 +120,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
 
     /**
      *  @notice Checks the availability of a token id
-     *  @dev Reverts if the id is previously minted, below floor, or burnt
+     *  @dev Reverts if the id is previously minted or below floor
      *  @param id The token id
      */
     function vacant(uint256 id) public view returns (bool) {
@@ -184,7 +185,6 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
      */
     function setIdFloor(uint256 floor) external {
         require(_msgSender() == owner, "unauthorized to set idFloor");
-        require(floor > idFloor, "must exceed current floor");
         idFloor = floor;
         emit IdFloorSet(idFloor);
     }
@@ -248,15 +248,6 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     function _setTokenURI(uint256 id, string memory uri) internal {
         require(bytes(uri).length != 0, "tokenURI cannot be empty");
         tokenURIs[id] = uri;
-    }
-
-    /**
-     * @dev burn a token and prevent the reuse of its id
-     */
-    function _burn(uint256 id) internal override {
-        super._burn(id);
-        delete tokenURIs[id];
-        totalSupply -= 1;
     }
 
     function _beforeTokenTransfer(
