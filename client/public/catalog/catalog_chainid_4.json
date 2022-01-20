@@ -2,7 +2,6 @@
     "NFTs": [
         {
             "tokenId": 28,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_28.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -22,7 +21,6 @@
         },
         {
             "tokenId": 27,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_27.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -42,7 +40,6 @@
         },
         {
             "tokenId": 26,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_26.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -62,7 +59,6 @@
         },
         {
             "tokenId": 25,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_25.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -82,7 +78,6 @@
         },
         {
             "tokenId": 24,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_24.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -102,7 +97,6 @@
         },
         {
             "tokenId": 23,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_23.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -122,7 +116,6 @@
         },
         {
             "tokenId": 22,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_22.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -142,7 +135,6 @@
         },
         {
             "tokenId": 21,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_21.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -162,7 +154,6 @@
         },
         {
             "tokenId": 20,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_20.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -182,7 +173,6 @@
         },
         {
             "tokenId": 19,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_19.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -202,7 +192,6 @@
         },
         {
             "tokenId": 18,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_18.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -222,7 +211,6 @@
         },
         {
             "tokenId": 17,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_17.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -242,7 +230,6 @@
         },
         {
             "tokenId": 16,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_16.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -262,7 +249,6 @@
         },
         {
             "tokenId": 15,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_15.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -282,7 +268,6 @@
         },
         {
             "tokenId": 14,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_14.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -302,7 +287,6 @@
         },
         {
             "tokenId": 13,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_13.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -322,7 +306,6 @@
         },
         {
             "tokenId": 12,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_12.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -342,7 +325,6 @@
         },
         {
             "tokenId": 11,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_11.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -362,7 +344,6 @@
         },
         {
             "tokenId": 10,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_10.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -382,7 +363,6 @@
         },
         {
             "tokenId": 9,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_09.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -402,7 +382,6 @@
         },
         {
             "tokenId": 8,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_08.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -422,7 +401,6 @@
         },
         {
             "tokenId": 7,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_07.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -442,7 +420,6 @@
         },
         {
             "tokenId": 6,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_06.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -462,7 +439,6 @@
         },
         {
             "tokenId": 5,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_05.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -482,7 +458,6 @@
         },
         {
             "tokenId": 4,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_04.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -502,7 +477,6 @@
         },
         {
             "tokenId": 3,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_03.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -522,7 +496,6 @@
         },
         {
             "tokenId": 2,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_02.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -542,7 +515,6 @@
         },
         {
             "tokenId": 1,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_01.jpg",
             "metadata": {
                 "creator": "GlupoX",

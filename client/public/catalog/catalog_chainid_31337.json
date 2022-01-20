@@ -1,8 +1,26 @@
 {
     "NFTs": [
         {
+            "tokenId": 28,
+            "sourceImage": "images/Architecture_28.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Architectures",
+                "date": "2022",
+                "name": "Architecture #28",
+                "description": "Structure and Abstraction",
+                "external_url": "https://glupox.com/",
+                "image": "ipfs://QmNy8vuKhTPDKaTCDPs7BhZujcUivBK5gERr6cFauCnD1C",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAgEAABBAICAwEAAAAAAAAAAAABAgMEEQAFBkESGHFz/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIDEf/aAAwDAQACEQMRAD8AXzzjRucdm7qFIcmwYqFLWWGzavEWQkKq8KvZXT9cd2Vfu3gZL388awxQ8oMlFlIJr5kosAKIrvDjymbFv//Z",
+            "webOptimizedImage": "images/Architecture_28_web.jpg",
+            "tokenURI": "ipfs://Qmcx8CsX1PzXLJk4wuUZeywayUd5Kb2QhDnrW63uHvcZ9d",
+            "signature": "0x1deb3ee99be02cbfab1b96b00d50291570e00788584d1d0c34382edde78090c23538bbf2e6ad8aefa7b6a0c147a08d8933d22929b4e01a0320e50093cf9a49ce1c"
+        },
+        {
             "tokenId": 27,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_27.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -18,11 +36,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQQFB//EACQQAAAEBQMFAAAAAAAAAAAAAAECAwQABRESMQYHFCEjUpGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQEAAgMAAAAAAAAAAAAAAAABABECAyH/2gAMAwEAAhEDEQA/AKU2nu6eq5C6ljuXoyc5E+WR+yUOmY9hg7eRzX5DzbczdFJukmGiGKlpQLedZS41AyPXMbqDdMGwp0AQoIQOMn4F9RKY7DtkVk//2Q==",
             "webOptimizedImage": "images/Architecture_27_web.jpg",
             "tokenURI": "ipfs://QmdLSjUWdx3CFLCceWHdje9dUjC6S1kaTmLr1kHKeJ5czW",
-            "signature": "0x7b14f493fff9c2cda55e84bce6f36f9d6215263f8a7eca4705f50e17de7da4891f2f61133e55fdb2848a710b60172701aa97972830e786c2ae54bba32a67cee21b"
+            "signature": "0x207c4cc5339e97321b493e4bc79250b08e7cac003c9559a9eb014e67097247651b3f4709e103501d4934c81ea6276229c5b071cee180fc1f2f74bdef3450ce591b"
         },
         {
             "tokenId": 26,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_26.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -38,11 +55,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACQQAAEEAQMDBQAAAAAAAAAAAAECAwQFEQAGIQcSIghSYnGx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AO7OoeoOl0i8uEtJn37LbECOwAgQ45PccA+7xzjJweTydK+36Ckl0FbIkuRXX3ozTji0nhSigEkfZ0M+oG9esdyVEVTaGmK+ChLSUfI5P4NOlPcKRUQUFtSylhA7luZUrxHJOOToklHG//9k=",
             "webOptimizedImage": "images/Architecture_26_web.jpg",
             "tokenURI": "ipfs://Qmamz3c6oBgMVQrHtRbjQhPfMfsoRRz5FcUk1Cb1F4byG7",
-            "signature": "0x8d784a26f1ab61ea8feab7f5919684a7f204d156b10cdce217325a0ac80cce156047e9863ead0e13765b920c82c6f42d5a96dd1a84a1b7b9dcc4fd048754c7281b"
+            "signature": "0x252d60e8cdd97235ddb4783556a9e1966f8935968c3e672609ac7805471822331960bbc84f2fc48b65c2e62c58ea2cf6ae64d78a155655209251eb5ca91b8dd31c"
         },
         {
             "tokenId": 25,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_25.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -58,11 +74,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwYHCP/EACIQAAICAgEDBQAAAAAAAAAAAAECAwQFEQAGITETIiOh0f/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAZEQADAAMAAAAAAAAAAAAAAAAAAQIDQVH/2gAMAwEAAhEDEQA/AL5H1LTC0hbK15bblY4zIrHXfR+uHXqTDsoYZKpojY+Vf3mE7fWeWnzlTJy2JGvV3HpuW9qhe40o7eeLU+VtPNIxlcFmJOm0PPAWOtsd1PD/2Q==",
             "webOptimizedImage": "images/Architecture_25_web.jpg",
             "tokenURI": "ipfs://QmeZAPBrxviBYDCXMhN91SezNvWfPfFhVGwLkr6WaHrSdu",
-            "signature": "0x0ac5b29fb0e73fc14d9727e3c25fc00741d5c3ae40ae0c536c039c393d72730f5f7a120b2f6bcb429858c2507c443e20370f06f56d1eced1372e4aad37399e481c"
+            "signature": "0x8702dccc1d41a0f867caeb13ab12b975fbdcb43a7105d8e63b7108f0a13c969f69c7bc6df882a0f75a48d37d0aaa643ab2fd1645fb2277b810810fab617b62a31c"
         },
         {
             "tokenId": 24,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_24.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -78,11 +93,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwQG/8QAJBAAAQMDBAEFAAAAAAAAAAAAAQIDEQAGIQQSMTIFUWFiodL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABoRAAEFAQAAAAAAAAAAAAAAAAABAhEhQVH/2gAMAwEAAhEDEQA/AE25LTvVtjZ4i51usjELkFKRwkZJPuokkn04rOJtG9ikbrhXMZ7/AKpPGsdkqBIhG/n4gx91anVuKSDDeRPWpLsUVw//2Q==",
             "webOptimizedImage": "images/Architecture_24_web.jpg",
             "tokenURI": "ipfs://QmNx8K159ugKFDBpbGYSEP5DYMWKSSzemSFdsKppbDQMVK",
-            "signature": "0x5488516dea82d806435e6ceeab1ed4e30c8e72352fe48ad257edff46871963fb1325e4d91084b0bf92fc73773e0c64470afb78c42f6a980866ec29ab981898c31b"
+            "signature": "0x1236471eef1b2c0447ab2beead96012998ae2436ee7ba9aa84c09f37714b01c915f4325e5c9d734bcc1926dbc48e23734651858a2c1dca78c913c2eef59958be1b"
         },
         {
             "tokenId": 23,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_23.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -98,11 +112,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAUH/8QAIxAAAgEDBAEFAAAAAAAAAAAAAQIDBAURAAYhMQcXQlFWk//EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGREAAwADAAAAAAAAAAAAAAAAAAECETFB/9oADAMBAAIRAxEAPwCNtqo2zdfKNS9yigWnlKvNDMizIxYyErkjKKGYEYIwBzxrcvTzaH1u1/gNB61Vc1DPR3JJC08s5V8+4H50gqTed9ipYY47jUqioqqofoAcDrU7xOxqXw//2Q==",
             "webOptimizedImage": "images/Architecture_23_web.jpg",
             "tokenURI": "ipfs://QmbKbyhRtCXL61WvnAs176d9dheLY2i1GQV2DJXVrgiWHx",
-            "signature": "0x0506b91a3086eb7b13cf80e718beec1f42b289c95618a3aadc65be8055a73da876ba08df64c87a1b8fad2121c4498469b3795cc8603e5890a2daadc40e1d33e41b"
+            "signature": "0x5439778fc3311581c56cfd343014e8799a7e0e097a7cd0cb44b9046229337e8c0134672721debca7f37cdd3332b918b0ff814fbe8998cdaab198490a5744f1c51c"
         },
         {
             "tokenId": 22,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_22.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -118,11 +131,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAJRAAAgECBQMFAAAAAAAAAAAAAQIDBAUABhESMSJBYQcWITKR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQIEE//aAAwDAQACEQMRAD8A0i253sdVbbpUwmRYraQJV2BmcFFYFAD1DqA8HnTBGf1fy4s8ipa6+RQxAfYF3DXnQ8YnWGhp4smQzwR7KmGnnkDtowPIGoI7fngYGe9YB8SWKkdx9mEjDU9zp2xfVsFXif/Z",
             "webOptimizedImage": "images/Architecture_22_web.jpg",
             "tokenURI": "ipfs://QmXzHwVVutBySJy7zUGUVz19HFuGrPPSBqE6FXPFbc9MYM",
-            "signature": "0x3a4db2f113ccab1058f7e2be5e63cd9d44c6985dbe56492eb0d18bc76745965c31d6286ca8435734b5c21773ae49f45bcd17a239d54e7f0eab33c3c9fb4f27341c"
+            "signature": "0x4c844d68c6a91961d3980b46d60dd428aaa9df5219da008554a7d48e29af0a2e361a07e2da27fa3c1a898b24c0f88155f8376489c9269793dbac9175889e63251b"
         },
         {
             "tokenId": 21,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_21.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -138,11 +150,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAwIEBwAAAAAAAAAAAAECAwQFEQASIjFBcQYTIVKRofD/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABgRAQEAAwAAAAAAAAAAAAAAAAEAAxEh/9oADAMBAAIRAxEAPwBncr/b7XRFY1heTbkKxwAPcx6D8NZrL4lpWldjW1xJJOUiAU9hjlqPrry4VVePzOHfxNkfHU986BF4qGG4NIM+uN/L61HMSnZd3//Z",
             "webOptimizedImage": "images/Architecture_21_web.jpg",
             "tokenURI": "ipfs://QmU3d8jVZLWbePZymhMLJ4aBMY88oAbKKq4WSHhMphTRCr",
-            "signature": "0x6e420b02aad3c212095eb0533db62f8b0ee10521153eaaaab45f05482da5d02059a977b0cfcd6de58bf8b68970ebfea049ddee41b7eb3b0c87e3a9c541b308d81c"
+            "signature": "0xfd49b49eb45f5338c38e4516dce232d4152f09e2d87a50055a3b7bdcd10457f05dfdefdc2c45572230e0f179d6fdb9913327295617af760f960dc27a79f1a3f61c"
         },
         {
             "tokenId": 20,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_20.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -158,11 +169,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGCP/EACUQAAIBBAEBCQAAAAAAAAAAAAECAwAEBRESIQYTFDJRcXKRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACEf/aAAwDAQACEQMRAD8Azlj8TPBZJkLi3LxShu7QqdkAeb2/dGmSdnbh0V5L20R2G2Ri21PoelGjyDvjsRGyjjFb7+XEkgfZqffLXzuzeJkHI70D0FQ66WW//9k=",
             "webOptimizedImage": "images/Architecture_20_web.jpg",
             "tokenURI": "ipfs://QmadeeQLng2bHBEgZ26sxqEaFXRgVdPR4zg66aSABWYhGT",
-            "signature": "0x4a7f7b8abaa4d4673a2bbe934f835e7ceb54154f21ec4b4f61c3ab55828e6f12274d50b7855ec8094b7de844fce74266418a95da5ad92666bfddc653197680551c"
+            "signature": "0x9483d600159b13ffc5a79b17e8930fabb1a3e9ec40e0fd4a5f4521346fe6cd426eae991b3d1b0ce38e4fc2848158afc2c617f6e52258da973f5168e8a18b7f1f1c"
         },
         {
             "tokenId": 19,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_19.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -178,11 +188,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFB//EACUQAAIBAwMCBwAAAAAAAAAAAAEDAgQFEQAhUQYTEhciQXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIRAxEAPwDCV9EVj6qpRT3Cnn2SR3CJCMjnGx+R+aY8pusJ+qNuXIHcEVC9/vV63U6rTb0vBbUNaBKIZPEIHHAGfbnREKomoWwUKgJxEsFjDjI58WkFp1oL/9k=",
             "webOptimizedImage": "images/Architecture_19_web.jpg",
             "tokenURI": "ipfs://QmfTePZqktaNTb7TJPVkCtXbDk2euWqzn5d9T6gmTVFM8j",
-            "signature": "0xfd5f749aa169a64de733f6604527cc28e8919beb57c20e1cc9360af4f95e1755798da9dc1f7e62f2c032cc9f7ec0e4473596d6951834176fd912235ae828f6251c"
+            "signature": "0x7044a83135b75cdb6d2b7290bafc01d815c3af030eaa6dc35227241ed123bc865c76b85daad065b1d95c79e55f1f89b9d2ae3e70b7d599b89a173f5027d4e9dd1b"
         },
         {
             "tokenId": 18,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_18.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -198,11 +207,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAIhAAAgIBBAEFAAAAAAAAAAAAAQIDBBEABQYhExQxQmGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAZEQEAAgMAAAAAAAAAAAAAAAABAAMREhP/2gAMAwEAAhEDEQA/ADLl0+58Yro7WLElSVjCvjtFmSQYJVjgdEe3WRjBzo9s8h3drEp9XMuWJwHOB3rTWIDudizHZkJijiWRUx8j0WP3jUq/RhivWY1HSyMo/CdRLhcR5az/2Q==",
             "webOptimizedImage": "images/Architecture_18_web.jpg",
             "tokenURI": "ipfs://QmWpbJrgUzEVF33zVc5QLXXAkzWT7nJruit6XoftpWY3L9",
-            "signature": "0x77a2e219acbe267621262eedb68cfdc1e3982175e014e798640b83f73e7c308c3d2df74b170e0e8a568e2fec417c251ed3bbf509b10045a169bbfc804010ae8c1b"
+            "signature": "0x53974e79db494145be618913f566f5ad6f3e8bc1e7e8280a1ade8348d96f3d0c34955d706a328a16fde2f5cdbfb5c576660fe8510ca9c0c2a98bc14437104a131b"
         },
         {
             "tokenId": 17,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_17.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -218,11 +226,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgUGB//EACMQAAICAQMDBQAAAAAAAAAAAAEDAgQRAAUTEiExBkFSYaH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAMBAQAAAAAAAAAAAAAAAAABAhEx/9oADAMBAAIRAxEAPwDMFb5u9Yci7F228xWoQ48QPUSw/eYx/NE/1PuDnMalLJKnIygR7gntpxduLg/gr1oK6oTnyjBnE4EexIwOwx41Ivq7KhzExoXOlcjAYukeDj46SrCNSq6f/9k=",
             "webOptimizedImage": "images/Architecture_17_web.jpg",
             "tokenURI": "ipfs://Qmev2tFakLinTuPpbAJZyBSVyHQTEpzQjNyfUGuNJWTqiT",
-            "signature": "0x871223ee424b9e79d9b01f22f0fd56045e2ab579e8111e261dbf585289b5500f40c6cb8429dc33ef4a80657efce7cbb2db666fbd0a7313c8d93f95bdb05a9f3e1c"
+            "signature": "0x45b263e9a2cc80fce963ca3739ad2bd8af9c58523d7f380cfaef06227a7652fe6b3a48677303d9a1e8637911a302317aef015ed6412c1f8a513c58399e9c347b1b"
         },
         {
             "tokenId": 16,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_16.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -238,11 +245,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACMQAAEDBAIBBQAAAAAAAAAAAAECAwQABhEhBUESEzEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM5Nt2+xI49l54odLawsKYX8s9a3+/VBmW3bglvhuYyUBagk+J2M66qQuSZLPLF2RJdkOIOQpxWTs4wT3TiOYlBCcCOBj29FNKVOv//Z",
             "webOptimizedImage": "images/Architecture_16_web.jpg",
             "tokenURI": "ipfs://QmWKYgQbFtiSuELVzZsJnhxz1iPgR8jJqdbcGdWxoKHZTm",
-            "signature": "0xc1dd8b33230c4230d38163f1dbc2f5b7d0f4287f1501b86f3f63b39b4d17465923ca75bd3b23a0eebf86a43f05fef67aaa4abf61863126d7e1f84050f6975ae31b"
+            "signature": "0x9908bed1b7fba806df7f1302b3606881a60fff6fac9ff338d10061e6a1fceabf1b6ce04bab526e056e9676090183937118ec8dcb1070684b3b2edbce9164ca361b"
         },
         {
             "tokenId": 15,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_15.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -258,11 +264,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEEQUGIVESEyIy/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AgtP3Htv3r7b+8imkBVngMixI2Plhhie89UePfu8bSNba31KGSGECNHMjkso4B/XQrHorINBJ94HkOMU0unqVBMjcilVDcP/Z",
             "webOptimizedImage": "images/Architecture_15_web.jpg",
             "tokenURI": "ipfs://QmdBDqH3ViAQGRXbnpGzdRT9Utm2pVeq8SEkKXwK3JADBh",
-            "signature": "0x9b6012de9a4348f06cbf92eee4a1a7a054a0ced9682ec0658b200d05dc25effb5f3cb37ffcffc20d27b7e6878867eb08a11ff8c5cb3e3c5e85f50ba46ebcbc901c"
+            "signature": "0xc8f0f44c716782c2fbfb14d64d7080b634b847c10c1ad85d8d316d15e7360d8f79e99248d70d6cc81b2a78d9eae76705e4cb947ceaad24841da1ed5a6742d1761b"
         },
         {
             "tokenId": 14,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_14.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -278,11 +283,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAIhAAAgIBAwQDAAAAAAAAAAAAAQIDBAYABREHEiFBNJHC/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/xAAaEQABBQEAAAAAAAAAAAAAAAABAAIDESES/9oADAMBAAIRAxEAPwDH6dYxi9DHUuZMVVDJJCyhS8h9ghR51XLQ6dLK4F1uASPjuPzoTkOxxWcqeVJpoXaONh2MRwQvg/Y0Ys7nbFiUNKSQ55IHHvU0N720wuMeVi//2Q==",
             "webOptimizedImage": "images/Architecture_14_web.jpg",
             "tokenURI": "ipfs://QmXM5CbUUfXdKhLBHywjrdD22Em1QgWhPgQS9MHbNnLcAa",
-            "signature": "0xc789799efb83b0c9c9044130a0ea4a326ef57f8f827c674e38322cac0402c51e709929cc7f9497c697e1bdb49a1bc666dd9a8dff3d0e160527f9238ee87121f51b"
+            "signature": "0x01fda164fa378a16eabcf16ba8f5769ca39e2d20362b2f1e38f09b038d88ee705fa6fdf783fd04b1074a9e389715b302e1225b36f343dd3cae44882028a586851c"
         },
         {
             "tokenId": 13,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_13.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -298,11 +302,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIRAAMEBRIhMQZBcdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwDFc3GVMhL9vUky9XBja9oiCOyGnn7IPFAN5Zqu4zlZPfq+/wC0Y2fdIKpCEiCw7iqFhYFBol//2Q==",
             "webOptimizedImage": "images/Architecture_13_web.jpg",
             "tokenURI": "ipfs://QmdjdpuszJ2Ft7atiSfPDKzLMd2hz5oAQ3B4irgHu6gYih",
-            "signature": "0x4b768c912d186f6f5d2e2ae7d198ff7bf2d7fb6b42a6e2b3d1b0085ef9012c4e30bf060991aa6fc7b84d92c7bf059563ce0d660052b0f9aba645137ff1d5fae11c"
+            "signature": "0x25d66b1b7c82351f949ef8499c9bfe5106996d10287dcf39f6d6764e828cbd8661f3f5d0b5fbb044980f6278bd3096de480de2d26afc7538802fef9e9bd71a111b"
         },
         {
             "tokenId": 12,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_12.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -318,11 +321,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAREgUGIYETFKH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8Awod6dVt3bNL4Ranqni8qsoV9eOak6BHvBpuqzNNIxrTKSxJHHevYOSi/1oZDEoBcHZwB7krOx5uNnetjx+ZEYGQ23//Z",
             "webOptimizedImage": "images/Architecture_12_web.jpg",
             "tokenURI": "ipfs://QmXfgE8PtugpaoeYnTebHsVpyY1PuHL5cRCew4Q7wJ5b7H",
-            "signature": "0x2b7e618200449a21ebbe7f0c278b8c8f83689405cf14bbcb605e2e3e838bc2d90582381902846c5c0a19a5e3d90acb48ff7c1e0a454e30b07a3643cbd15375331b"
+            "signature": "0x43bc02127ea641f4e1b15a503ced11c1df1aa4574c5b131d387d0c276f51c56f01d221525f476342888508326e3e49469b8543b1d992806a99108447d7b036671c"
         },
         {
             "tokenId": 11,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_11.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -338,11 +340,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwL/xAAlEAACAQMDAgcAAAAAAAAAAAABAgQDESEABSIGQRIUIyRCUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwCd6rVI8dYyj29UDC2Ba3b8vofntB89I5Rx6jYpQPEgz8SckfR02blTR+kILuis9qvIi5wMZ0dR+MekFwAoAA7Y0aU6LryjdP/Z",
             "webOptimizedImage": "images/Architecture_11_web.jpg",
             "tokenURI": "ipfs://Qmck4Acu8JxJB6ucerdLize6mEmhJJ2aFxkbDpxs5NRLYV",
-            "signature": "0x0c751a90db198c4ac642c2d8058741cc81f4034e3665ac12762cb252d4ea48fe1eed0cfac28c0f49d7a6e32c2490974cb7a75a79c5b8848a2e3d172bc18e5b9d1c"
+            "signature": "0x1535015f518ed8121c258b4acc0a580453db390f438f0be3e5905763a32ea4ca0ebb1a77aa4a67993025c056127f91c0efef84143a54f025b6d7920cac221d831c"
         },
         {
             "tokenId": 10,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_10.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -358,11 +359,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAAFIQYRE0ESMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDKxp6HItr8y2uBiU2grU24MLSMnxPoHajBU0STytHfvNXrASuM8FkqHEvBz0KB7D4KBoS//9k=",
             "webOptimizedImage": "images/Architecture_10_web.jpg",
             "tokenURI": "ipfs://QmecsF2mM2awo3rro2WNJvfUDGtPVbRfbn7wg9qw16hXw5",
-            "signature": "0x4c005f3d958e5cce0ecbe9f27249d0a4c1da0ed39409823753220677a29dfa2f7c9fb01e46500b3327e1b2166cf394d93fc59427a8437d2ed1ebdfbc50a23ffc1c"
+            "signature": "0x2e2b0096c3de71c83437616c5a4f0be077940faad9f89764cae52bf6f1bafa6b1eb378e46380714ef3c9f37bacff33fc5eed04bce0df882a58e8f867b2072a021c"
         },
         {
             "tokenId": 9,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_09.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -378,11 +378,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMDBQEAAAAAAAAAAAABAgMEAAUhEhUxBzJBQ2HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI29LU7YLpMtyG4jMdbEeOlofFnk9x05J+0L3y6jAuMwAeA6qmYSEdOZIQAkbpwMepv9NT9SjqOTzRrGE//Z",
             "webOptimizedImage": "images/Architecture_09_web.jpg",
             "tokenURI": "ipfs://QmeDaifiZfv4Mqt63SQM2MZGj94rpzvxvsHq4E48utM5fq",
-            "signature": "0x361e724562bab1aacc668854f72607adb5fef570610b8f9667fc33cdd68f03110d69776c0c8c3afa9b7257f1f601adda23df20beeae797d8db923c99968ede441c"
+            "signature": "0x860ee21e330a6e898748811889606f1b6e1e713fe1d160821bea436a9548978d6f06117bacc7029e04a6785ae4ec999d183fe663d53d74750a84d3b770b3c7701c"
         },
         {
             "tokenId": 8,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_08.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -398,11 +397,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAgUCBwAAAAAAAAAAAAECAwARBAYSIUEFExUjMkJRYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMuyu8c+GnfGRIEjcozoLBNIuGA42P5Q/hT+/Gyq/Ki9gfilcDMuXeq6WI84jY/QqihUdlNh6RxRUkf/2Q==",
             "webOptimizedImage": "images/Architecture_08_web.jpg",
             "tokenURI": "ipfs://QmQNuv34RdfbDf2i8GQswikFx6bTc4nkVMzZvidEUK4AeS",
-            "signature": "0xc1dfb6f915d3424a82ec2b32f0586fe2aba1a4290b8d0c1072c336e86e86351b26db73ac59b779e952e2a9a7789fa5ce7a6a5d633f747218dcdb70e0a191ea561b"
+            "signature": "0xf033206bcea63aa3f74ba2498156b745487ba9b4e434f81dedc1f2f7a9f452951a02fc0a29fb03ad34c036b3ed5546db039cdb7845b6ee4ad0575b8a74ec71d61b"
         },
         {
             "tokenId": 7,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_07.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -418,11 +416,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAEDBAAHAQAAAAAAAAAAAAECAwQABRESBxMxQVJhsXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAQADAAAAAAAAAAAAAAAAAAABA1H/2gAMAwEAAhEDEQA/AC/iHa2J8hu4NJCFuNkcsY1SARjAH6OfYondTo4tPiSKVYG8+5z0SFkpZbwgDoBrt9ovuAxPkgdnVfTUq8Mv/9k=",
             "webOptimizedImage": "images/Architecture_07_web.jpg",
             "tokenURI": "ipfs://QmUMMUaDMDwoazT8Q6wpJt7TYexvoMh5Ky9xQd8XUqQTTm",
-            "signature": "0x0e5ab7e957088416f19d66b8b49efd3054b15b49db0e426be08fc8482279c1aa326dd839a65dbc45d8ae5c9e296459dd95c5e1f94f1b687a7a9708a192efd8f51b"
+            "signature": "0xd1f5b27e727c2a8554ea7ccd06290cf1af6f9c2bb5127325720e48476630e02a37a8315318e3523df993c5b52f16b32d35b03c4902bdac1a7c6380f1c21992221c"
         },
         {
             "tokenId": 6,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_06.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -438,11 +435,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAcJ/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQIDBAAFEQYSMRMhgQckcZGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIEESH/2gAMAwEAAhEDEQA/AKV69OsTdMC1rCvc5AVs3JycAA/JPjsaCc9noTpLWMdNxSfokVoPf7I1cJrE2W84tphQCY/bbnPOeecHxQH1U2G9T3dCeEzHgP2akirlDef/2Q==",
             "webOptimizedImage": "images/Architecture_06_web.jpg",
             "tokenURI": "ipfs://QmXAFEVVPxioQiVfaNf12t7Bb7NM8koQitNcDoKp9s7ZPt",
-            "signature": "0x680a27d80228825879ee42b690e1654ae8bb201751aabb25e199aa8bd36fd6f8241682257bb6d1a4ff622fd3fdef489c7dbc34f9ac8fc079e7a5736f0d141d5c1c"
+            "signature": "0xd4eaa03018751643872905a9b32c98b6dda733dfe008fdc72e74bc86f4391c7b45e7bbe64adfa07864647f9c7046e9ffd425cbe2afa13d1a488fda48ee0f6ff91b"
         },
         {
             "tokenId": 5,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_05.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -458,11 +454,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAACAX/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAYRBQcSITEjUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCJupcGnXTbM93TFPpkjjzaUypsJBOMFKusYzgjsEe0cCMEinVvDZ+jxLNmTI8cofbB4kH7B9oLuD5Ffpq0f//Z",
             "webOptimizedImage": "images/Architecture_05_web.jpg",
             "tokenURI": "ipfs://QmZykYxnDGEtCFH4gkovH7PnbwESBoyLN8bvo7sDujLJHu",
-            "signature": "0x6bddf3b958d80cbac469df38d157ace92f271cadce91df5d3a73f7671bab958d4e2e99d41f2ea587a5c775188b260d14fd294dfb4109ba9ef61b25481f88d2471b"
+            "signature": "0xd60d8bcb07606f353e8509edc0fc2f48b52498c0d84aa6b41743cd76725c158f47025c46ef30e819274c48944929164b1dc0dd7943961c68beba3868c3bc6da61b"
         },
         {
             "tokenId": 4,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_04.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -478,11 +473,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAQFIQcRBjFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AIfjbIR5DKQWtzBJdQSwlQDK6FnXYdej2p9jXvdO0fCmMuI1mlkZZJAHYFVYgnZ2V39oK4XVT5t40CoILr3r7W3QB0NVbpCL/9k=",
             "webOptimizedImage": "images/Architecture_04_web.jpg",
             "tokenURI": "ipfs://QmeCfSNkz2BGj5EBfGF8aVUgbgf1uoyZV8UdxZG3nWPpwP",
-            "signature": "0xd01a3c9f0b5ca515010e3cfd2025c71d0e53d22848e7817b76e113c1bd5a1cfd756787d45c13a8a6923572c9a99b00185a29ec2fdddbc6e7eb9d9b5fe9bb81981c"
+            "signature": "0x4f1f852a984cd22bd3f3d54122cb87bcc4581a15c33c534563c286b6611e3098104dbd8a857686b9b29c3a8bcb76c9fd2dee375d71c49c05070be89f02621ae71c"
         },
         {
             "tokenId": 3,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_03.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -498,11 +492,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAkEAEAAgAEBQUAAAAAAAAAAAABAgMABAURBgchYYESMUFCUf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCacrtFjqWi8QXUZeq7P1lUapTirVHfeTH469DCxkM+ASpkSPc74M5XqcPcRI7JWyOyAj4QfGLjmKKm+xaob+p+p+4D/9k=",
             "webOptimizedImage": "images/Architecture_03_web.jpg",
             "tokenURI": "ipfs://QmcsCQ1iwJZZ7FraUSCUwPxiJ9wixqTQVVJtCU54gvoZjJ",
-            "signature": "0x91c2884044a915cc714fddf64d89a39077c2841094fd0b3157e0fce42b987c1242a1a886049e12da12a8537d832735483b46af04c28a70783a1c42f1ae51b3351b"
+            "signature": "0xcc4c95f474687f52bc8da90b0742744f535b74a913aa4fd292808ce89348566b0074ec131b4a01f9cd52fb03dc5f8f1e12c9c51a7775f5cc4a759b251aedd0901b"
         },
         {
             "tokenId": 2,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_02.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -518,11 +511,10 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAnEAABAwIFAgcAAAAAAAAAAAABAgMEAAUGERIhMhNxFBUiQVFSYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AHRsODPIXrYyzbjDdCJXQ8KeotenMhtzf65HbaiYseCDuzYIrjR4L18h7HjVcx1Cirn2xS4zClJQhsEtgkJ1D09vyjE62wBNkAQooAcUAA0n57VRFZYH/9k=",
             "webOptimizedImage": "images/Architecture_02_web.jpg",
             "tokenURI": "ipfs://QmWRCWC22uEUsqFe2oP9u4K7xoSjN7y8jUubckT8vUVNeH",
-            "signature": "0x9591bbc25cd4cdc5760d224aa5c6edcda0b27fcd49345328ac9c5fd42b8fd437774341316926bb7c996fc826024f59590e0c23462a95e25167f86b223ad4f68f1b"
+            "signature": "0x79db9e8eeb85da626dcc1facdaa72a1ccc3d25882fdc48a7bd191b698fdbd91e13509dbfd5a7b4e14b3e654c54a37496a1e878a7bdcb62f88bc90f4a7fa088c41c"
         },
         {
             "tokenId": 1,
-            "weiPrice": "50000000000000000",
             "sourceImage": "images/Architecture_01.jpg",
             "metadata": {
                 "creator": "GlupoX",
@@ -538,13 +530,14 @@
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURABMhBgcSIjFBUXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AE0XZektFJMvWkF/jq0ONy3iNqfBBwwcgkj2zwPn901tPYS31Nqo5xZhNuwo+49e6l8qDkgcAn6GtFoiyDxdQynggjI1dEPCJFT0qFAAHAA0H/9k=",
             "webOptimizedImage": "images/Architecture_01_web.jpg",
             "tokenURI": "ipfs://QmZc9nmLT741Dq6nSmfYFdCgosMUHQasT5GrUuXxJ8NYrd",
-            "signature": "0x9545be746b514e89d2a47158abba5e6093cd0057e146d0f213ac3db167ac2cd63f7ff262e2b230f72d5f0910c855338556a03e13469802fabf65d8aa2abc78191c"
+            "signature": "0x6bed7b8c7ce2d63d0bdc65dcfc9d0bdb7fb5d3f7e6b7b45ad1046c6f859749a67252b66653a205d37b195359fc1d5f390c4f1ad41600897dffa6e8dc0c9b77571c"
         }
     ],
     "context": {
         "creatorAddress": "0xa861DfE09358A43fE007ef5873c50d45fcDa3765",
         "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
         "chainId": 31337,
-        "royaltyBasisPoints": 500
+        "mintPrice": "50000000000000000",
+        "royaltyBasisPoints": "500"
     }
 }

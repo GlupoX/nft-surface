@@ -30,17 +30,20 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
 
     /**
      *  @dev Constructor immutably sets "owner" to the message sender; be sure to deploy contract using the account of the creator/artist/brand/etc.
-     *  @param name ERC721 token name
-     *  @param symbol ERC721 token symbol
-     *  @param royaltyBasisPoints_ Percentage basis-points for royalty on secondary sales, eg 495 == 4.95%
+     *  @param _name ERC721 token name
+     *  @param _symbol ERC721 token symbol
+     *  @param _mintPrice The initial mint price in wei
+     *  @param _royaltyBasisPoints Percentage basis-points for royalty on secondary sales, eg 495 == 4.95%
      */
     constructor(
-        string memory name,
-        string memory symbol,
-        uint256 royaltyBasisPoints_
-    ) ERC721(name, symbol) EIP712("NFTsurface", "1.0.0") {
+        string memory _name,
+        string memory _symbol,
+        uint256 _mintPrice,
+        uint256 _royaltyBasisPoints
+    ) ERC721(_name, _symbol) EIP712("NFTsurface", "1.0.0") {
         owner = _msgSender();
-        royaltyBasisPoints = royaltyBasisPoints_;
+        mintPrice = _mintPrice;
+        royaltyBasisPoints = _royaltyBasisPoints;
     }
 
     /**
@@ -116,7 +119,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
 
     /**
      *  @notice Checks the availability of a token id
-     *  @dev Reverts if the ID is previously minted, below floor, or burnt
+     *  @dev Reverts if the id is previously minted, below floor, or burnt
      *  @param id The token id
      */
     function vacant(uint256 id) public view returns (bool) {

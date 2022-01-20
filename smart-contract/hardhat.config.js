@@ -97,13 +97,11 @@ task("deploy", "Deploys the contract using constructor arguments in the specifie
  * @example npx hardhat sign --network localhost --wei 1000 --id 123 --uri ipfs://foo.bar/123 --contract 0xe7f17...etc 
  */
 task("sign", "Generates a signature for the 'mint' contract method, and tests it against the deployed contract")
-	.addParam("wei", "The price in wei of the NFT", undefined, types.string)
 	.addParam("id", "The intended tokenId of the NFT", undefined, types.int)
 	.addParam("uri", "The intended tokenURI of the NFT", undefined, types.string)
 	.addParam("contract", "The contract address", undefined, types.address)
 	.addOptionalParam("quiet", "Suppress all output", false, types.boolean)
 	.setAction(async (args) => {
-		const weiPrice = args.wei;
 		const tokenId = args.id;
 		const tokenURI = args.uri;
 		const contractAddress = args.contract;
@@ -127,18 +125,16 @@ task("sign", "Generates a signature for the 'mint' contract method, and tests it
 			},
 			{
 				mint: [
-					{ name: 'weiPrice', type: 'uint256' },
 					{ name: 'tokenId', type: 'uint256' },
 					{ name: 'tokenURI', type: 'string' }
 				],
 			},
-			{ weiPrice, tokenId, tokenURI },
+			{ tokenId, tokenURI },
 		);
 
 		try {
-			const isMintable = await contract.mintable(weiPrice, tokenId, tokenURI, signature);
+			const isMintable = await contract.mintable(tokenId, tokenURI, signature);
 			!args.quiet && console.log({
-				weiPrice,
 				tokenId,
 				tokenURI,
 				signature
@@ -248,7 +244,6 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 		const idsUploadedImage = [];
 		const idsUpdatedMetadata = [];
 		const idsMintable = [];
-		const idsWithheld = [];
 
 		function checkValidProperties(nft) {
 			// nb. tokenId is checked elsewhere
@@ -384,33 +379,22 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 						}
 					}
 
-					// If specified, weiPrice must be a numeric string, including the string "0"
-					const weiPrice = ((typeof nft.weiPrice === 'string' || nft.weiPrice instanceof String)
-						&& /^\d+$/.test(nft.weiPrice)) ? nft.weiPrice : undefined;
+					// (Re)create the signature
+					const signature = await hre.run('sign', {
+						id: tokenId,
+						uri: nft.tokenURI,
+						contract: contractAddress,
+						quiet: true
+					});
 
-					// Presence of weiPrice implies item is (lazy) mintable, so needs a signature
-					if (weiPrice) {
-						// (Re)create the signature
-						const signature = await hre.run('sign', {
-							wei: weiPrice,
-							id: tokenId,
-							uri: nft.tokenURI,
-							contract: contractAddress,
-							quiet: true
-						});
-
-						// Test signature / mintableness 
-						try {
-							await contract.mintable(weiPrice, tokenId, nft.tokenURI, signature);
-							nft.signature = signature;
-							idsMintable.push(nft.tokenId);
-						} catch (error) {
-							failedSignatures = true;
-							console.log("Errored " + tokenId + " ...signature invalid?")
-						}
-					} else {
-						delete nft.signature;
-						idsWithheld.push(nft.tokenId);
+					// Test signature / mintableness 
+					try {
+						await contract.mintable(tokenId, nft.tokenURI, signature);
+						nft.signature = signature;
+						idsMintable.push(nft.tokenId);
+					} catch (error) {
+						failedSignatures = true;
+						console.log("Errored " + tokenId + " ...signature invalid?")
 					}
 
 					console.log("Updated " + tokenId + (nft.signature ? " (mintable)" : ""))
@@ -433,8 +417,11 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 			return;
 		}
 
+		// Get the min price, for info
+		const mintPrice = (await contract.mintPrice()).toString();
+
 		// Get the royalty rate, for info
-		const royaltyBasisPoints = (await contract.royaltyBasisPoints()).toNumber();
+		const royaltyBasisPoints = (await contract.royaltyBasisPoints()).toString();
 
 		// OK all's good
 
@@ -444,6 +431,7 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 			creatorAddress: CREATOR_ADDRESS,
 			contractAddress,
 			chainId,
+			mintPrice,
 			royaltyBasisPoints
 		};
 
@@ -455,7 +443,6 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 			idsNewlyMinted,
 			idsNewlyBurntOrRevoked,
 			idsMintable,
-			idsWithheld,
 			idsUploadedImage,
 			idsUpdatedMetadata
 		});
