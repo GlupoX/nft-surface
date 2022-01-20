@@ -11,21 +11,21 @@ import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
  *  @dev Enables lazy-minting by any user via precomputed signatures
  */
 contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
-    event IdRevoked(uint256 tokenId);
     event IdFloorSet(uint256 idFloor);
     event Receipt(uint256 value);
     event Withdrawal(uint256 value);
+    event MintPriceSet(uint256 mintPrice);
     event PriceSet(uint256 id, uint256 price);
     event Bought(uint256 id, address buyer);
 
     address public immutable owner;
 
+    uint256 public mintPrice;
     uint256 public totalSupply;
     uint256 public idFloor;
     uint256 public immutable royaltyBasisPoints;
 
     mapping(uint256 => string) private tokenURIs;
-    mapping(uint256 => bool) private revokedIds;
     mapping(uint256 => uint256) private prices;
 
     /**
@@ -64,7 +64,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     /**
      *  @notice Minting by the agent only
      *  @param recipient The recipient of the NFT
-     *  @param id The intended token Id
+     *  @param id The intended token id
      *  @param uri The intended token URI
      */
     function mintAuthorized(
@@ -80,7 +80,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     /**
      *  @notice Minting by any caller
      *  @dev Enables "lazy" minting by any user who can provide an agent's signature for the specified params and value
-     *  @param id The intended token Id
+     *  @param id The intended token id
      *  @param uri The intended token URI
      *  @param signature The ERC712 signature of the hash of message value, id, and uri
      */
@@ -89,41 +89,39 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
         string memory uri,
         bytes calldata signature
     ) external payable {
-        require(mintable(msg.value, id, uri, signature));
+        require(msg.value >= mintPrice, "insufficient ETH sent");
+        require(mintable(id, uri, signature));
         _mint(_msgSender(), id, uri);
     }
 
     /**
      *  @notice Checks availability for minting and validity of a signature
      *  @dev Typically run before offering a mint option to users
-     *  @param weiPrice The advertised price of the token
-     *  @param id The intended token Id
+     *  @param id The intended token id
      *  @param uri The intended token URI
-     *  @param signature The ERC712 signature of the hash of weiPrice, id, and uri
+     *  @param signature The ERC712 signature of the hash of id and uri
      */
     function mintable(
-        uint256 weiPrice,
         uint256 id,
         string memory uri,
         bytes calldata signature
     ) public view returns (bool) {
         require(vacant(id));
         require(
-            owner == ECDSA.recover(_hash(weiPrice, id, uri), signature),
+            owner == ECDSA.recover(_hash(id, uri), signature),
             "signature invalid or signer unauthorized"
         );
         return true;
     }
 
     /**
-     *  @notice Checks the availability of a token Id
-     *  @dev Reverts if the Id is previously minted, revoked, or burnt
-     *  @param id The token Id
+     *  @notice Checks the availability of a token id
+     *  @dev Reverts if the ID is previously minted, below floor, or burnt
+     *  @param id The token id
      */
     function vacant(uint256 id) public view returns (bool) {
         require(!_exists(id), "tokenId already minted");
         require(id >= idFloor, "tokenId below floor");
-        require(!revokedIds[id], "tokenId revoked or burnt");
         return true;
     }
 
@@ -168,14 +166,13 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     }
 
     /**
-     *  @notice Revokes a specified token Id, to disable any signatures that include it
-     *  @param id The token Id that can no longer be minted
+     *  @notice Sets the mint price
+     *  @param _mintPrice The new mint price
      */
-    function revokeId(uint256 id) external {
-        require(_msgSender() == owner, "unauthorized to revoke id");
-        require(vacant(id));
-        revokedIds[id] = true;
-        emit IdRevoked(id);
+    function setMintPrice(uint256 _mintPrice) external {
+        require(_msgSender() == owner, "unauthorized to set mintPrice");
+        mintPrice = _mintPrice;
+        emit MintPriceSet(_mintPrice);
     }
 
     /**
@@ -190,8 +187,8 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     }
 
     /**
-     *  @notice Returns the token URI, given the token Id
-     *  @param id The token Id
+     *  @notice Returns the token URI, given the token id
+     *  @param id The token id
      */
     function tokenURI(uint256 id) public view override returns (string memory) {
         return tokenURIs[id];
@@ -225,19 +222,16 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     /**
      * @dev Recreates the hash that the signer (may have) signed
      */
-    function _hash(
-        uint256 weiPrice,
-        uint256 id,
-        string memory uri
-    ) internal view returns (bytes32) {
+    function _hash(uint256 id, string memory uri)
+        internal
+        view
+        returns (bytes32)
+    {
         return
             _hashTypedDataV4(
                 keccak256(
                     abi.encode(
-                        keccak256(
-                            "mint(uint256 weiPrice,uint256 tokenId,string tokenURI)"
-                        ),
-                        weiPrice,
+                        keccak256("mint(uint256 tokenId,string tokenURI)"),
                         id,
                         keccak256(bytes(uri))
                     )
@@ -246,7 +240,7 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     }
 
     /**
-     * @dev record a token's URI against its Id
+     * @dev record a token's URI against its id
      */
     function _setTokenURI(uint256 id, string memory uri) internal {
         require(bytes(uri).length != 0, "tokenURI cannot be empty");
@@ -254,12 +248,11 @@ contract NFTsurface is ERC721, ERC721Burnable, EIP712 {
     }
 
     /**
-     * @dev burn a token and prevent the reuse of its Id
+     * @dev burn a token and prevent the reuse of its id
      */
     function _burn(uint256 id) internal override {
         super._burn(id);
         delete tokenURIs[id];
-        revokedIds[id] = true;
         totalSupply -= 1;
     }
 
