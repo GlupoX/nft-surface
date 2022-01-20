@@ -24,7 +24,6 @@ export default function Home(props) {
 
 			<Image
 				src={frontImage}
-				placeholder="blur"
 				alt="front image"
 				priority />
 		</Layout>
