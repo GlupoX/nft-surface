@@ -43,6 +43,8 @@ const NftStatus = ({ nft, context }) => {
 
 	const userIsOwner = (walletAddress && owner && (ethers.utils.getAddress(walletAddress) === ethers.utils.getAddress(owner)));
 	const userIsNotOwner = (walletAddress && owner && (ethers.utils.getAddress(walletAddress) !== ethers.utils.getAddress(owner)));
+	const ownerIsCreator = (owner && (ethers.utils.getAddress(owner) === ethers.utils.getAddress(creatorAddress)));
+	const ownerName = userIsOwner ? "you": ownerIsCreator ? "the artist" : undefined;
 
 	useEffect(() => {
 		fetchWallet();
@@ -172,16 +174,10 @@ const NftStatus = ({ nft, context }) => {
 				:
 				<div className={styles.nftStatus}>
 
-					{owner && userIsOwner &&
+					{owner &&
 						<div className={styles.nftOwner}>
-							{explorerAddressLink(chainId, owner, "You")}{" own this NFT"}
-						</div>
-					}
-
-					{owner && !userIsOwner &&
-						<div className={styles.nftOwner}>
-							{"Owned by user "}
-							{explorerAddressLink(chainId, owner)}
+							{"Owned by "}
+							{explorerAddressLink(chainId, owner, ownerName)}
 						</div>
 					}
 
@@ -230,6 +226,7 @@ const NftStatus = ({ nft, context }) => {
 
 					{status === "mintable" && !connecting &&
 						<Mint
+							context={context}
 							nft={nft}
 							doConnectWallet={doConnectWallet}
 							walletAddress={walletAddress}

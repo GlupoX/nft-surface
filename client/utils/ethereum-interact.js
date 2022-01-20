@@ -69,7 +69,7 @@ export const contractCall_ownerOf = async (nft, contractAddress, chainId) => {
 export const contractCall_mintable = async (nft, contractAddress, chainId) => {
 	const contract = await getReadableContract(contractAddress, chainId);
 	try {
-		await contract.mintable(nft.weiPrice, nft.tokenId, nft.tokenURI, nft.signature);
+		await contract.mintable(nft.tokenId, nft.tokenURI, nft.signature);
 		return "mintable";
 	} catch (error) {
 		if (error.message && error.message.includes("execution reverted:")) {
@@ -79,10 +79,10 @@ export const contractCall_mintable = async (nft, contractAddress, chainId) => {
 	}
 };
 
-export const contractCall_mint = async (nft, contractAddress, chainId) => {
+export const contractCall_mint = async (context, nft, contractAddress, chainId) => {
 	const contract = await getWriteableContract(contractAddress, chainId);
 	try {
-		const tx = await contract.mint(nft.tokenId, nft.tokenURI, nft.signature, { value: nft.weiPrice });
+		const tx = await contract.mint(nft.tokenId, nft.tokenURI, nft.signature, { value: context.mintPrice });
 		return { tx };
 	} catch (e) {
 		return { error: errorMessage(e) };

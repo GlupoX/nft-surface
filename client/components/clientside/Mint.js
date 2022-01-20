@@ -9,7 +9,8 @@ import {
 
 import styles from '@components/Nft.module.css'
 
-export default function Minter({
+export default function Mint({
+	context,
 	nft,
 	doConnectWallet,
 	walletAddress,
@@ -28,7 +29,7 @@ export default function Minter({
 		setConnecting(true);
 		if (!walletAddress) await doConnectWallet();
 		try {
-			const { tx, error } = await contractCall_mint(nft, contractAddress, chainId);
+			const { tx, error } = await contractCall_mint(context, nft, contractAddress, chainId);
 			if (tx) {
 				setTx(tx);
 				setNotify("tx_pending");
@@ -54,9 +55,9 @@ export default function Minter({
 		<div>
 			<span>Price : </span>
 			<span className={styles.nftPriceETH}>
-				{nft.weiPrice === "0" ?
+				{context.mintPrice === "0" ?
 					"FREE" :
-					`${ethers.utils.formatEther(nft.weiPrice)} ${chainParams(chainId).nativeCurrency.symbol}`
+					`${ethers.utils.formatEther(context.mintPrice)} ${chainParams(chainId).nativeCurrency.symbol}`
 				}
 			</span>
 			<span className={styles.nftPriceGas}>{" + gas fee"}</span>
