@@ -1,10 +1,6 @@
 import Head from 'next/head'
 import Layout from '@components/Layout'
 import Image from 'next/image'
-import Link from 'next/link'
-import styles from '@components/Layout.module.css'
-
-import { chainParams, explorerAddressLink } from "@utils/chain-spec.js";
 
 import frontImage from '@public/frontpage-bg.jpg'
 
@@ -20,10 +16,6 @@ export async function getStaticProps() {
 }
 
 export default function Home(props) {
-	const contractAddress = props.context.contractAddress;
-	const creatorAddress = props.context.creatorAddress;
-	const chainId = props.context.chainId;
-
 	return (
 		<Layout context={props.context} home>
 			<Head>
@@ -31,29 +23,10 @@ export default function Home(props) {
 			</Head>
 
 			<Image
-				className={styles.landingHeroImage}
 				src={frontImage}
 				placeholder="blur"
 				alt="front image"
-				priority
-				layout="fill"
-				objectFit="cover"
-				objectPosition="center" />
-
-			<div className={styles.landingHeroTextA}>{process.env.creatorName}</div>
-			<Link href="/nft">
-				<a className={styles.landingHeroTextB}>
-					NFTs
-				</a>
-			</Link>
-			<footer className={styles.footerHome}>
-				{chainId > 1 &&
-					<div className={styles.alertIsTestnet}>{chainParams(chainId).chainName}</div>
-				}
-				<div>Artist {chainParams(chainId).nativeCurrency.symbol} address : {explorerAddressLink(chainId, creatorAddress)}</div>
-				<div>Smart Contract address : {explorerAddressLink(chainId, contractAddress)}</div>
-				<div>NFT type : ERC721</div>
-			</footer>
+				priority />
 		</Layout>
 	)
 }

@@ -43,8 +43,9 @@ const NftStatus = ({ nft, context }) => {
 
 	const userIsOwner = (walletAddress && owner && (ethers.utils.getAddress(walletAddress) === ethers.utils.getAddress(owner)));
 	const userIsNotOwner = (walletAddress && owner && (ethers.utils.getAddress(walletAddress) !== ethers.utils.getAddress(owner)));
-	const ownerIsCreator = (owner && (ethers.utils.getAddress(owner) === ethers.utils.getAddress(creatorAddress)));
-	const ownerName = userIsOwner ? "you": ownerIsCreator ? "the artist" : undefined;
+
+	const creatorIsOwner = (owner && (ethers.utils.getAddress(owner) === ethers.utils.getAddress(creatorAddress)));
+	const ownerName = userIsOwner ? "you": creatorIsOwner ? "the artist" : undefined;
 
 	useEffect(() => {
 		fetchWallet();
@@ -275,9 +276,6 @@ const NftStatus = ({ nft, context }) => {
 							</div>
 							<div>
 								{"Contract : "}{explorerAddressLink(chainId, contractAddress)}
-							</div>
-							<div>
-								{"Creator : "}{explorerAddressLink(chainId, creatorAddress)}
 							</div>
 							<div>
 								{"IPFS immutable "}

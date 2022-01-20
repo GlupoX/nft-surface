@@ -3,15 +3,18 @@
 }
 
 .header {
-  box-shadow: rgb(0 0 0 / 10%) 0px 25px 20px -20px;
   padding: 0.5rem 1rem;
   margin: 0 auto 1.5rem auto;
   background: white;
+  max-width: 1100px;
+}
+
+.header h1 {
   font-size: 1.25rem;
   font-weight: bolder;
   letter-spacing: -0.05rem;
-  max-width: 1100px;
   color: black;
+  margin: 0;
 }
 
 .header a:hover {
@@ -33,12 +36,11 @@
 
 .footer, 
 .footerHome {
-  text-align: right;
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 1rem;
-  font-size: small;
+  padding: 1rem 1rem 2rem 1rem;
+  font-size: smaller;
 }
 
 .footerHome {

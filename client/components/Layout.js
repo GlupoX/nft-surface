@@ -8,6 +8,9 @@ import { chainParams, explorerAddressLink } from "@utils/chain-spec.js";
 export default function Layout({ children, home, nft, context }) {
 	const router = useRouter()
 
+	const chainId = context.chainId;
+	const creatorAddress = context.creatorAddress;
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -28,29 +31,32 @@ export default function Layout({ children, home, nft, context }) {
 				<link href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap" rel="stylesheet"></link>
 			</Head>
 
-			{!home &&
-				<header className={styles.header}>
-					<Link href="/"><a>{process.env.creatorName}</a></Link>
+			<header className={styles.header}>
+				<h1>
+					{router.pathname === "/" ?
+						process.env.creatorName :
+						<Link href="/"><a>{process.env.creatorName}</a></Link>
+					}
 					{" · "}
 					{router.pathname === "/nft" ?
-						"NFTs" :
-						<Link href="/nft"><a>NFTs</a></Link>}
+						"NFT Catalog" :
+						<Link href="/nft"><a>NFT Catalog</a></Link>
+					}
 					{router.pathname === "/nft/[tokenId]" &&
-						<span>{" · #"}{nft.tokenId}</span>}
-				</header>
-			}
+						<span>{" · #"}{nft.tokenId}</span>
+					}
+				</h1>
+			</header>
 
 			<main>{children}</main>
 
-			{!home && 
-				<footer className={styles.footer}>
+			<footer className={styles.footer}>
 				{context.chainId > 1 &&
-					<div className={styles.alertIsTestnet}>{chainParams(context.chainId).chainName}</div>
+					<div className={styles.alertIsTestnet}>{chainParams(chainId).chainName}</div>
 				}
-				<Link href="https://github.com/stephanfowler/nft-surface">
-					<a>NFT Surface</a>
-				</Link>
-			</footer>}
+
+				<div>Artist {chainParams(chainId).nativeCurrency.symbol} address : {explorerAddressLink(chainId, creatorAddress)}</div>
+			</footer>
 		</div>
 	)
 }
