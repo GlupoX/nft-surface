@@ -110,7 +110,6 @@ contract NFTsurface is ERC721, EIP712 {
         bytes calldata signature
     ) public view returns (bool) {
         require(vacant(id));
-        require(mintPrice > 0 || balanceOf(_msgSender()) == 0, "free mint already used");
         require(
             owner == ECDSA.recover(_hash(id, uri), signature),
             "signature invalid or signer unauthorized"

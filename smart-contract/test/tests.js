@@ -457,38 +457,6 @@ it('mint, setMintPrice', async function () {
       .withArgs(zero, anonB.address, tokenId);
   });
 
-
-  it('mint, free quota', async function () {
-    let tokenId;
-    let signature;
-  
-    // owner sign
-    tokenId = 1;
-    signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
-  
-    // anonB attempt mint
-    await expect(c.connect(anonB).mint(tokenId, tokenURI, signature))
-    .to.be.revertedWith('insufficient ETH sent');
-
-      // owner setMintPrice to zero
-    await expect(c.connect(owner).setMintPrice(0))
-      .to.emit(c, 'MintPriceSet')
-      .withArgs(0);
-  
-    // anonB mint
-    await expect(c.connect(anonB).mint(tokenId, tokenURI, signature))
-      .to.emit(c, 'Transfer')
-      .withArgs(zero, anonB.address, tokenId);
-
-    // owner sign
-    tokenId = 2;
-    signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
-  
-    // anonB attempt mint
-    await expect(c.connect(anonB).mint(tokenId, tokenURI, signature))
-    .to.be.revertedWith('free mint already used');
-  });  
-
   
   it('setIdFloor', async function () {
   // anonA attempt set floor
