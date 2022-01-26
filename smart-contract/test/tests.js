@@ -4,6 +4,7 @@ const { expect } = require('chai')
 const mintPrice = ethers.utils.parseEther("1");
 const tokenId = 12345;
 const tokenURI = "ipfs://123456789";
+const code = "";
 const salePrice = ethers.utils.parseEther("2");
 const royaltyBasisPoints = 495; // = 4.95%
 
@@ -50,7 +51,8 @@ beforeEach(async function () {
   sigTypes = {
     mint: [
       { name: 'tokenId', type: 'uint256' },
-      { name: 'tokenURI', type: 'string' }
+      { name: 'tokenURI', type: 'string' },
+      { name: 'code', type: 'string' }
     ]
   };
 });
@@ -64,13 +66,14 @@ it('setPrice, buy', async function () {
   const startingBalance4 = await anonB.getBalance();
 
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 
+  /*
   // anonA attempt setPrice
   await expect(c.connect(anonA).setPrice(tokenId, salePrice))
     .to.be.revertedWith('caller is not token owner');
@@ -129,6 +132,7 @@ it('setPrice, buy', async function () {
   expect(closingBalance4.gt(startingBalance4)
     && closingBalance4.lt(startingBalance4.add(salePrice)))
     .to.equal(true);
+  */
 });
 
 
@@ -165,10 +169,10 @@ it('royalty', async function () {
 
 it('un-setPrice', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 
@@ -190,10 +194,10 @@ it('un-setPrice', async function () {
 
 it('setPrice, transfer', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 
@@ -230,10 +234,10 @@ it('role assignments', async function () {
 
 it('receiving and withdrawing', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 
@@ -312,10 +316,10 @@ it('total supply', async function () {
     .to.equal(0);
 
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 
@@ -330,35 +334,35 @@ it('total supply', async function () {
 
 it('signers, authorised and not', async function () {
   // owner sign (signature will be invalid)
-  const sig0 = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const sig0 = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonA attempt mintable
-  expect(await c.connect(anonA).mintable(tokenId, tokenURI, sig0))
+  expect(await c.connect(anonA).mintable(tokenId, tokenURI, code, sig0))
     .to.equal(true);
 
   // anonB sign (signature will be invalid)
-  const sig2 = await anonB._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const sig2 = await anonB._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonA attempt mintable
-  await expect(c.connect(anonA).mintable(tokenId, tokenURI, sig2))
+  await expect(c.connect(anonA).mintable(tokenId, tokenURI, code, sig2))
     .to.be.revertedWith('signature invalid or signer unauthorized');
 });
 
 
 it('signature verification, good and bad inputs', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mintable
-  expect(await c.connect(anonB).mintable(tokenId, tokenURI, signature))
+  expect(await c.connect(anonB).mintable(tokenId, tokenURI, code, signature))
     .to.equal(true);
 
   // anonB attempt mintable, with incorreet tokenId
-  await expect(c.connect(anonB).mintable(tokenId + 1, tokenURI, signature))
+  await expect(c.connect(anonB).mintable(tokenId + 1, tokenURI, code, signature))
     .to.be.revertedWith('signature invalid or signer unauthorized');
 
   // anonB attempt mintable, with incorreet tokenURI
-  await expect(c.connect(anonB).mintable(tokenId, tokenURI + "#", signature))
+  await expect(c.connect(anonB).mintable(tokenId, tokenURI + "#", code, signature))
     .to.be.revertedWith('signature invalid or signer unauthorized');
 });
 
@@ -370,60 +374,147 @@ it('mint multiples', async function () {
     tokenId += 1;
 
     // owner sign
-    signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+    signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
     // anonA mint
-    await expect(c.connect(anonA).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+    await expect(c.connect(anonA).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
       .to.emit(c, 'Transfer')
       .withArgs(zero, anonA.address, tokenId);
   }
 });
 
 
-it('mint, burning', async function () {
+it('mint, re-mint', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB mintable
-  expect(await c.connect(anonB).mintable(tokenId, tokenURI, signature))
+  expect(await c.connect(anonB).mintable(tokenId, tokenURI, code, signature))
     .to.equal(true);
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 
   // anonB attempt mintable
-  await expect(c.connect(anonB).mintable(tokenId, tokenURI, signature))
+  await expect(c.connect(anonB).mintable(tokenId, tokenURI, code, signature))
     .to.be.revertedWith('tokenId already minted');
 
   // anonA attempt mint
-  await expect(c.connect(anonA).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonA).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.be.revertedWith('tokenId already minted');
 });
 
 
 it('mint, various ETH values', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB attempt mint, insufficient ETH
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: ethers.BigNumber.from(mintPrice).sub(1) }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: ethers.BigNumber.from(mintPrice).sub(1) }))
     .to.be.revertedWith('insufficient ETH sent');
 
   // anonB mint, excessive ETH
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: ethers.BigNumber.from(mintPrice).add(1) }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: ethers.BigNumber.from(mintPrice).add(1) }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
 });
 
 
+it('mint, code with default 0 price', async function () {
+  let code = "freebie"
+
+  // owner sign
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
+
+  // anonB mintable
+  expect(await c.connect(anonB).mintable(tokenId, tokenURI, code, signature))
+    .to.equal(true);
+
+  // anonB mint, zero ETH
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature))
+    .to.emit(c, 'Transfer')
+    .withArgs(zero, anonB.address, tokenId);
+});
+
+
+it('mint, setCodePrice', async function () {
+  const codePrice = ethers.utils.parseEther(".0001");
+  let code = ""
+
+  // owner setCodePrice
+  await expect(c.connect(owner).setCodePrice(ethers.BigNumber.from(codePrice)))
+    .to.emit(c, 'CodePriceSet')
+    .withArgs(ethers.BigNumber.from(codePrice));
+
+  // owner sign
+  let signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
+
+  // anonB attempt mint at codePrice, but no code
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: ethers.BigNumber.from(codePrice) }))
+    .to.be.revertedWith('insufficient ETH sent');
+
+  code = "freebie"
+
+  // owner sign
+  signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
+
+  // anonB attempt mint, zero ETH
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature))
+    .to.be.revertedWith('insufficient ETH sent');
+
+  // anonB mint 
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: ethers.BigNumber.from(codePrice) }))
+    .to.emit(c, 'Transfer')
+    .withArgs(zero, anonB.address, tokenId);
+});
+
+
+it('mint, incorrect promo code', async function () {
+  let code = ""
+
+  // owner sign
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
+
+  code = "not a freebie"
+
+  // anonB attempt mintable
+  await expect(c.connect(anonB).mintable(tokenId, tokenURI, code, signature))
+    .to.be.revertedWith('signature invalid or signer unauthorized');
+
+  // anonB attempt mint
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature))
+    .to.be.revertedWith('signature invalid or signer unauthorized');
+
+  // anonB attempt mint, with ETH
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
+    .to.be.revertedWith('signature invalid or signer unauthorized');
+});
+
+
+it('mint, promo code, wrong token', async function () {
+  let code = "freebie"
+
+  // owner sign
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
+
+  // anonB attempt mintable, zero ETH
+  await expect(c.connect(anonB).mintable(tokenId + 1, tokenURI, code, signature))
+    .to.be.revertedWith('signature invalid or signer unauthorized');
+
+  // anonB attempt mint, zero ETH
+  await expect(c.connect(anonB).mint(tokenId + 1, tokenURI, code, signature))
+    .to.be.revertedWith('signature invalid or signer unauthorized');
+});
+
+
 it('mint, setMintPrice', async function () {
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB attempt mint, insufficient ETH
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: ethers.BigNumber.from(mintPrice).sub(1) }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: ethers.BigNumber.from(mintPrice).sub(1) }))
     .to.be.revertedWith('insufficient ETH sent');
 
   // owner setMintPrice
@@ -432,33 +523,33 @@ it('mint, setMintPrice', async function () {
     .withArgs(ethers.BigNumber.from(mintPrice).sub(1));
 
   // anonB mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: ethers.BigNumber.from(mintPrice).sub(1) }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: ethers.BigNumber.from(mintPrice).sub(1) }))
     .to.emit(c, 'Transfer')
     .withArgs(zero, anonB.address, tokenId);
-  });
+});
 
 
-  it('mint, setMintPrice zero', async function () {
-    // owner sign
-    const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
-  
-    // anonB attempt mint, insufficient ETH
-    await expect(c.connect(anonB).mint(tokenId, tokenURI, signature))
-      .to.be.revertedWith('insufficient ETH sent');
-  
-    // owner setMintPrice
-    await expect(c.connect(owner).setMintPrice(0))
-      .to.emit(c, 'MintPriceSet')
-      .withArgs(0);
-  
-    // anonB mint
-    await expect(c.connect(anonB).mint(tokenId, tokenURI, signature))
-      .to.emit(c, 'Transfer')
-      .withArgs(zero, anonB.address, tokenId);
-  });
+it('mint, setMintPrice zero', async function () {
+  // owner sign
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
-  
-  it('setIdFloor', async function () {
+  // anonB attempt mint, insufficient ETH
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature))
+    .to.be.revertedWith('insufficient ETH sent');
+
+  // owner setMintPrice
+  await expect(c.connect(owner).setMintPrice(0))
+    .to.emit(c, 'MintPriceSet')
+    .withArgs(0);
+
+  // anonB mint
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature))
+    .to.emit(c, 'Transfer')
+    .withArgs(zero, anonB.address, tokenId);
+});
+
+
+it('setIdFloor', async function () {
   // anonA attempt set floor
   await expect(c.connect(anonA).setIdFloor(tokenId + 1))
     .to.be.revertedWith('unauthorized to set idFloor');
@@ -477,14 +568,14 @@ it('mint, setMintPrice', async function () {
     .to.be.revertedWith('tokenId below floor');
 
   // owner sign
-  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI });
+  const signature = await owner._signTypedData(sigDomain, sigTypes, { tokenId, tokenURI, code });
 
   // anonB attempt mintable
-  await expect(c.connect(anonB).mintable(tokenId, tokenURI, signature))
+  await expect(c.connect(anonB).mintable(tokenId, tokenURI, code, signature))
     .to.be.revertedWith('tokenId below floor');
 
   // anonB attempt mint
-  await expect(c.connect(anonB).mint(tokenId, tokenURI, signature, { value: mintPrice }))
+  await expect(c.connect(anonB).mint(tokenId, tokenURI, code, signature, { value: mintPrice }))
     .to.be.revertedWith('tokenId below floor');
 });
 

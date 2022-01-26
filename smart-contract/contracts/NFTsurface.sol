@@ -15,12 +15,14 @@ contract NFTsurface is ERC721, EIP712 {
     event Receipt(uint256 value);
     event Withdrawal(uint256 value);
     event MintPriceSet(uint256 mintPrice);
+    event CodePriceSet(uint256 codePrice);
     event PriceSet(uint256 id, uint256 price);
     event Bought(uint256 id, address buyer);
 
     address public immutable owner;
 
     uint256 public mintPrice;
+    uint256 public codePrice;
     uint256 public totalSupply;
     uint256 public idFloor;
     uint256 public immutable royaltyBasisPoints;
@@ -85,33 +87,40 @@ contract NFTsurface is ERC721, EIP712 {
      *  @dev Enables "lazy" minting by any user who can provide an agent's signature for the specified params and value
      *  @param id The intended token id
      *  @param uri The intended token URI
+     *  @param code Promo code; if non-empty, allows minting for codePrice rather than mintPrice
      *  @param signature The ERC712 signature of the hash of message value, id, and uri
      */
     function mint(
         uint256 id,
         string memory uri,
+        string memory code,
         bytes calldata signature
     ) external payable {
-        require(msg.value >= mintPrice, "insufficient ETH sent");
-        require(mintable(id, uri, signature));
+        require(
+            (bytes(code).length > 0 && msg.value >= codePrice) ||
+                msg.value >= mintPrice,
+            "insufficient ETH sent"
+        );
+        require(mintable(id, uri, code, signature));
         _mint(_msgSender(), id, uri);
     }
 
     /**
      *  @notice Checks availability for minting and validity of a signature
-     *  @dev Typically run before offering a mint option to users
      *  @param id The intended token id
      *  @param uri The intended token URI
+     *  @param code Promo code
      *  @param signature The ERC712 signature of the hash of id and uri
      */
     function mintable(
         uint256 id,
         string memory uri,
+        string memory code,
         bytes calldata signature
     ) public view returns (bool) {
         require(vacant(id));
         require(
-            owner == ECDSA.recover(_hash(id, uri), signature),
+            owner == ECDSA.recover(_hash(id, uri, code), signature),
             "signature invalid or signer unauthorized"
         );
         return true;
@@ -179,6 +188,16 @@ contract NFTsurface is ERC721, EIP712 {
     }
 
     /**
+     *  @notice Sets the promo code price
+     *  @param _codePrice The new promo code price
+     */
+    function setCodePrice(uint256 _codePrice) external {
+        require(_msgSender() == owner, "unauthorized to set codePrice");
+        codePrice = _codePrice;
+        emit CodePriceSet(_codePrice);
+    }
+
+    /**
      *  @notice Revokes token Ids below a given floor, to disable any signatures that include them
      *  @param floor The floor for token Ids minted from now onward
      */
@@ -224,18 +243,21 @@ contract NFTsurface is ERC721, EIP712 {
     /**
      * @dev Recreates the hash that the signer (may have) signed
      */
-    function _hash(uint256 id, string memory uri)
-        internal
-        view
-        returns (bytes32)
-    {
+    function _hash(
+        uint256 id,
+        string memory uri,
+        string memory code
+    ) internal view returns (bytes32) {
         return
             _hashTypedDataV4(
                 keccak256(
                     abi.encode(
-                        keccak256("mint(uint256 tokenId,string tokenURI)"),
+                        keccak256(
+                            "mint(uint256 tokenId,string tokenURI,string code)"
+                        ),
                         id,
-                        keccak256(bytes(uri))
+                        keccak256(bytes(uri)),
+                        keccak256(bytes(code))
                     )
                 )
             );

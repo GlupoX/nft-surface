@@ -76,9 +76,9 @@ task("deploy", "Deploys the contract using constructor arguments in the specifie
 		const contractAddress = contract.address;
 		const { chainId } = await ethers.provider.getNetwork();
 		const signature = await hre.run('sign', {
-			wei: "1000",
 			id: 123,
 			uri: "ipfs://foo.bar/123",
+			code: "a freebie",
 			contract: contractAddress,
 			quiet: true
 		});
@@ -94,16 +94,18 @@ task("deploy", "Deploys the contract using constructor arguments in the specifie
 /**
  * Summary. Generates a signature
  * Description. Generates a signature for the 'mint' contract method, and tests it against the contract
- * @example npx hardhat sign --network localhost --wei 1000 --id 123 --uri ipfs://foo.bar/123 --contract 0xe7f17...etc 
+ * @example npx hardhat sign --network localhost --id 123 --uri ipfs://foo.bar/123 --contract 0xe7f17...etc 
  */
 task("sign", "Generates a signature for the 'mint' contract method, and tests it against the deployed contract")
+	.addParam("contract", "The contract address", undefined, types.address)
 	.addParam("id", "The intended tokenId of the NFT", undefined, types.int)
 	.addParam("uri", "The intended tokenURI of the NFT", undefined, types.string)
-	.addParam("contract", "The contract address", undefined, types.address)
+	.addOptionalParam("code", "Optional promo code", undefined, types.string)
 	.addOptionalParam("quiet", "Suppress all output", false, types.boolean)
 	.setAction(async (args) => {
 		const tokenId = args.id;
 		const tokenURI = args.uri;
+		const code = args.code || "";
 		const contractAddress = args.contract;
 
 		if (!ethers.utils.isAddress(contractAddress)) {
@@ -126,17 +128,19 @@ task("sign", "Generates a signature for the 'mint' contract method, and tests it
 			{
 				mint: [
 					{ name: 'tokenId', type: 'uint256' },
-					{ name: 'tokenURI', type: 'string' }
+					{ name: 'tokenURI', type: 'string' },
+					{ name: 'code', type: 'string' },
 				],
 			},
-			{ tokenId, tokenURI },
+			{ tokenId, tokenURI, code },
 		);
 
 		try {
-			const isMintable = await contract.mintable(tokenId, tokenURI, signature);
+			const isMintable = await contract.mintable(tokenId, tokenURI, code, signature);
 			!args.quiet && console.log({
 				tokenId,
 				tokenURI,
+				code,
 				signature
 			});
 			return signature;
