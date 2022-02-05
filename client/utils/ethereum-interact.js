@@ -1,6 +1,7 @@
 import { ethers } from "ethers";
 
 const contractABI = require("./abi.json");
+const maxUint256 = ethers.constants.MaxUint256.toString();
 
 async function getReadableProvider(chainId) {
 	if (window.ethereum) {
@@ -69,10 +70,11 @@ export const contractCall_ownerOf = async (nft, contractAddress, chainId) => {
 export const contractCall_mintable = async (nft, contractAddress, chainId) => {
 	const contract = await getReadableContract(contractAddress, chainId);
 	try {
-		await contract.mintable(nft.tokenId, nft.tokenURI, nft.signature);
+		await contract.mintable(maxUint256, nft.tokenId, nft.tokenURI, nft.signature);
 		return "mintable";
 	} catch (error) {
-		if (error.message && error.message.includes("execution reverted:")) {
+		console.log(error.message);
+		if (error.message.includes("Internal JSON-RPC error") || error.message.includes("execution reverted:")) {
 			return "unavailable";
 		}
 		return "unknown";
@@ -89,9 +91,9 @@ export const contractCall_mint = async (context, nft, contractAddress, chainId) 
 	}
 };
 
-export const contractCall_price = async (nft, contractAddress, chainId) => {
+export const contractCall_priceOf = async (nft, contractAddress, chainId) => {
 	const contract = await getReadableContract(contractAddress, chainId);
-	return await contract.price(nft.tokenId);
+	return await contract.priceOf(nft.tokenId);
 };
 
 export const contractCall_setPrice = async (nft, salePrice, contractAddress, chainId) => {

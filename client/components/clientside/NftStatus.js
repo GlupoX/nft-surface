@@ -246,7 +246,7 @@ const NftStatus = ({ nft, context }) => {
 					)}
 
 					{status === "unavailable" && (
-						<div>Sorry, this NFT has been withdrawn from sale or burnt by the owner.</div>
+						<div>Sorry, this NFT is currently unavailable for minting.</div>
 					)}
 
 					{status === "unknown" && (

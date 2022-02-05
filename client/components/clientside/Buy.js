@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import { chainParams, marketplaces } from "@utils/chain-spec.js";
 import {
 	isTransactionMined,
-	contractCall_price,
+	contractCall_priceOf,
 	contractCall_buy
 } from "@utils/ethereum-interact.js";
 
@@ -35,7 +35,7 @@ export default function Buy({
 	}, []);
 
 	async function getPrice() {
-		const _price = await contractCall_price(nft, contractAddress, chainId);
+		const _price = await contractCall_priceOf(nft, contractAddress, chainId);
 		setPrice(_price);
 		const _priceETH = ethers.utils.formatEther(_price);
 		setPriceETH(_priceETH);

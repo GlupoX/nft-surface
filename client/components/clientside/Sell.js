@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import { chainParams, marketplaces } from "@utils/chain-spec.js";
 import {
 	isTransactionMined,
-	contractCall_price,
+	contractCall_priceOf,
 	contractCall_setPrice
 } from "@utils/ethereum-interact.js";
 
@@ -26,7 +26,7 @@ export default function Sell({
 
 	useEffect(() => {
 		async function getPrice() {
-			const _price = await contractCall_price(nft, contractAddress, chainId);
+			const _price = await contractCall_priceOf(nft, contractAddress, chainId);
 			const _priceETH = parseFloat(ethers.utils.formatEther(_price));
 			setPriceETH(_priceETH);
 			setDisplayPriceETH(_priceETH);

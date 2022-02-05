@@ -15,14 +15,14 @@ contract NFTsurface is ERC721, EIP712 {
     event Receipt(uint256 value);
     event Withdrawal(uint256 value);
     event MintPriceSet(uint256 mintPrice);
-    event CodePriceSet(uint256 codePrice);
     event PriceSet(uint256 id, uint256 price);
     event Bought(uint256 id, address buyer);
 
     address public immutable owner;
 
+    uint256 constant private MAX_INT = type(uint256).max;
+
     uint256 public mintPrice;
-    uint256 public codePrice;
     uint256 public totalSupply;
     uint256 public idFloor;
     uint256 public immutable royaltyBasisPoints;
@@ -83,52 +83,60 @@ contract NFTsurface is ERC721, EIP712 {
     }
 
     /**
-     *  @notice Minting by any caller
-     *  @dev Enables "lazy" minting by any user who can provide an agent's signature for the specified params and value
+     *  @notice Minting at mintPrice, given the owner's signature of the specified arguments
      *  @param id The intended token id
      *  @param uri The intended token URI
-     *  @param code Promo code; if non-empty, allows minting for codePrice rather than mintPrice
-     *  @param signature The ERC712 signature of the hash of message value, id, and uri
+     *  @param signature The ERC712 signature
      */
     function mint(
         uint256 id,
         string memory uri,
-        string memory code,
         bytes calldata signature
     ) external payable {
-        require(
-            (bytes(code).length > 0 && msg.value >= codePrice) ||
-                msg.value >= mintPrice,
-            "insufficient ETH sent"
-        );
-        require(mintable(id, uri, code, signature));
+        mintAtPrice(MAX_INT, id, uri, signature);
+    }
+
+    /**
+     *  @notice Minting at price, given the owner's signature over the specified arguments
+     *  @param price Wei price, for discounted minting if lower than mintPrice. Can be zero. 
+     *  @param id The intended token id
+     *  @param uri The intended token URI
+     *  @param signature The ERC712 signature
+     */
+    function mintAtPrice(
+        uint256 price,
+        uint256 id,
+        string memory uri,
+        bytes calldata signature
+    ) public payable {
+        require(msg.value >= mintPrice || msg.value >= price, "insufficient ETH sent");
+        require(mintable(price, id, uri, signature));
         _mint(_msgSender(), id, uri);
     }
 
     /**
-     *  @notice Checks availability for minting and validity of a signature
+     *  @notice Checks availability for minting, and validity of the owner's signature
+     *  @param price Wei price, for discounted minting if lower than mintPrice. Can be zero. 
      *  @param id The intended token id
      *  @param uri The intended token URI
-     *  @param code Promo code
-     *  @param signature The ERC712 signature of the hash of id and uri
+     *  @param signature The ERC712 signature
      */
     function mintable(
+        uint256 price,
         uint256 id,
         string memory uri,
-        string memory code,
         bytes calldata signature
     ) public view returns (bool) {
         require(vacant(id));
         require(
-            owner == ECDSA.recover(_hash(id, uri, code), signature),
+            owner == ECDSA.recover(_hash(price, id, uri), signature),
             "signature invalid or signer unauthorized"
         );
         return true;
     }
 
     /**
-     *  @notice Checks the availability of a token id
-     *  @dev Reverts if the id is previously minted or below floor
+     *  @notice Checks availability for minting
      *  @param id The token id
      */
     function vacant(uint256 id) public view returns (bool) {
@@ -138,8 +146,7 @@ contract NFTsurface is ERC721, EIP712 {
     }
 
     /**
-     *  @notice Sets the price at which a token may be bought
-     *  @dev Setting a zero price cancels the sale (all prices are zero by default)
+     *  @notice Sets the price at which a token may be bought. A zero price cancels the sale.
      *  @param id The token id
      *  @param _price The token price in wei
      */
@@ -150,17 +157,15 @@ contract NFTsurface is ERC721, EIP712 {
     }
 
     /**
-     *  @notice Returns the price at which a token may be bought
-     *  @dev A zero price means the token is not for sale
+     *  @notice Returns the price at which a token may be bought. Zero means the token is not for sale.
      *  @param id The token id
      */
-    function price(uint256 id) external view returns (uint256) {
+    function priceOf(uint256 id) external view returns (uint256) {
         return prices[id];
     }
 
     /**
-     *  @notice Transfers the token to the caller, transfers the paid ETH to its owner (minus any royalty)
-     *  @dev A zero price means the token is not for sale
+     *  @notice Transfers the token to the caller, and transfers the paid ETH to its owner (minus royalty)
      *  @param id The token id
      */
     function buy(uint256 id) external payable {
@@ -188,18 +193,8 @@ contract NFTsurface is ERC721, EIP712 {
     }
 
     /**
-     *  @notice Sets the promo code price
-     *  @param _codePrice The new promo code price
-     */
-    function setCodePrice(uint256 _codePrice) external {
-        require(_msgSender() == owner, "unauthorized to set codePrice");
-        codePrice = _codePrice;
-        emit CodePriceSet(_codePrice);
-    }
-
-    /**
-     *  @notice Revokes token Ids below a given floor, to disable any signatures that include them
-     *  @param floor The floor for token Ids minted from now onward
+     *  @notice Disables minting of ids below floor, thus revoking any signatures that include them
+     *  @param floor The floor for new token ids minted from now
      */
     function setIdFloor(uint256 floor) external {
         require(_msgSender() == owner, "unauthorized to set idFloor");
@@ -244,20 +239,20 @@ contract NFTsurface is ERC721, EIP712 {
      * @dev Recreates the hash that the signer (may have) signed
      */
     function _hash(
+        uint256 price,
         uint256 id,
-        string memory uri,
-        string memory code
+        string memory uri
     ) internal view returns (bytes32) {
         return
             _hashTypedDataV4(
                 keccak256(
                     abi.encode(
                         keccak256(
-                            "mint(uint256 tokenId,string tokenURI,string code)"
+                            "mint(uint256 price,uint256 tokenId,string tokenURI)"
                         ),
+                        price,
                         id,
-                        keccak256(bytes(uri)),
-                        keccak256(bytes(code))
+                        keccak256(bytes(uri))
                     )
                 )
             );

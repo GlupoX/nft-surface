@@ -99,14 +99,21 @@ task("deploy", "Deploys the contract using constructor arguments in the specifie
 task("sign", "Generates a signature for the 'mint' contract method, and tests it against the deployed contract")
 	.addParam("contract", "The contract address", undefined, types.address)
 	.addParam("id", "The intended tokenId of the NFT", undefined, types.int)
-	.addParam("uri", "The intended tokenURI of the NFT", undefined, types.string)
-	.addOptionalParam("code", "Optional promo code", undefined, types.string)
+	.addParam("uri", "The intended tokenURI of the NFT", "", types.string)
+	.addOptionalParam("price", "A specific wei price, can be 0", "", types.string)
 	.addOptionalParam("quiet", "Suppress all output", false, types.boolean)
 	.setAction(async (args) => {
 		const tokenId = args.id;
 		const tokenURI = args.uri;
-		const code = args.code || "";
 		const contractAddress = args.contract;
+		const maxUint256 = ethers.constants.MaxUint256;
+
+		let price;
+		if (args.price.length > 0) {
+			price = ethers.BigNumber.from(args.price)
+		} else {
+			price = maxUint256;
+		}
 
 		if (!ethers.utils.isAddress(contractAddress)) {
 			console.log("Error: invalid address value for contract")
@@ -127,20 +134,20 @@ task("sign", "Generates a signature for the 'mint' contract method, and tests it
 			},
 			{
 				mint: [
+					{ name: 'price', type: 'uint256' },
 					{ name: 'tokenId', type: 'uint256' },
-					{ name: 'tokenURI', type: 'string' },
-					{ name: 'code', type: 'string' },
+					{ name: 'tokenURI', type: 'string' }
 				],
 			},
-			{ tokenId, tokenURI, code },
+			{ price, tokenId, tokenURI },
 		);
 
 		try {
-			const isMintable = await contract.mintable(tokenId, tokenURI, code, signature);
+			const isMintable = await contract.mintable(price, tokenId, tokenURI, signature);
 			!args.quiet && console.log({
 				tokenId,
 				tokenURI,
-				code,
+				price: price.toString(),
 				signature
 			});
 			return signature;
@@ -179,8 +186,7 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 		const pinataSDK = require('@pinata/sdk');
 		const pinata = pinataSDK(PINATA_API_KEY, PINATA_API_SECRET);
 		const contractABI = require("./artifacts/contracts/NFTsurface.sol/NFTsurface.json");
-		const keccak256 = require('keccak256');
-		const AGENT_ROLE = `0x${keccak256('AGENT_ROLE').toString('hex')}`
+		const maxUint256 = ethers.constants.MaxUint256;
 
 		console.log("Connecting...");
 
@@ -192,15 +198,6 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 		try {
 			await contract.deployed();
 			console.log("Contract " + contractAddress + " found on network " + chainId + " (" + name + ")")
-			/*
-			const hasAgentRole = await contract.hasRole(AGENT_ROLE, signer.address);
-			if (hasAgentRole) {
-				console.log("Agent role confirmed for account " + signer.address);
-			} else {
-				console.log("Error: Agent role has NOT been given to account " + signer.address);
-				return;
-			}
-			*/
 		} catch (e) {
 			e.reason = e.reason || "";
 			if (e.reason.includes("contract not deployed")) {
@@ -299,6 +296,10 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 			}
 		}
 
+		function randomHexStr(size) {
+			return [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+		}
+
 		///////////////////////
 		// Iterate over NFTs //
 		///////////////////////
@@ -393,15 +394,14 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 
 					// Test signature / mintableness 
 					try {
-						await contract.mintable(tokenId, nft.tokenURI, signature);
+						await contract.mintable(maxUint256, tokenId, nft.tokenURI, signature);
 						nft.signature = signature;
 						idsMintable.push(nft.tokenId);
+						console.log("Updated " + tokenId + " (mintable)" );
 					} catch (error) {
 						failedSignatures = true;
 						console.log("Errored " + tokenId + " ...signature invalid?")
 					}
-
-					console.log("Updated " + tokenId + (nft.signature ? " (mintable)" : ""))
 				}
 				catalogUpdated.NFTs.push(nft)
 			}
