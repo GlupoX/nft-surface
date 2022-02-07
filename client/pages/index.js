@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import frontImage from '@public/frontpage-bg.jpg'
 
-import { fetchCatalog } from "@utils/fetch-catalog.js";
+import { fetchCatalog } from "@lib/fetch-catalog.js";
 
 export async function getStaticProps() {
 	const catalog = await fetchCatalog();

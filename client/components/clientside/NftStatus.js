@@ -12,7 +12,7 @@ import {
 	getWallet,
 	contractCall_ownerOf,
 	contractCall_mintable
-} from "@utils/ethereum-interact.js";
+} from "@lib/ethereum-interact.js";
 
 import {
 	chainParams,
@@ -21,7 +21,7 @@ import {
 	explorerTokenLink,
 	explorerTxLink,
 	ipfsLink
-} from "@utils/chain-spec.js";
+} from "@lib/chain-spec.js";
 
 const NftStatus = ({ nft, context }) => {
 	const [status, setStatus] = useState(nft.status);

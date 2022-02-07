@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import {
 	isTransactionMined,
 	contractCall_safeTransferFrom
-} from "@utils/ethereum-interact.js";
+} from "@lib/ethereum-interact.js";
 
 import styles from '@components/Nft.module.css'
 

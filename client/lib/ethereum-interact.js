@@ -91,6 +91,16 @@ export const contractCall_mint = async (context, nft, contractAddress, chainId) 
 	}
 };
 
+export const contractCall_mintAtPrice = async (context, nft, price, priceSignature, contractAddress, chainId) => {
+	const contract = await getWriteableContract(contractAddress, chainId);
+	try {
+		const tx = await contract.mintAtPrice(price, nft.tokenId, nft.tokenURI, priceSignature, { value: price });
+		return { tx };
+	} catch (e) {
+		return { error: errorMessage(e) };
+	}
+};
+
 export const contractCall_priceOf = async (nft, contractAddress, chainId) => {
 	const contract = await getReadableContract(contractAddress, chainId);
 	return await contract.priceOf(nft.tokenId);

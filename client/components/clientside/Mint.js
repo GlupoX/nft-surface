@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-import { chainParams } from "@utils/chain-spec.js";
+import { chainParams } from "@lib/chain-spec.js";
 import {
 	isTransactionMined,
-	contractCall_mint
-} from "@utils/ethereum-interact.js";
+	contractCall_mint,
+	contractCall_mintAtPrice
+} from "@lib/ethereum-interact.js";
 
 import styles from '@components/Nft.module.css'
 
@@ -22,6 +23,7 @@ export default function Mint({
 	chainId }) {
 
 	const [connecting, setConnecting] = useState();
+	const [priceSignature, setPriceSignature] = useState();
 
 	const doMint = async (e) => {
 		if (!window.ethereum) return;
@@ -29,7 +31,10 @@ export default function Mint({
 		setConnecting(true);
 		if (!walletAddress) await doConnectWallet();
 		try {
-			const { tx, error } = await contractCall_mint(context, nft, contractAddress, chainId);
+			const { tx, error } = priceSignature ?
+				await contractCall_mintAtPrice(context, nft, "0", priceSignature, contractAddress, chainId) :
+				await contractCall_mint(context, nft, contractAddress, chainId);
+
 			if (tx) {
 				setTx(tx);
 				setNotify("tx_pending");
@@ -66,6 +71,23 @@ export default function Mint({
 			<button onClick={doMint} disabled={connecting || !window.ethereum}>
 				Mint this NFT
 			</button>
+
+			{true &&
+				<form>
+					{"Optional code:"}
+					<input
+						className={styles.bigInput}
+						disabled={connecting}
+						type="string"
+						value={priceSignature}
+						onChange={e => setPriceSignature(e.target.value)}
+					/>
+				</form>
+			}
+
+
+
+
 		</div>
 	</>
 }

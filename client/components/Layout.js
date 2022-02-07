@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '@components/Layout.module.css'
 import Link from 'next/link'
 
-import { chainParams, explorerAddressLink } from "@utils/chain-spec.js";
+import { chainParams, explorerAddressLink } from "@lib/chain-spec.js";
 
 export default function Layout({ children, home, nft, context }) {
 	const router = useRouter()

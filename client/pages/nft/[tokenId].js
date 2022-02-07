@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '@components/Layout'
 import Nft from '@components/Nft'
-import { fetchCatalog } from "@utils/fetch-catalog.js";
+import { fetchCatalog } from "@lib/fetch-catalog.js";
 
 export async function getStaticPaths() {
   const catalog = await fetchCatalog();

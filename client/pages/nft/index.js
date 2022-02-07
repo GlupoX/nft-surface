@@ -4,7 +4,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Head from 'next/head'
 import Layout, { siteTitle } from '@components/Layout'
 import NftThumbnail from '@components/NftThumbnail'
-import { fetchCatalog } from "@utils/fetch-catalog.js";
+import { fetchCatalog } from "@lib/fetch-catalog.js";
 
 export async function getStaticProps() {
 	const catalog = await fetchCatalog();

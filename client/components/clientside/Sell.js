@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 
-import { chainParams, marketplaces } from "@utils/chain-spec.js";
+import { chainParams, marketplaces } from "@lib/chain-spec.js";
 import {
 	isTransactionMined,
 	contractCall_priceOf,
 	contractCall_setPrice
-} from "@utils/ethereum-interact.js";
+} from "@lib/ethereum-interact.js";
 
 import styles from '@components/Nft.module.css'
 
