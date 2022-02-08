@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import { chainParams, explorerAddressLink } from "@lib/chain-spec.js";
 
-export default function Layout({ children, home, nft, context }) {
+export default function Layout({ children, home, nft, context, nav }) {
 	const router = useRouter()
 
 	const chainId = context.chainId;
@@ -43,7 +43,15 @@ export default function Layout({ children, home, nft, context }) {
 						<Link href="/nft"><a>NFT Catalog</a></Link>
 					}
 					{router.pathname === "/nft/[tokenId]" &&
-						<span>{" · #"}{nft.tokenId}</span>
+						<span>
+							{" "}
+							&nbsp;&nbsp;
+							<Link href={nav.nextId}><a>&#8612;</a></Link>
+							&nbsp;&nbsp;
+							{nft.tokenId}
+							&nbsp;&nbsp;
+							<Link href={nav.prevId}><a>&#8614;</a></Link>
+						</span>
 					}
 				</h1>
 			</header>

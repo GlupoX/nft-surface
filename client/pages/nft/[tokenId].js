@@ -5,11 +5,9 @@ import { fetchCatalog } from "@lib/fetch-catalog.js";
 
 export async function getStaticPaths() {
   const catalog = await fetchCatalog();
-  const paths = catalog.NFTs.map((nft) => ({
-    params: {
-      tokenId: nft.tokenId.toString()
-    }
-  }))
+  const ids = catalog.NFTs.map((nft) => nft.tokenId.toString());
+  const paths = ids.map(id => ({ params: { tokenId: id } }))
+
   return {
     paths,
     fallback: false
@@ -18,21 +16,28 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const catalog = await fetchCatalog();
-  const nft = catalog.NFTs.find(nft => {
-    return nft.tokenId.toString() === params.tokenId
-  })
-  const context = catalog.context;
+  const ids = catalog.NFTs.map((nft) => nft.tokenId.toString());
+  const length = ids.length;
+  const i = ids.findIndex((tokenId) => tokenId === params.tokenId);
+
   return {
-    props: { nft, context }
+    props: {
+      nft: catalog.NFTs[i],
+      context: catalog.context,
+      nav: {
+        nextId: ids[(i + 1) % length],
+        prevId: ids[(i + length - 1) % length]
+      }
+    }
   }
 }
 
-export default function NFT({ nft, context }) {
+export default function NFT({ nft, context, nav }) {
   return (
-    <Layout nft={nft} context={context}>
+    <Layout nft={nft} context={context} nav={nav}>
       <Head>
         <title key="title">{process.env.creatorName}{" | "}{nft.metadata.name}</title>
-        <meta property="og:image" content={process.env.catalogBaseURL + "/" + nft.webOptimizedImage} key="ogimage"/>
+        <meta property="og:image" content={process.env.catalogBaseURL + "/" + nft.webOptimizedImage} key="ogimage" />
       </Head>
       <Nft nft={nft} context={context} />
     </Layout>
