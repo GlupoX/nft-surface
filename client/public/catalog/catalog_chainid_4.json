@@ -16,8 +16,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgIF/8QAIhAAAgEDBAIDAAAAAAAAAAAAAQIDBBEhAAUSQQYxByJR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AC3gsm2RxbDtc0yTTQJVJUzqluMcqiyKD7PIC1+zrB3Cp+PYa+pialr6hklZTMsj2ksSOQsLZ94xoftm+S0cssyCUS/YF1kzxUrgcgbZ7HWNSPJd1AASrdVGAB0PzQX/2Q==",
             "webOptimizedImage": "images/Architecture_30_web.jpg",
-            "tokenURI": "",
-            "signature": "0xe93a51795ae26a241a5c0158df725637382945529ba8491454b39b1ebb355cc337d3adb70d38afd109836860b0d0e32bb12b9df66767a567c029d4bb9f6586e61c"
+            "tokenURI": "ipfs://QmR7Jm861m5zP5D2FufrK2E1X1XPe4oM51GjcY2wdYuAv7",
+            "signature": "0x416eaaeec036e8e8a31dbb26b67bbd4e1295f33a906d1f02377768a281a7a4413e2cac13769997dc1cad255acfa36a7895e22f5cbe21be0ca0273459258efd331b"
         },
         {
             "tokenId": 29,
@@ -35,8 +35,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAkEAABAwIGAgMAAAAAAAAAAAABAgMEABEFBhIhMUEUFSIk0v/EABUBAQEAAAAAAAAAAAAAAAAAAAIF/8QAGREBAAIDAAAAAAAAAAAAAAAAAQACAxEh/9oADAMBAAIRAxEAPwCv5wmyRFWESFJuLEINu6AKxCZqP2X+aO50z3OxaFJEZhuCw2pIShvdWokC5VYEgX47PdAvaYor5ee4L78q/VTnG27uIZ//2Q==",
             "webOptimizedImage": "images/Architecture_29_web.jpg",
-            "tokenURI": "ipfs://QmRtFheevYKrkxpySHsnu1Jy2YmGG87N9ZQLRe6SmCNdJ5",
-            "signature": "0x1e394c855e354d147fbd77b157d1fe350c9ad3e016bc121a55118025f82df9b8311862040fb94b435c816bd58e0f126133e4fc2060b649a4b8ec8774724af2761b"
+            "tokenURI": "ipfs://QmPKugNnAR2FTen1LLWwSxz8hFck6W2WAvy6P1jWQwTWnA",
+            "signature": "0x9f766173139286694c43036cac35d13858f915621a0ffb16fedf6533a3701e6152de80b3e0fcbca21315a83930fb76c72d18c0888b4c19e541241bd44deb1cf21c"
         },
         {
             "tokenId": 28,
@@ -54,8 +54,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAgEAABBAICAwEAAAAAAAAAAAABAgMEEQAFBkESGHFz/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIDEf/aAAwDAQACEQMRAD8AXzzjRucdm7qFIcmwYqFLWWGzavEWQkKq8KvZXT9cd2Vfu3gZL388awxQ8oMlFlIJr5kosAKIrvDjymbFv//Z",
             "webOptimizedImage": "images/Architecture_28_web.jpg",
-            "tokenURI": "ipfs://Qme3zxgJipKBa7YGhwqvHotupdmZRph3zJGfoUwGq2z4DT",
-            "signature": "0xb0f253f4e456b8f32d44cd42a51e7adb4f1a53f5a733a011be895d0d6e8b0e1f4473d5689d8a72b12cb86731d2ef103ea2d3f76eb00ba1d0259aceaa91488f591c"
+            "tokenURI": "ipfs://Qmdizu3CKjYZYN6PkQQoHrHWJ3vXNY4LwMG23bBKJ6292A",
+            "signature": "0x44a28a013d66aa6f08054e6c17857ab0d79aea34689dd66ca4ea764ffce90d6c445bd57584273aa8800cfcf249a96a3e80ec81b2a2d40f4aebc1a016b24528ee1b"
         },
         {
             "tokenId": 27,
@@ -73,8 +73,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQQFB//EACQQAAAEBQMFAAAAAAAAAAAAAAECAwQABRESMQYHFCEjUpGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQEAAgMAAAAAAAAAAAAAAAABABECAyH/2gAMAwEAAhEDEQA/AKU2nu6eq5C6ljuXoyc5E+WR+yUOmY9hg7eRzX5DzbczdFJukmGiGKlpQLedZS41AyPXMbqDdMGwp0AQoIQOMn4F9RKY7DtkVk//2Q==",
             "webOptimizedImage": "images/Architecture_27_web.jpg",
-            "tokenURI": "ipfs://QmcmH8D45XZrTbSsQz85ytRKMn4xSm1MhKUQqnnaFXq4BC",
-            "signature": "0x443d4dcb9a34dfea40a2b65f740cb312b89172f6fd7201145971f5c5f1767ac8770a5084da97c9215a75b757aea38051c37a80701bad016c202d978ed5c2a18e1b"
+            "tokenURI": "ipfs://QmXVDGy2D7qjN9E9hNwrVVCm2RnH7hf8RhfHpwqAvvPCPf",
+            "signature": "0x8dfa90d91639785e00ea464369a378b8db3a637cc49903185c1e8d6bcc0f5a9630f9478a68154b6de9e931b06ee38bb6305b4e49efd898da6a5bc7693583bc0e1b"
         },
         {
             "tokenId": 26,
@@ -92,8 +92,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACQQAAEEAQMDBQAAAAAAAAAAAAECAwQFEQAGIQcSIghSYnGx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AO7OoeoOl0i8uEtJn37LbECOwAgQ45PccA+7xzjJweTydK+36Ckl0FbIkuRXX3ozTji0nhSigEkfZ0M+oG9esdyVEVTaGmK+ChLSUfI5P4NOlPcKRUQUFtSylhA7luZUrxHJOOToklHG//9k=",
             "webOptimizedImage": "images/Architecture_26_web.jpg",
-            "tokenURI": "ipfs://QmVEMKhoTgR3H7CaXsqNUynidiS27L4gMJo4mURkztD56u",
-            "signature": "0x9d3d407a3bef1e43399f4da62f87e19e85305d6a2cababe2676e56d5cf7eb9cb1a3c167dae57bb98dccf228297dd89fd95f4c305b567e6ba8bc17bc6aaa3e2ad1b"
+            "tokenURI": "ipfs://QmezRgoRcepffnfVMH792iUX3uVyZnyxuPD92eUDEviEph",
+            "signature": "0xde19f84aba691a73c8bc78b5dff84be62732d29cfe639b27908795abc9cdbbb62e332361c5e10317906a89c0950f7b6255310e04e1777f3b1fcc62c2688139e31c"
         },
         {
             "tokenId": 25,
@@ -111,8 +111,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwYHCP/EACIQAAICAgEDBQAAAAAAAAAAAAECAwQFEQAGITETIiOh0f/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAZEQADAAMAAAAAAAAAAAAAAAAAAQIDQVH/2gAMAwEAAhEDEQA/AL5H1LTC0hbK15bblY4zIrHXfR+uHXqTDsoYZKpojY+Vf3mE7fWeWnzlTJy2JGvV3HpuW9qhe40o7eeLU+VtPNIxlcFmJOm0PPAWOtsd1PD/2Q==",
             "webOptimizedImage": "images/Architecture_25_web.jpg",
-            "tokenURI": "ipfs://QmRCCMvYw6smHqi38ndTQ3rTMy6HsHLEQxpbzPjzueqUT5",
-            "signature": "0x2c5e3bdd61d9af65e27779009fda60e485416c8bc4cc631213987c1171b17ba8268cc2d47c5281520674ae83e04bf10bc2bffc1f13b5ac2b2b4fe827c6ebba541b"
+            "tokenURI": "ipfs://Qma6uTZvKmE7Eer3isstpSu77Ei9j11Vpyw6JuNdJnqUnM",
+            "signature": "0x69aa9c702ba3986ec0f35fa948cc46a39b28dc61bd29b1bd27f4f19e7d412b2b7bb394ecffc0315b578ca94ba4e53f4650d8a200485d6bf14d3da02f9b5e8dea1c"
         },
         {
             "tokenId": 24,
@@ -130,8 +130,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwQG/8QAJBAAAQMDBAEFAAAAAAAAAAAAAQIDEQAGIQQSMTIFUWFiodL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABoRAAEFAQAAAAAAAAAAAAAAAAABAhEhQVH/2gAMAwEAAhEDEQA/AE25LTvVtjZ4i51usjELkFKRwkZJPuokkn04rOJtG9ikbrhXMZ7/AKpPGsdkqBIhG/n4gx91anVuKSDDeRPWpLsUVw//2Q==",
             "webOptimizedImage": "images/Architecture_24_web.jpg",
-            "tokenURI": "ipfs://QmZaN3TBPxCTAjKKGH1E3PrJXJ6hQnHs6uyE5VKDCEXMf1",
-            "signature": "0x3c2256997e6b50e94b9407d396da1ef824371bd12b8bde5556c74f88b35e69d374d0e2559cebf9790e0f2a20ff8d4fe2d97f922eba90b26a70679dad21f1dda41b"
+            "tokenURI": "ipfs://QmQULBBzxmwQPkuQzAaA2yzAmMkGn537537iQJxknjVJvJ",
+            "signature": "0x8738b6fb5d3a6ddd2f2335008c6cc10f975e3a1697aaf30984af88f6422338f64a3570c218d9d6b877cdd6a9271e85e8dc0ac3ca7e8d21348aeb65308c430c161b"
         },
         {
             "tokenId": 23,
@@ -149,8 +149,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAUH/8QAIxAAAgEDBAEFAAAAAAAAAAAAAQIDBAURAAYhMQcXQlFWk//EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGREAAwADAAAAAAAAAAAAAAAAAAECETFB/9oADAMBAAIRAxEAPwCNtqo2zdfKNS9yigWnlKvNDMizIxYyErkjKKGYEYIwBzxrcvTzaH1u1/gNB61Vc1DPR3JJC08s5V8+4H50gqTed9ipYY47jUqioqqofoAcDrU7xOxqXw//2Q==",
             "webOptimizedImage": "images/Architecture_23_web.jpg",
-            "tokenURI": "ipfs://QmPUeegZgM3S4XYBToVTVigQi8QSnc1kuqXrjMFJSQYbPV",
-            "signature": "0x04af82c0df898cb0189eb3c3c95c6a8940795566cfea97b1865eb40709eebf6a7cb74edf67598d79a41d5f38d9c4482e4e708e34edf61bd75bc67c76d7f21b5f1b"
+            "tokenURI": "ipfs://QmbZbtAtczzjdWGAZDyQHw47ysUpSB41q68GwdnjP6NbxV",
+            "signature": "0x1c25c29f4dceaf08dd124e97b4e915518d4e58a6b33fce54e4a628a1809941bd003bb76e365dd905c8aa7e32a3b1c26b879e78b20ee61dbd811b7294a3e5440a1c"
         },
         {
             "tokenId": 22,
@@ -168,8 +168,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAJRAAAgECBQMFAAAAAAAAAAAAAQIDBAUABhESMSJBYQcWITKR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQIEE//aAAwDAQACEQMRAD8A0i253sdVbbpUwmRYraQJV2BmcFFYFAD1DqA8HnTBGf1fy4s8ipa6+RQxAfYF3DXnQ8YnWGhp4smQzwR7KmGnnkDtowPIGoI7fngYGe9YB8SWKkdx9mEjDU9zp2xfVsFXif/Z",
             "webOptimizedImage": "images/Architecture_22_web.jpg",
-            "tokenURI": "ipfs://QmTtSREPAgxbuM4w5UqbhK7autnJd3rntu2E6VQdTBhRUY",
-            "signature": "0x8ab73b61d4f944dc850cf17a61dae429a452cc67013c0d4f5b45ca679bbd4ce273b589e6da51075bfc993b2a23322e76355dd172f8f8ce436469970705b25ec61c"
+            "tokenURI": "ipfs://QmdPmxEv98DRbVppvKH7R1mMd8N8AjDfmJxFMZ3uJWwefp",
+            "signature": "0x504ba37a54576330d623cc915f18a7a02b0908bb1348c6a9a83ece7f7e16ce7727672a66f883e81543dd1e5466958181809c10d7c4fb741a7bc3fc80811be62f1c"
         },
         {
             "tokenId": 21,
@@ -187,8 +187,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAwIEBwAAAAAAAAAAAAECAwQFEQASIjFBcQYTIVKRofD/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABgRAQEAAwAAAAAAAAAAAAAAAAEAAxEh/9oADAMBAAIRAxEAPwBncr/b7XRFY1heTbkKxwAPcx6D8NZrL4lpWldjW1xJJOUiAU9hjlqPrry4VVePzOHfxNkfHU986BF4qGG4NIM+uN/L61HMSnZd3//Z",
             "webOptimizedImage": "images/Architecture_21_web.jpg",
-            "tokenURI": "ipfs://QmccCTc1nAT67hFThZgTnsFkV6Jj3KpxYPe2d3akh5sPKA",
-            "signature": "0x2163e9a410e5b77ad1eec427287dc478110e8ac90a376ba6cca4582c10ee20a86471738652783a14a8f93a9647d7f5ebd5616d2aef7e9bc67910ab1ac2fbe9b11b"
+            "tokenURI": "ipfs://QmfVz13RP6wWXTYx6WRX9L2umuu6Mekqi8TTM9vh48faWN",
+            "signature": "0xc5d5fa68f31a058f187bd63ef88f1552e3f2aec2315c5cb19621b5c0ce3c6c954d4a810f1357935091fd25f67d5ca05d6b31469aeb932e1703812490154741351c"
         },
         {
             "tokenId": 20,
@@ -206,8 +206,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGCP/EACUQAAIBBAEBCQAAAAAAAAAAAAECAwAEBRESIQYTFDJRcXKRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACEf/aAAwDAQACEQMRAD8Azlj8TPBZJkLi3LxShu7QqdkAeb2/dGmSdnbh0V5L20R2G2Ri21PoelGjyDvjsRGyjjFb7+XEkgfZqffLXzuzeJkHI70D0FQ66WW//9k=",
             "webOptimizedImage": "images/Architecture_20_web.jpg",
-            "tokenURI": "ipfs://QmQBT48HwSbjvjtc3y8YNmu11JXLyTwd92tboE1BxrAgrY",
-            "signature": "0x39efe48dd0f87044303ac8244e013541286c014a635bf4db2fffe4aadf4891ff3b2d6ec68f4568a03a027b8cad1881f5c7ca7d9845b3216f22c00e7b76205d011c"
+            "tokenURI": "ipfs://QmVyT2Lj8jvuZGn37zUwppeesRkTkpwYHRewQhZgRybkAn",
+            "signature": "0x6199d28608fb51dc62993a10b98fac0a79b04e4814aad8ef5add18ebeef8d6b924256760eced01f0472cc625e31697c9f7937800d50158d216d5c935b00e99501c"
         },
         {
             "tokenId": 19,
@@ -225,8 +225,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFB//EACUQAAIBAwMCBwAAAAAAAAAAAAEDAgQFEQAhUQYTEhciQXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIRAxEAPwDCV9EVj6qpRT3Cnn2SR3CJCMjnGx+R+aY8pusJ+qNuXIHcEVC9/vV63U6rTb0vBbUNaBKIZPEIHHAGfbnREKomoWwUKgJxEsFjDjI58WkFp1oL/9k=",
             "webOptimizedImage": "images/Architecture_19_web.jpg",
-            "tokenURI": "ipfs://QmU8ViJuGLC5Hr4QpmSt1UYw1m65Jb29gfHCKznNY9hkj4",
-            "signature": "0x4ecbe91156ca353063860535aa237a1b92bde346055160b21c1aeac979c24ad25abda6cfbebbce4c11ff483277d5dd09bde5a92d87fb38eaf2bd5fa734975cfb1c"
+            "tokenURI": "ipfs://QmcwnaeQryWm4rrH1N9FhTDAc3ePhrdRWXSF3T7BHaoY7a",
+            "signature": "0x5e326ce3d5546b74c6ba0259e5e0e9e2c79ba38faf5a26b168017df8c382b8c43947f92612b9d30b1a8f8f66d3d41efbd29df085a99317c002a3760f9814dc881b"
         },
         {
             "tokenId": 18,
@@ -244,8 +244,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAIhAAAgIBBAEFAAAAAAAAAAAAAQIDBBEABQYhExQxQmGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAZEQEAAgMAAAAAAAAAAAAAAAABAAMREhP/2gAMAwEAAhEDEQA/ADLl0+58Yro7WLElSVjCvjtFmSQYJVjgdEe3WRjBzo9s8h3drEp9XMuWJwHOB3rTWIDudizHZkJijiWRUx8j0WP3jUq/RhivWY1HSyMo/CdRLhcR5az/2Q==",
             "webOptimizedImage": "images/Architecture_18_web.jpg",
-            "tokenURI": "ipfs://QmNjnhpJUM6YcJm82rbitn9J2KBSHD6TDzG3Brg5RKPw5Z",
-            "signature": "0x58d7254a73481ff31d924341c593a7460af237335b910fe65fd123e689848e42571cd1206ea896bbd51ed22b9dd628ad14d6aa0048cbee17deac15b1425ebe871c"
+            "tokenURI": "ipfs://QmegxLryYpWCfutgfHE2pZREyDykK8rKfLLobkUJ7xNsJs",
+            "signature": "0xd24ea95b5459a86fa6ed9fe529e855474341ce16d7261d4ca0698b8d9c84bd2733b53e1d2dc547db7ccbaf90be0252eff59a5cd6c41376338e62ec14805fd3171c"
         },
         {
             "tokenId": 17,
@@ -263,8 +263,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgUGB//EACMQAAICAQMDBQAAAAAAAAAAAAEDAgQRAAUTEiExBkFSYaH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAMBAQAAAAAAAAAAAAAAAAABAhEx/9oADAMBAAIRAxEAPwDMFb5u9Yci7F228xWoQ48QPUSw/eYx/NE/1PuDnMalLJKnIygR7gntpxduLg/gr1oK6oTnyjBnE4EexIwOwx41Ivq7KhzExoXOlcjAYukeDj46SrCNSq6f/9k=",
             "webOptimizedImage": "images/Architecture_17_web.jpg",
-            "tokenURI": "ipfs://QmfNbLuNA9TqPEFKWZaiL6radSetPRr9wRb7fEGVYFwQYU",
-            "signature": "0xd62fe7384039fab75badea846281ea5896e1baff65560a01137fcb23fd8525a3790c80a84ce0626bfc867f5aaacfc264b7e272297a8485510ef7207d44faa0c81c"
+            "tokenURI": "ipfs://QmSSZPrimGgC57qZxWcsi5943BeLXyvqNtjXHJnxEehNH6",
+            "signature": "0x053b5e92fc7b10615775aecdff8e9354b1cbb6a5de5833fcd09eaa0cec2d1dfd21286a500428bc14ef9ed3522f1af262ad7277d7e82aabf0e8b89fe4e386fe891b"
         },
         {
             "tokenId": 16,
@@ -282,8 +282,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACMQAAEDBAIBBQAAAAAAAAAAAAECAwQABhEhBUESEzEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM5Nt2+xI49l54odLawsKYX8s9a3+/VBmW3bglvhuYyUBagk+J2M66qQuSZLPLF2RJdkOIOQpxWTs4wT3TiOYlBCcCOBj29FNKVOv//Z",
             "webOptimizedImage": "images/Architecture_16_web.jpg",
-            "tokenURI": "ipfs://QmRJFqWLocdZDkTC6tGEpcMwwixsFieiuFo1eLW8Lp5fje",
-            "signature": "0xcd8f4e12ee56259ecbff4e5b69554c17221c259ffff7fcf673701a60aa4085106c524b43ed44beb225371fed24bbee3bb9c493e5f507a4205d76547833ec255f1c"
+            "tokenURI": "ipfs://QmZcWi3iiGpWHWCER6HrEL9nJfXNRBm3WgVM1U9fzNbS2z",
+            "signature": "0x59c2fdad378bc11a33435679502f02098dc313822a7dd6664a47538bc1986328243485ffea29e6b490c2cd10b6672f184a95524a61a0e5d53d8983d743101c2d1c"
         },
         {
             "tokenId": 15,
@@ -301,8 +301,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEEQUGIVESEyIy/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AgtP3Htv3r7b+8imkBVngMixI2Plhhie89UePfu8bSNba31KGSGECNHMjkso4B/XQrHorINBJ94HkOMU0unqVBMjcilVDcP/Z",
             "webOptimizedImage": "images/Architecture_15_web.jpg",
-            "tokenURI": "ipfs://QmXXEckwDx8A4F3cGrxtEFsy9j5Ctd9gsuWwae38pkHmvL",
-            "signature": "0x9a57db1a09f806b43e6637464b6b1ebfdca8d3fd914dfe9be2f06a73bb30d4d73359105625a42661566936a51f76b7ff2292b469525879e6a93d6e184ed6ad901b"
+            "tokenURI": "ipfs://Qme4D7Pfx8wPoQ6K3MZPLTczWXskSd5cGiwAVAyBJbRvam",
+            "signature": "0x0ee72730480fd75b94ba231d1e15096bf9d419cfb41df957691050873af25de40e1e7f940aef84dbdd0b26590d74e81c5eae084c9c32fc7afba281544763b6d31c"
         },
         {
             "tokenId": 14,
@@ -320,8 +320,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAIhAAAgIBAwQDAAAAAAAAAAAAAQIDBAYABREHEiFBNJHC/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/xAAaEQABBQEAAAAAAAAAAAAAAAABAAIDESES/9oADAMBAAIRAxEAPwDH6dYxi9DHUuZMVVDJJCyhS8h9ghR51XLQ6dLK4F1uASPjuPzoTkOxxWcqeVJpoXaONh2MRwQvg/Y0Ys7nbFiUNKSQ55IHHvU0N720wuMeVi//2Q==",
             "webOptimizedImage": "images/Architecture_14_web.jpg",
-            "tokenURI": "ipfs://QmXGHudMKKuJUjMfpma66tRhGqrwCyH3aeC4BPLP4nq6mc",
-            "signature": "0x605661cfaa6577e485dca83b28faa0534c3bc60b97e14b9b8e1f82f6cef3d54c1db154c008ab4b52fb2c4dab32285ceabae78bf44ecdf3a5d171ef25654938d51b"
+            "tokenURI": "ipfs://QmNcsRi4s2SeDtYZdxsVzhaHiKioBzR6DjnGCiVTTfZzLr",
+            "signature": "0xb2493afd1812cb6cb97723127549c454f5768224a8b1dc9cbb096c807188f27055e30c1e8ec50a14a4e4fce333e439eab7a11a0370b94c9db5355464ad25bedc1b"
         },
         {
             "tokenId": 13,
@@ -339,8 +339,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIRAAMEBRIhMQZBcdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwDFc3GVMhL9vUky9XBja9oiCOyGnn7IPFAN5Zqu4zlZPfq+/wC0Y2fdIKpCEiCw7iqFhYFBol//2Q==",
             "webOptimizedImage": "images/Architecture_13_web.jpg",
-            "tokenURI": "ipfs://QmYTKprpKL1mLsC6h6uVAor32LDtT569YyJS8ufrDJnNG8",
-            "signature": "0xac5c67e2f7122f555a02723b778473384a741455a30dc49dbde6f56252ceda62751073fc79513f36628ae112e0f3817f20e63fa499ef640cbcd4b99d6e8629131c"
+            "tokenURI": "ipfs://QmZZmXrGoFGpNK5oXWRymKn6NC8aLk4erTJGxUxBQ5Uoid",
+            "signature": "0x80d0d60adb0c7f72154a6e2a04d4658a0752755bfbae94509e3ec32b2ddd463b05711f39cf0536ad09af9c48b06b8751f36125a9c70c7bbd67443e69065a46791b"
         },
         {
             "tokenId": 12,
@@ -358,8 +358,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAREgUGIYETFKH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8Awod6dVt3bNL4Ranqni8qsoV9eOak6BHvBpuqzNNIxrTKSxJHHevYOSi/1oZDEoBcHZwB7krOx5uNnetjx+ZEYGQ23//Z",
             "webOptimizedImage": "images/Architecture_12_web.jpg",
-            "tokenURI": "ipfs://QmanfRtxdW8ox5RBHdDAas7NTKt7Nwz6opTRN57KM8ECU6",
-            "signature": "0xa1d3d0baaab1f2b7de10c8750c9f2e27015008f4cd1efde44a673cae4231bb9176dddaa1b06b68aa8ae77b5c98fe0b11fa58e64a5c64e6bc4e2aafbac8f5e5a61c"
+            "tokenURI": "ipfs://Qma6hML1YTt2pfYGzsxN5N8qHCfUvo8w1DF1tNc5eAmPUL",
+            "signature": "0xa00ccd7307cda52866df9ff692383d65e1f1c58a39eff5d3df9822856f3073c20cc8a0bf4a3737192102ed4cb1e7ccd51e1c260791dfd06a57ce04e646b044ac1c"
         },
         {
             "tokenId": 11,
@@ -377,8 +377,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwL/xAAlEAACAQMDAgcAAAAAAAAAAAABAgQDESEABSIGQRIUIyRCUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwCd6rVI8dYyj29UDC2Ba3b8vofntB89I5Rx6jYpQPEgz8SckfR02blTR+kILuis9qvIi5wMZ0dR+MekFwAoAA7Y0aU6LryjdP/Z",
             "webOptimizedImage": "images/Architecture_11_web.jpg",
-            "tokenURI": "ipfs://QmR5KvuGH56wvRg4dR2gjjAgGeHhQxfYU5n1MmoijaPu7r",
-            "signature": "0x7850fdd292175258ef80bc0e673c5d5d34d10a08dd10aa2cafbf5f55cc5b8b6f011ac31f9c14ebe9bf86a7e12eac18aa2641baa5c6797b6740f9a04d921c225d1c"
+            "tokenURI": "ipfs://QmU6xLgYu2FjMgHXPjzwtYx5HFYCPZQAtsZqbkyenZRMCF",
+            "signature": "0x506531fd84ec7db6446f03a31d2ed5efced7ddf6dd151bf6cd6afc55c8c646e4177387b0c287e0e8f166d2319a44cb7b4f4be78fd6ee0889120b1110c6c62f271c"
         },
         {
             "tokenId": 10,
@@ -396,8 +396,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAAFIQYRE0ESMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDKxp6HItr8y2uBiU2grU24MLSMnxPoHajBU0STytHfvNXrASuM8FkqHEvBz0KB7D4KBoS//9k=",
             "webOptimizedImage": "images/Architecture_10_web.jpg",
-            "tokenURI": "ipfs://QmfBQ318GgZNXpaws6aBSSGi3sQy8ZjP1Byxjynn9CRFJv",
-            "signature": "0x2ff1c98a72e64c24b54cf1bdf044e69b5df80b286b80a6e42fd0ba907aa4fba043defc8c457c3548fd1f1c891a558d3f50698fb0f85e2a16dc5d56adedb1651a1c"
+            "tokenURI": "ipfs://Qma3rxShxpZZaM64yNEPkEs4GnRLsUdr9Hx8UST2odovW8",
+            "signature": "0xea385d58efcb3fcb941953816505168313526d85739ead8b3c3bd259aa93fd9462b66e9494dfa53e91089aea111bdae1d697ce0b36c4111676d2d7782329644e1b"
         },
         {
             "tokenId": 9,
@@ -415,8 +415,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMDBQEAAAAAAAAAAAABAgMEAAUhEhUxBzJBQ2HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI29LU7YLpMtyG4jMdbEeOlofFnk9x05J+0L3y6jAuMwAeA6qmYSEdOZIQAkbpwMepv9NT9SjqOTzRrGE//Z",
             "webOptimizedImage": "images/Architecture_09_web.jpg",
-            "tokenURI": "ipfs://QmUgQEK6TLg1cQNQrToEATqAH2ZwF7oqAS5aVK5RZXASju",
-            "signature": "0x00a2550288d0c8a87245cbb36b96a4eee6ad365c6ffcb3aa2464344b8986d4eb2cd819497c9614e7e97e87e04218d09b3d68b72c38f3990a51acb5be8ae064891c"
+            "tokenURI": "ipfs://QmcHpbTMkoaBrBnu6J1QbZ18np2rNs1BF2mQhkp1EfGZYe",
+            "signature": "0x23d74a768e58205bd8b33a002bdbd8f6dc5777d8b91091a02ce778578814a0753394b8e406a2b4cc33a82899cb47e48652a43d9469e0f3e341f457956ba708831c"
         },
         {
             "tokenId": 8,
@@ -434,8 +434,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAgUCBwAAAAAAAAAAAAECAwARBAYSIUEFExUjMkJRYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMuyu8c+GnfGRIEjcozoLBNIuGA42P5Q/hT+/Gyq/Ki9gfilcDMuXeq6WI84jY/QqihUdlNh6RxRUkf/2Q==",
             "webOptimizedImage": "images/Architecture_08_web.jpg",
-            "tokenURI": "ipfs://QmQUD2zxDpM6uPwc3zKzAMibV9gqmA9y3sN3Vk9TH21b9R",
-            "signature": "0x6a8faa1d6291b1e599c9cd8f81328c42458925c4ec83d3fe2b63d5c61d8c5a6520180f3dfcda7c10e005ab7545393bcd8eaf4371b0de523654347e76de83f8cf1b"
+            "tokenURI": "ipfs://QmcNRHHAxDNzoGDDp4myQodHKymMdBFbyCwFbZsGVBvf5e",
+            "signature": "0x3b48393759deaac76e0ad2a47f19615fc2029cff2c7e39c9ab26c900252909550571e8ca40d03d90dfddf9380779c08a6bce031d7007e057306c8fc20403f36b1c"
         },
         {
             "tokenId": 7,
@@ -453,8 +453,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAEDBAAHAQAAAAAAAAAAAAECAwQABRESBxMxQVJhsXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAQADAAAAAAAAAAAAAAAAAAABA1H/2gAMAwEAAhEDEQA/AC/iHa2J8hu4NJCFuNkcsY1SARjAH6OfYondTo4tPiSKVYG8+5z0SFkpZbwgDoBrt9ovuAxPkgdnVfTUq8Mv/9k=",
             "webOptimizedImage": "images/Architecture_07_web.jpg",
-            "tokenURI": "ipfs://QmWgaw7ttpZHUmSkdMhNztkRXoNUNUUVgbdT1rUq5eX6a4",
-            "signature": "0xc8da04c521f0bcc1058675608b355eb7fa5234bc8d2491f3cef047478e9763b97042f3c20a1f44dc70c96fa9251b2900d40b740340ddc9c3d9661fa3b3111caa1b"
+            "tokenURI": "ipfs://QmXoR9JaGbam6hpCmFez1PdKBVehwARoUuRYuNAHXxADQr",
+            "signature": "0x2f8047014f1e1a96edd52583476dcc08da510676c4f2625de113a1b4e67f690b442c29add1931a881414a8a5285399d031c998f7df1a460c9900669a1ac87df61b"
         },
         {
             "tokenId": 6,
@@ -472,8 +472,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAcJ/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQIDBAAFEQYSMRMhgQckcZGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIEESH/2gAMAwEAAhEDEQA/AKV69OsTdMC1rCvc5AVs3JycAA/JPjsaCc9noTpLWMdNxSfokVoPf7I1cJrE2W84tphQCY/bbnPOeecHxQH1U2G9T3dCeEzHgP2akirlDef/2Q==",
             "webOptimizedImage": "images/Architecture_06_web.jpg",
-            "tokenURI": "ipfs://QmW3eBWYMmTtZPNnjGy19cJ3UnrP92epe8pu63LKpttAFh",
-            "signature": "0x1688afd46394e19448eead088b592c9cab9ac2004176ccb74f53def992dbebb35932f335a24d0a35a384a82728de60750b7dee62c40ecc68a2ec6bb8087438e91b"
+            "tokenURI": "ipfs://QmRcGAR3YgwKYmEKJ5zy4kg6JrrksA5RwD4VUq5bA3jeeR",
+            "signature": "0xea816acde86b8d5ca9609a39f361d3f67daf5d893be1023ace14e97c52af80a32fd148bf47fc3a169e0666648ce68a74c45e44133fada8458528c9d804ba70af1c"
         },
         {
             "tokenId": 5,
@@ -491,8 +491,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAACAX/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAYRBQcSITEjUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCJupcGnXTbM93TFPpkjjzaUypsJBOMFKusYzgjsEe0cCMEinVvDZ+jxLNmTI8cofbB4kH7B9oLuD5Ffpq0f//Z",
             "webOptimizedImage": "images/Architecture_05_web.jpg",
-            "tokenURI": "ipfs://Qmf7GMYW76hYoz9NFWqEAMwdzDvkXnpFQmbpmqztiNTCBF",
-            "signature": "0xbba5ad3e8825a00d66a73181c372a169ae9b527adf169ebe0a4460b90f2bf55e0778ab375c17c31b970fde12523995dc5f2d1c4fde51b52698328187c46343e21c"
+            "tokenURI": "ipfs://Qma8vaFUyHGqy7HqMgwf45ig6sj48NpUPc4W4mAgZChSaN",
+            "signature": "0x0c8a869e4b71270a2de715bc80a8ca6290302d24c5404a082d6a6d1bc26a6abd019402c681a1c56205998c71f97a7773a5c4dab19266a421732d46d13f39e6501b"
         },
         {
             "tokenId": 4,
@@ -510,8 +510,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAQFIQcRBjFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AIfjbIR5DKQWtzBJdQSwlQDK6FnXYdej2p9jXvdO0fCmMuI1mlkZZJAHYFVYgnZ2V39oK4XVT5t40CoILr3r7W3QB0NVbpCL/9k=",
             "webOptimizedImage": "images/Architecture_04_web.jpg",
-            "tokenURI": "ipfs://QmZ6psMVFqqw26uxNf3nnCrWrF6bph6B8cV2veQbdi6tQt",
-            "signature": "0x75b0b6285a497b1e5cc42bb3e8821553145f9b989facaa0706cc2ea137f98bec4ff175613d75fd279ab2dff37247d1de0d497237137b446b06a8661d83de83201b"
+            "tokenURI": "ipfs://Qme38GT1EH6g9NVsPzvFsSECVahV4k4isbaRxtx4yqiyWw",
+            "signature": "0x5d0d82ce901656bae31d90abd3cb30dcb04310a0cc34681b51665c505c58e59b74cdc2d35e7ea1cdc1bd3994ea1466bab61317889eeb158ceec929736d7d7c8d1b"
         },
         {
             "tokenId": 3,
@@ -529,7 +529,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAkEAEAAgAEBQUAAAAAAAAAAAABAgMABAURBgchYYESMUFCUf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCacrtFjqWi8QXUZeq7P1lUapTirVHfeTH469DCxkM+ASpkSPc74M5XqcPcRI7JWyOyAj4QfGLjmKKm+xaob+p+p+4D/9k=",
             "webOptimizedImage": "images/Architecture_03_web.jpg",
-            "tokenURI": "ipfs://QmSnNpJMFR95ZWoun5ZiMJEjz5UA6ggb325GSV9w5RqJJ9"
+            "tokenURI": "ipfs://QmaE8Y7JHETgNYssBtxiJZ83BmNh4k11aTHdZfXpZmXCcU",
+            "signature": "0xe4bb4870036732e2753f6f8f940dab2d71c14d1c8eca0b0a38c4aadd74ee969944853888722909d9e97cfddb6f0c9ccea67f045afad9575c2780a77c3118babe1b"
         },
         {
             "tokenId": 2,
@@ -547,8 +548,8 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAnEAABAwIFAgcAAAAAAAAAAAABAgMEAAUGERIhMhNxFBUiQVFSYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AHRsODPIXrYyzbjDdCJXQ8KeotenMhtzf65HbaiYseCDuzYIrjR4L18h7HjVcx1Cirn2xS4zClJQhsEtgkJ1D09vyjE62wBNkAQooAcUAA0n57VRFZYH/9k=",
             "webOptimizedImage": "images/Architecture_02_web.jpg",
-            "tokenURI": "ipfs://QmRPqhbeB6mwrUttmhmdJFp15yL47VyfgjfM6z6AoA4JGc",
-            "signature": "0x3ec8c694d72cda2fa825f3b7c10cd147bf6f8796d274ee1a184bcdaac3c8b73464e35c27f6b0a491616254d47093e76b9754a255b6f01ac66b3293f2b281baf21b"
+            "tokenURI": "ipfs://QmRTGHeXzQzYQkR5Bxiof8VdkE4PP6KE31XCPwhA1chy7C",
+            "signature": "0x3fddbaa03574c173337ce7a1308650893ce1c38f0ea81fb02e64f2e5622ed30233f13b1803cae4ce1df312b58a6bbc6be1ce4019e10eab94854eebdd87c15da61b"
         },
         {
             "tokenId": 1,
@@ -566,13 +567,13 @@
             },
             "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURABMhBgcSIjFBUXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AE0XZektFJMvWkF/jq0ONy3iNqfBBwwcgkj2zwPn901tPYS31Nqo5xZhNuwo+49e6l8qDkgcAn6GtFoiyDxdQynggjI1dEPCJFT0qFAAHAA0H/9k=",
             "webOptimizedImage": "images/Architecture_01_web.jpg",
-            "tokenURI": "ipfs://QmYNa21ehTrdcxEH8fDnjkbWU2JNuR6DsienPCSNh7uL7k",
-            "signature": "0x58d6d28e957875871b7cb2fa12a84f28c0d688a6e63004cc3f794d5967ddfbdd629c0147bd4a66ec8d1dd9a426a85e1cb3d87287d5bc943169abd964fa2a68de1b"
+            "tokenURI": "ipfs://QmTUV586bPsiyXCvwDYLE32dDPLmRAqCMf3FCirDwQRpLn",
+            "signature": "0x1954c5057ed1bf6be1e3da1a5b282327756d01683383fde6632a598c44ed304434d031a2e11765ecdfc1007c174923a955bdcc58143fadf9dfa41d0a9ab6396b1c"
         }
     ],
     "context": {
         "creatorAddress": "0xa861DfE09358A43fE007ef5873c50d45fcDa3765",
-        "contractAddress": "0x77e104Eb0635a6E9A54572A2073358CaEB2544Cd",
+        "contractAddress": "0xa3766E5ADB17f51aedbDc7C8F7ad99f85E1e492F",
         "chainId": 4,
         "mintPrice": "50000000000000000",
         "royaltyBasisPoints": "500"
