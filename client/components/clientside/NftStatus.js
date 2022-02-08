@@ -61,7 +61,7 @@ const NftStatus = ({ nft, context }) => {
 			forceRender();
 			removeWalletListener();
 		}
-	}, [render]);
+	}, [tokenId, render]);
 
 	async function updateTokenStatus() {
 		const _owner = await contractCall_ownerOf(nft, contractAddress, chainId);
