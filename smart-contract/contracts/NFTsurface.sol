@@ -14,15 +14,15 @@ contract NFTsurface is ERC721, EIP712 {
     event IdFloorSet(uint256 idFloor);
     event Receipt(uint256 value);
     event Withdrawal(uint256 value);
-    event MintPriceSet(uint256 mintPrice);
+    event BaseMintPriceSet(uint256 baseMintPrice);
     event PriceSet(uint256 id, uint256 price);
     event Bought(uint256 id, address buyer);
 
     address public immutable owner;
 
-    uint256 constant private MAX_INT = type(uint256).max;
+    uint256 private constant MAX_INT = type(uint256).max;
 
-    uint256 public mintPrice;
+    uint256 public baseMintPrice;
     uint256 public totalSupply;
     uint256 public idFloor;
     uint256 public immutable royaltyBasisPoints;
@@ -34,17 +34,17 @@ contract NFTsurface is ERC721, EIP712 {
      *  @dev Constructor immutably sets "owner" to the message sender; be sure to deploy contract using the account of the creator/artist/brand/etc.
      *  @param _name ERC721 token name
      *  @param _symbol ERC721 token symbol
-     *  @param _mintPrice The initial mint price in wei
+     *  @param _baseMintPrice The initial mint price in wei
      *  @param _royaltyBasisPoints Percentage basis-points for royalty on secondary sales, eg 495 == 4.95%
      */
     constructor(
         string memory _name,
         string memory _symbol,
-        uint256 _mintPrice,
+        uint256 _baseMintPrice,
         uint256 _royaltyBasisPoints
     ) ERC721(_name, _symbol) EIP712("NFTsurface", "1.0.0") {
         owner = _msgSender();
-        mintPrice = _mintPrice;
+        baseMintPrice = _baseMintPrice;
         royaltyBasisPoints = _royaltyBasisPoints;
     }
 
@@ -83,7 +83,7 @@ contract NFTsurface is ERC721, EIP712 {
     }
 
     /**
-     *  @notice Minting at mintPrice, given the owner's signature of the specified arguments
+     *  @notice Minting at baseMintPrice, given the owner's signature of the specified arguments
      *  @param id The intended token id
      *  @param uri The intended token URI
      *  @param signature The ERC712 signature
@@ -98,7 +98,7 @@ contract NFTsurface is ERC721, EIP712 {
 
     /**
      *  @notice Minting at price, given the owner's signature over the specified arguments
-     *  @param price Wei price, for discounted minting if lower than mintPrice. Can be zero. 
+     *  @param price Minting price in wei. If MAX_INT, baseMintPrice applies.
      *  @param id The intended token id
      *  @param uri The intended token URI
      *  @param signature The ERC712 signature
@@ -109,14 +109,18 @@ contract NFTsurface is ERC721, EIP712 {
         string memory uri,
         bytes calldata signature
     ) public payable {
-        require(msg.value >= mintPrice || msg.value >= price, "insufficient ETH sent");
+        require(
+            (price == MAX_INT && msg.value == baseMintPrice) ||
+                msg.value == price,
+            "incorrect ETH sent"
+        );
         require(mintable(price, id, uri, signature));
         _mint(_msgSender(), id, uri);
     }
 
     /**
      *  @notice Checks availability for minting, and validity of the owner's signature
-     *  @param price Wei price, for discounted minting if lower than mintPrice. Can be zero. 
+     *  @param price Minting price in wei. If MAX_INT, baseMintPrice applies.
      *  @param id The intended token id
      *  @param uri The intended token URI
      *  @param signature The ERC712 signature
@@ -171,7 +175,7 @@ contract NFTsurface is ERC721, EIP712 {
     function buy(uint256 id) external payable {
         require(_msgSender() != ownerOf(id), "caller is token owner");
         require(prices[id] > 0, "token not for sale");
-        require(msg.value >= prices[id], "insufficient ETH sent");
+        require(msg.value == prices[id], "incorrect ETH sent");
         address seller = ownerOf(id);
         delete prices[id];
         _safeTransfer(seller, _msgSender(), id, "");
@@ -184,12 +188,12 @@ contract NFTsurface is ERC721, EIP712 {
 
     /**
      *  @notice Sets the mint price
-     *  @param _mintPrice The new mint price
+     *  @param _baseMintPrice The new mint price
      */
-    function setMintPrice(uint256 _mintPrice) external {
-        require(_msgSender() == owner, "unauthorized to set mintPrice");
-        mintPrice = _mintPrice;
-        emit MintPriceSet(_mintPrice);
+    function setBaseMintPrice(uint256 _baseMintPrice) external {
+        require(_msgSender() == owner, "unauthorized to set baseMintPrice");
+        baseMintPrice = _baseMintPrice;
+        emit BaseMintPriceSet(_baseMintPrice);
     }
 
     /**
