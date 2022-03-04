@@ -76,7 +76,7 @@ export default function Mint({
 				<span className={styles.nftPriceGas}>{" + gas fee"}</span>
 				{context.mintPrice !== "0" &&
 					<div className={styles.nftPriceGas}>
-						<a href="" onClick={expand} title="Apply a special price. Requires a valid signature.">Use a signed price</a>
+						<a href="" onClick={expand} title="Apply a special minting price. Requires a valid signature.">I have a specially signed price</a>
 					</div>
 				}
 			</div>
@@ -106,7 +106,9 @@ export default function Mint({
 				</div>
 			</form>
 		}
-		<button onClick={doMint} disabled={connecting || !window.ethereum}>
+		<button
+			onClick={doMint}
+			disabled={(expanded && (!priceSignature || !price)) || connecting || !window.ethereum}>
 			Mint this NFT
 		</button>
 	</>
