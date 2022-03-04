@@ -2,40 +2,49 @@
 
 The frontend is built with next.js and is deployable on [Vercel](https://vercel.com/) (recommended), [Netflify](https://www.netlify.com/), etc. 
 
-It can also be run locally using Hardhat. This is highly recommended, to familiarise yourself with the process.
+It can also be run locally using Hardhat, which is highly recommended to familiarise yourself with the project end-to-end.
 
-## Deployment
+You will obviously need to design/style the front page, which is provided here only as an example. 
+
+## Local deployment
 
 First deploy the smart contract and prepare a catalog (see [smart-contract](/smart-contract) README). Then, in the `client` directory:
 ```
 npm install
+```
+Do the configuration (see below), then
+```
 npm run dev
 ```
 
 ## Configuration
 
-You will need to amend `clien/.env`. Note that this file doe NOT contain secrets, unlike `smart-contract/.env`. 
+You will need to amend `client/.env`. (Note that this file dose NOT contain secrets, unlike `smart-contract/.env`). 
 
 ```
-#catalogFilename = 'catalog_chainid_31337.json'
+# The appropriate catalog file, depending on which network the contract is deployed to
 catalogFilename = 'catalog_chainid_4.json'
 
-# Catalog base directory can either be relative to client/public 
-# or a URL path to a remote directory, eg. 'http://example.com/catalog'
+# Directory containing the catalog file.
+# Either relative to client/public, or a remote URL path to a directory, eg. 'http://example.com/catalog'
 catalogBase = '/catalog'
 
-creatorAddress  = '0x72dAd7...'
+# Blockchain RPC provider key, depending on which network the contract is deployed to.
+# (Note that this is only used when Metamask is unavailable in the user's browser.)
+# IMPORTANT! See below wrt restricting access
+networkKey = 'https://eth-rinkeby.alchemyapi.io/v2/JZzxf4....'
+
+# Values for display only in the client app 
 creatorName     = 'FLOX'
 siteTitle       = 'FLOX NFT Catalog'
 siteDescription = 'Artworks by FLOX for minting, trading or linking to secondary open NFT marketplaces'
 twitterHandle   = '@stephanfowler'
 
-networkKey = 'https://eth-rinkeby.alchemyapi.io/v2/JZzxf4....'
 ```
 
-The `networkKey` property contains an API key that will be visible in the client. You should configure your blockchain RPC provider to only accept requests from your deployment domain(s).
+IMPORTANT! The `networkKey` property contains an API key that will be visible in the client. You should configure your blockchain RPC provider (eg. Alchemy) to restrict access to requests _from_ your client's domain and/or _to_ your contract's address.
 
-If using catalog and images hosted on an external URL, in `next.config.js` enable your domain as an image source: 
+If your images are hosted on an seperate domain to that on which your client is deployed, you must whitelist that domain as an image source in in `next.config.js`: 
 ```
 module.exports = {
     env: {

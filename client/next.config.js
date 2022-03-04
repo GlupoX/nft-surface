@@ -11,8 +11,5 @@ module.exports = {
       twitterHandle:    process.env.twitterHandle,
       ipfsGateway:      process.env.ipfsGateway
     },
-    images: {
-      domains: ['stephanfowler.com'],
-    },
     target: 'serverless'
   }

@@ -7,7 +7,7 @@ require("hardhat-gas-reporter");
 
 const {
 	CREATOR_ADDRESS,
-	SIGNER_PRIVATE_KEY,
+	CREATOR_PRIVATE_KEY,
 	RINKEBY_API_URL,
 	//MUMBAI_API_URL,
 	//ARB_RINKEBY_API_URL,
@@ -26,18 +26,18 @@ module.exports = {
 		hardhat: {},
 		rinkeby: {
 			url: RINKEBY_API_URL,
-			accounts: [`0x${SIGNER_PRIVATE_KEY}`]
+			accounts: [CREATOR_PRIVATE_KEY]
 		},
 		/*
 		mumbai: {
 			chainId: 80001, 
 			url: MUMBAI_API_URL,
-			accounts: [`0x${SIGNER_PRIVATE_KEY}`]
+			accounts: [CREATOR_PRIVATE_KEY]
 		},
 		arbrinkeby: {
 			chainId: 421611,
 			url: ARB_RINKEBY_API_URL,
-			accounts: [`0x${SIGNER_PRIVATE_KEY}`]
+			accounts: [CREATOR_PRIVATE_KEY]
 		}
 		*/
 	},

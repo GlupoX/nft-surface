@@ -1,161 +1,189 @@
-# NFT Surface - smart contract
+# NFT Surface - smart contract & NFT catalog
 
-Built using Hardhat and ethers.js
-
-## Configuration
-
-### Contract constructor
-
-The smart contract requires the following contract constructor arguments for deployment. These are specified in the relevant deployment_args-*.js file (depending on the network you are deploying to):
-
-```
-* "Andy Warhol"        // ERC721 name
-* "WRHL"               // ERC721 symbol
-* "0x1234…"            // admin role address
-* "0x4567…"            // agent role address
-* ["0x987…", "0x654…"] // PaymentSplitter payees array
-* [85, 15]             // PaymentSplitter shares array
-* 495                  // Royalty basis points, eg. 495 is 4.95%
-```
-
-### Environment variables
-
-Expects the below `.env` file in the directory `smart-contract`. IMPORTANT: this file contains secrets and is referenced in `.gitignore`)
-
-```
-# For the "deploy" task, private key of the contract deployer, who is ideally also the creator (see below). For "catalog" or "sign" tasks following a deploy, private key of "agent" role.
-SIGNER_PRIVATE_KEY = "...
-
-# The address of the creator/artist/maker/brand. This is added to the catalog and the metadata files on IPFS. 
-CREATOR_ADDRESS    = "..."
-
-# For Rinkeby network deployments 
-RINKEBY_API_URL    = "..."
-
-# For Mainnet network deployments 
-MAINNET_API_URL    = "..."
-
-# For verifying contracts on Etherscan (mainnets and testnets on Etherem/Polygon/...) 
-ETHERSCAN_API_KEY  = "..."
-
-# For NFT metadata and image uploads
-PINATA_API_KEY     = "..."
-PINATA_API_SECRET  = "..."
-```
+Everything relating to the smart contract and the NFT catalog is in the `smart-contract` folder/sub-project, is built on Hardhat and ethers.js, and uses Alchemy for blockchain access and Pinata for IPFS storage (though could be modified to use other services, eg Infura). A distinct client app sub-project lives in the `client` folder. 
 
 ## Installation
+Clone this repo, then:
 ```
+cd smart-contract
 npm install
 npx hardhat test
 ```
 
-## Contract deployment and catalog management
+## Environment variables
+
+The Hardhat project expects the below `.env` file in the `smart-contract` folder.
+
+IMPORTANT!!! The `.env` file will contain secrets and MUST be referenced in `.gitignore`
+
+```
+# Private key of the Creator. This conceptually encompasses the contract deployer, contract owner, catalog signer, and ideally the artist themselves; these roles are inseparable to ensure maximum confidence in NFTs' provenance. The private key must have the 0x prefix.
+CREATOR_PRIVATE_KEY = 0x...
+
+# Public address of the Creator. This is added to the catalog and all metadata files on IPFS. 
+CREATOR_ADDRESS = 0x...
+
+# BLOCKCHAIN API URLs
+# For Ethereum Rinkeby deployments
+RINKEBY_API_URL = ...
+# For Ethereum Mainnet deployments
+MAINNET_API_URL = ...
+# For Polygon Mumbai deployments
+MUMBAI_API_URL = ...
+# For Arbitrum Rinkeby deployments
+ARB_RINKEBY_API_URL = ...
+
+# For verifying contracts on Etherscan for Ethereum/Polygon/etc mainnets and testnets
+ETHERSCAN_API_KEY = ...
+
+# For NFT metadata and image uploads to IPFS:
+PINATA_API_KEY = ...
+PINATA_API_SECRET = ...
+```
+
+### Contract constructor arguments
+
+The contract's constructor arguments should be specified in the `deployment_args.js` file. For example:
+
+```
+module.exports = [
+    "Testy McTestface",  // ERC721 token name 
+    "TESTY",             // ERC721 token symbol
+    "50000000000000000", // Base price in wei, for lazy-minting. Can be modified later. 
+    "495"                // Royalty basis points, 495 mean 4.95%. IMMUTABLE - cannot be modified later!
+];
+```
+
+## Tasks
 
 The following additional Hardhat tasks are provided by the project:
 
- * __deploy__ : Deploys the contract using constructor arguments in the specified file (and runs a signature test against the contract)
- *  __sign__ : Generates a signature for the lazy 'mint' contract method, and tests it against the deployed contract
-  * __catalog__ : Given a json catalog file, automatically manages IPFS metadata and image uploads, lazy-minting signatures, etc.
+ * __deploy__ : Deploys the contract and runs a signature test against it
+ * __catalog__ : Processes the NFT catalog file (generate lay-mint signatures, do IPFS uploads, process images)
+ * __sign__ : Generates a signature, for special-case lazy minting
 
-For usage, do `npx hardhat help deploy`, etc.
+For specific task usage, do `npx hardhat help <the task name>`
 
-The following examples illustrate usage on the Rinkeby testnet.
+## Deployment
 
-### Deploy
+The deployment command (for example to the Rinkeby testnet) is: 
 ```
-npx hardhat deploy --args ./delpoyment_args_testnet.js --network rinkeby 
-```
-
-### Signature test
-```
-npx hardhat sign --wei 1000 --id 123 --uri ipfs://foo.bar/123 --contract <DEPLOYED_CONTRACT_ADDRESS>  --network rinkeby
+npx hardhat deploy --network rinkeby --args ./delpoyment_args.js
 ```
 
-### Verify on Etherscan (or Polygonscan)
-```
-npx hardhat verify --network rinkeby --constructor-args delpoyment_args_testnet.js <DEPLOYED_CONTRACT_ADDRESS>
-```
-Contract validation uses hardhat-etherscan, which expects the property `ETHERSCAN_API_KEY` in the `.env` file in the case of both Etherscan and Polygonscan. These are however distinct APIs so require distinct values; apply for an API key from the relevant one.
+## Etherscan contract verification 
 
-### Catalog preparation
+Contract verification on the Etherscan family of blockchain explorers uses hardhat-etherscan which expects the property `ETHERSCAN_API_KEY` in the `.env` file in the case of both Etherscan and Polygonscan. These are however distinct APIs so require distinct values.
+
 ```
-npx hardhat catalog --network rinkeby --contract <DEPLOYED_CONTRACT_ADDRESS>  
+npx hardhat verify --network rinkeby --constructor-args delpoyment_args.js <DEPLOYED_CONTRACT_ADDRESS>
 ```
 
-The catalog is defined in a json file located by default in `client/public/catalog`. You may specify a different location including a remote one. 
+## Catalog management
 
-Images are always expected to be in the `images` subdirectory of the catalog directory.
+### Catalog file
 
-In this json file, manually provide the basic data for each NFT; see an example catalog item below. These should be added in display order to the `NFTs` JSON array in the file. This is enhanced in-file by the `catalog` task, which automatically manages IPFS metadata/image uploads, image measurement, web image optimisation, signatures to enable lazy-minting - and adds these relevant properties to the NFTs' manually-entered properties.  
+The NFT catalog is defined in a json file, located by default in `client/public/catalog` (you may specify a different absolute location using the `catalogdir` argument to the `catalog` task - see below).
 
-Importantly, there is a specific catalog file _for each network_ that you choose to deploy to (ie. localhost, testnets such as Rinkeby, and Mainnet). The json file names are differentiated by the integer ["chainid"](https://besu.hyperledger.org/en/stable/Concepts/NetworkID-And-ChainID/) of the network, according to this form:
+You'll need distinct json catalog files _for each network_ that you deploy to (eg. localhost, a testnet such as Rinkeby, Mainnet). Distinct files are necessary because they contain signatures ([in EIP712 form](https://eips.ethereum.org/EIPS/eip-712)) that take the chain ID and contract address as inputs, to prevent cross-chain or cross-contract exploits.
+
+Catalog filenames are differentiated by the integer [chain ID](https://besu.hyperledger.org/en/stable/Concepts/NetworkID-And-ChainID/) of the relevant network. The filenames must follow this form:
 ```
 catalog_chainid_<chainid of the network>.json
 ```
 For example, `catalog_chainid_1.json` for Mainnet, `catalog_chainid_4.json` for Rinkeby, etc. Note that the Hardhat local network has a chainId of 31337. 
 
-### Catalog examples
+### Catalog file format
 
-Enter the definition of each NFT as follows, in the catalog file's `NFTs` array:
+The catalog file has this structure:
+
 ```
 {
-    "tokenId": 603,
-    "weiPrice": "10000000000000000",
-    "sourceImage": "images/gloopy_crowd.jpg",
+    "NFTs": [],    // add NFT spec here
+    "context": {}  // auto populated by the catalog task
+}
+```
+
+To the `NFTs` array, manually add the basic spec for each NFT in the default order you want them displayed. Each NFT should follow this example (and these should obviously be comma-separated):
+```
+{
+    "tokenId": 10,
+    "sourceImage": "images/my_image_10.jpg",
     "metadata": {
-        "name": "Gloopy Crowd",
-        "description": "Florence and Stephan Fowler 2021"
-        "external_url": "https://gloopies.art/"
+        "name": "Don't Deceive Yourself",
+        "description": "My Painfully Cliched Artwork",
+        "external_url": "https://exmple.com/nft/10"
     }
 }
 ```
-IMPORTANT: IT IS UP TO YOU to specify tokenIds. The `catalog` task will help by disallowing tokenId duplicates within the `catalog.json` file, tokenId omissions, tokenId non-integers, an will not add signature to tokens that are already minted/burnt. 
+IMPORTANT: you must specify unique integer `tokenId` values. The value itself has no meaning, at least in the project logic. The `catalog` task will help you by disallowing tokenId duplicates within the json file, `tokenId` omissions or non-integer values, an will not add a signature if the `tokenId` is already minted.
 
-All `sourceImage` paths must be relative to `images` directory. Arbitrary other properties can be added (e.g. `collection` ...) for the purpose of rendering or additional provenance mechanisms.
+All `sourceImage` paths must be relative to catalog folder (which is by default `client/public/catalog`). A simple practice is to put all images in `client/public/catalog/images`.
 
-The following properties will be automatically added by the `catalog` Hardhat task:
+Other properties may be added to parent or `metadata` property (e.g. `date`, `collection`, ...) for the purpose of rendering, additional provenance assertions, etc.
 
-* `tokenURI` - ipfs://hash URI of the metadata uploaded to IPFS by the task
-* `metadata.image` - ipfs://hash URI of the `sourceImage` file uploaded to IPFS by the task
-* `metadata.width` - the width of `sourceImage`
-* `metadata.height` - the height of `sourceImage`
+### Catalog task
+
+The `catalog` task will add lazy-mint signatures, manage IPFS metadata and image uploads, and run image measurement and optimisation. The initial manually-entered data is annotated in-place with various new properties. Always run the task after adding or editing any NFT spec. Commiting catalog files to Git is recommended, given that the `catalog` irreversibly modifies the catalog files. 
+
+Run the command like this:
+```
+npx hardhat catalog --network rinkeby --contract <DEPLOYED_CONTRACT_ADDRESS>  
+```
+
+The following properties will be added by the `catalog` task.
+
+Added to the `metadata` property: 
+* `image` - IPFS URI of the `sourceImage` file uploaded to IPFS by the task
+* `width` - the pixel width of `sourceImage`
+* `height` - the pixel height of `sourceImage`
+
+Added to the root level of the NFT's catalog entry: 
+* `tokenURI` - IPFS URI of the metadata file uploaded to IPFS by the task
+* `signature` - a signature which enables lazy minting of the accompanying `tokenId` and `tokenURI` (using the contract's `mint` method)
 * `webOptimizedImage` - smaller low quality version of `sourceImage` for web display
-* `placeholderImage` - tiny blurred version of `sourceImage` for lazy image loading   
-
-* `signature` - if `weiPrice` was specified, a signature is created which enables lazy minting an NFT at that price, having the accompanying `tokenId`, and `tokenURI`  
+* `placeholderImage` - tiny placeholder version of `sourceImage` for lazy image loading
 
 Example NFT definition after script is run:
 ```
 {
     "tokenId": 603,
-    "weiPrice": "10000000000000000",
-    "sourceImage": "images/gloopy_crowd.jpg",
+    "sourceImage": "images/my_image_10.jpg",
     "metadata": {
-        "name": "Gloopy Crowd",
-        "description": "Florence and Stephan Fowler 2021",
-        "external_url": "https://gloopies.art/",
-        "image": "ipfs://QmSShS85tNiGQfY3G3mPW2Yv2w1w8wdDBSkXdG1kikS6Mf",
+        "name": "Don't Deceive Yourself",
+        "description": "My Painfully Cliched Artwork",
+        "external_url": "https://exmple.com/nft/10",
+        "image": "ipfs://QmSShS85tNiGQfY3G3mPW2Yv2w1w8wdDBSkXdG1...",
         "width": 1883,
         "height": 2368
     },
-    "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQF ... ",
-    "webOptimizedImage": "images/gloopy_crowd_web.jpg",
-    "tokenURI": "ipfs://Qma5ysnKpCK1PtaVvGPNc6eCssbftpJzhGykavrFy2izMm",
-    "signature": "0x255ad96c61585acb950f9f5014d4c9cd236fcaa1a1bd1943a690966068743ca2286abc5ae ... "
+    "tokenURI": "ipfs://Qma5ysnKpCK1PtaVvGPNc6eCssbftpJzhGykavrF...",
+    "signature": "0x255ad96c61585acb950f9f5014d4c9cd236fcaa1a1bd... ",
+    "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYF... ",
+    "webOptimizedImage": "images/my_image_web.jpg"
 }
 ```
-The `catalog` task also appends the following context information to the catalog json file. This acts as config to the `client` that consumes the catalog. For example:
+The `catalog` task also adds the following context values to the catalog file, based on the arguments passed to the task and values read from the contract itself. This acts as configuration to the `client` app which will consume the catalog file:
 
 ```
 "context": {
-		"creatorAddress": "0x72dAd71E ...",
-		"contractAddress": "0x1211b395 ...",
+		"creatorAddress": "0x72dA9f5014dd71E445...",
+		"contractAddress": "0x1211b3959f5014dE2...",
 		"chainId": 4,
-		"royaltyBasisPoints": 495
+        "mintPrice": "50000000000000000",
+        "royaltyBasisPoints": "495"
 }
 ```
 
+## Sign task
+
+Generates a signature for the (lazy) `mint` contract method, and tests it against the deployed contract. Note that the `catalog` task itself uses the `sign` task to generate all the signatures in a particular catalog file. You will only need to use the `sign` task in special cases, for example to offer a "promo code" equivalent by signing a special mint price for a specific NFT.
+
+```
+# Enable free minting of an NFT with tokenId 123 and tokenURI ipfs://foo.bar/123 
+npx hardhat sign --network rinkeby --price 0 --id 123 --uri ipfs://foo.bar/123 --contract <DEPLOYED_CONTRACT_ADDRESS>
+```
 
 ## Status
 
-Smart-contact has extensive [test coverage](/smart-contract/test/tests.js).
+The NFTsurface smart contact has extensive [test coverage](/smart-contract/test/tests.js)
