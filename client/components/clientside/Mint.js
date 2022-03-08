@@ -23,9 +23,11 @@ export default function Mint({
 	chainId }) {
 
 	const [connecting, setConnecting] = useState();
-	const [price, setPrice] = useState("");
-	const [priceSignature, setPriceSignature] = useState("");
+	const [specialPrice, setSpecialPrice] = useState("");
+	const [specialSignature, setSpecialSignature] = useState("");
 	const [expanded, setExpanded] = useState();
+
+	const dislayMintPrice = (nft.mintPrice || context.baseMintPrice).toString();
 
 	const expand = (evt) => {
 		evt.preventDefault();
@@ -37,11 +39,14 @@ export default function Mint({
 		setNotify("confirmation_pending");
 		setConnecting(true);
 		if (!walletAddress) await doConnectWallet();
-		try {
-			const { tx, error } = priceSignature ?
-				await contractCall_mintAtPrice(context, nft, ethers.utils.parseEther(price), priceSignature, contractAddress, chainId) :
-				await contractCall_mint(context, nft, contractAddress, chainId);
 
+		const price = (specialPrice || nft.mintPrice || "").toString();
+		const signature = (specialSignature || nft.signature).toString();
+
+		try {
+			const { tx, error } = price ?
+				await contractCall_mintAtPrice(context, nft, price, signature, contractAddress, chainId) :
+				await contractCall_mint(context, nft, contractAddress, chainId)
 			if (tx) {
 				setTx(tx);
 				setNotify("tx_pending");
@@ -68,13 +73,13 @@ export default function Mint({
 			<div>
 				<span>Price : </span>
 				<span className={styles.nftPriceETH}>
-					{context.mintPrice === "0" ?
+					{dislayMintPrice === "0" ?
 						"FREE" :
-						`${ethers.utils.formatEther(context.mintPrice)} ${chainParams(chainId).nativeCurrency.symbol}`
+						`${ethers.utils.formatEther(dislayMintPrice)} ${chainParams(chainId).nativeCurrency.symbol}`
 					}
 				</span>
 				<span className={styles.nftPriceGas}>{" + gas fee"}</span>
-				{context.mintPrice !== "0" &&
+				{dislayMintPrice !== "0" &&
 					<div className={styles.nftPriceGas}>
 						<a href="" onClick={expand} title="Apply a special minting price. Requires a valid signature.">I have a specially signed price</a>
 					</div>
@@ -89,8 +94,8 @@ export default function Mint({
 						autoFocus
 						disabled={connecting}
 						type="string"
-						value={price}
-						onChange={e => setPrice(e.target.value)}
+						value={specialPrice}
+						onChange={e => setSpecialPrice(e.target.value)}
 					/>
 					<span className={styles.nftPriceGas}>{" + gas fee"}</span>
 					<div>
@@ -100,15 +105,15 @@ export default function Mint({
 						className={styles.bigInput}
 						disabled={connecting}
 						type="string"
-						value={priceSignature}
-						onChange={e => setPriceSignature(e.target.value)}
+						value={specialSignature}
+						onChange={e => setSpecialSignature(e.target.value)}
 					/>
 				</div>
 			</form>
 		}
 		<button
 			onClick={doMint}
-			disabled={(expanded && (!priceSignature || !price)) || connecting || !window.ethereum}>
+			disabled={(expanded && (!specialSignature || !specialPrice)) || connecting || !window.ethereum}>
 			Mint this NFT
 		</button>
 	</>

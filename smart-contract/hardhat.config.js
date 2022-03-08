@@ -106,13 +106,14 @@ task("sign", "Generates a signature for the 'mint' contract method, and tests it
 		const tokenId = args.id;
 		const tokenURI = args.uri;
 		const contractAddress = args.contract;
-		const maxUint256 = ethers.constants.MaxUint256;
+
+		const MAX_INT256 = ethers.constants.MaxUint256;
 
 		let price;
 		if (args.price.length > 0) {
 			price = ethers.BigNumber.from(args.price)
 		} else {
-			price = maxUint256;
+			price = MAX_INT256;
 		}
 
 		if (!ethers.utils.isAddress(contractAddress)) {
@@ -183,10 +184,11 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 		const _ = require('lodash');
 		const fs = require('fs');
 
+		const MAX_INT256 = ethers.constants.MaxUint256;
+
 		const pinataSDK = require('@pinata/sdk');
 		const pinata = pinataSDK(PINATA_API_KEY, PINATA_API_SECRET);
 		const contractABI = require("./artifacts/contracts/NFTsurface.sol/NFTsurface.json");
-		const maxUint256 = ethers.constants.MaxUint256;
 
 		console.log("Connecting...");
 
@@ -384,8 +386,11 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 						}
 					}
 
-					// (Re)create the signature
+
+					// Generate the signature
+					const specificPrice = (nft.mintPrice || MAX_INT256).toString(); 
 					const signature = await hre.run('sign', {
+						price: specificPrice,
 						id: tokenId,
 						uri: nft.tokenURI,
 						contract: contractAddress,
@@ -394,7 +399,7 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 
 					// Test signature / mintableness 
 					try {
-						await contract.mintable(maxUint256, tokenId, nft.tokenURI, signature);
+						await contract.mintable(specificPrice, tokenId, nft.tokenURI, signature);
 						nft.signature = signature;
 						idsMintable.push(nft.tokenId);
 						console.log("Updated " + tokenId + " (mintable)" );
@@ -422,7 +427,7 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 		}
 
 		// Get the min price, for info
-		const mintPrice = (await contract.mintPrice()).toString();
+		const baseMintPrice = (await contract.baseMintPrice()).toString();
 
 		// Get the royalty rate, for info
 		const royaltyBasisPoints = (await contract.royaltyBasisPoints()).toString();
@@ -435,7 +440,7 @@ task("catalog", "Given a json catalog file, automatically manages IPFS metadata 
 			creatorAddress: CREATOR_ADDRESS,
 			contractAddress,
 			chainId,
-			mintPrice,
+			baseMintPrice,
 			royaltyBasisPoints
 		};
 

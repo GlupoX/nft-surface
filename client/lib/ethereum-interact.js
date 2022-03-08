@@ -69,8 +69,9 @@ export const contractCall_ownerOf = async (nft, contractAddress, chainId) => {
 
 export const contractCall_mintable = async (nft, contractAddress, chainId) => {
 	const contract = await getReadableContract(contractAddress, chainId);
+	const mintPrice = (nft.mintPrice || maxUint256).toString();
 	try {
-		await contract.mintable(maxUint256, nft.tokenId, nft.tokenURI, nft.signature);
+		await contract.mintable(mintPrice, nft.tokenId, nft.tokenURI, nft.signature);
 		return "mintable";
 	} catch (error) {
 		console.log(error.message);
@@ -84,17 +85,17 @@ export const contractCall_mintable = async (nft, contractAddress, chainId) => {
 export const contractCall_mint = async (context, nft, contractAddress, chainId) => {
 	const contract = await getWriteableContract(contractAddress, chainId);
 	try {
-		const tx = await contract.mint(nft.tokenId, nft.tokenURI, nft.signature, { value: context.mintPrice });
+		const tx = await contract.mint(nft.tokenId, nft.tokenURI, nft.signature, { value: context.baseMintPrice });
 		return { tx };
 	} catch (e) {
 		return { error: errorMessage(e) };
 	}
 };
 
-export const contractCall_mintAtPrice = async (context, nft, price, priceSignature, contractAddress, chainId) => {
+export const contractCall_mintAtPrice = async (context, nft, price, signature, contractAddress, chainId) => {
 	const contract = await getWriteableContract(contractAddress, chainId);
 	try {
-		const tx = await contract.mintAtPrice(price, nft.tokenId, nft.tokenURI, priceSignature, { value: price });
+		const tx = await contract.mintAtPrice(price, nft.tokenId, nft.tokenURI, signature, { value: price });
 		return { tx };
 	} catch (e) {
 		return { error: errorMessage(e) };
