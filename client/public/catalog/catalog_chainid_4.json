@@ -1,1295 +1,2046 @@
 {
     "NFTs": [
         {
-          "tokenId": 107,
-          "sourceImage": "images/Architecture_107.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 107",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/107"
-          }
-        },
-        {
-          "tokenId": 106,
-          "sourceImage": "images/Architecture_106.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 106",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/106"
-          }
-        },
-        {
-          "tokenId": 105,
-          "sourceImage": "images/Architecture_105.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 105",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/105"
-          }
-        },
-        {
-          "tokenId": 104,
-          "sourceImage": "images/Architecture_104.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 104",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/104"
-          }
-        },
-        {
-          "tokenId": 103,
-          "sourceImage": "images/Architecture_103.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 103",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/103"
-          }
-        },
-        {
-          "tokenId": 102,
-          "sourceImage": "images/Architecture_102.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 102",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/102"
-          }
-        },
-        {
-          "tokenId": 101,
-          "sourceImage": "images/Architecture_101.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 101",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/101"
-          }
-        },
-        {
-          "tokenId": 100,
-          "sourceImage": "images/Architecture_100.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 100",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/100"
-          }
-        },
-        {
-          "tokenId": 99,
-          "sourceImage": "images/Architecture_99.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 99",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/99"
-          }
-        },
-        {
-          "tokenId": 98,
-          "sourceImage": "images/Architecture_98.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 98",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/98"
-          }
-        },
-        {
-          "tokenId": 97,
-          "sourceImage": "images/Architecture_97.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 97",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/97"
-          }
-        },
-        {
-          "tokenId": 96,
-          "sourceImage": "images/Architecture_96.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 96",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/96"
-          }
-        },
-        {
-          "tokenId": 95,
-          "sourceImage": "images/Architecture_95.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 95",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/95"
-          }
-        },
-        {
-          "tokenId": 94,
-          "sourceImage": "images/Architecture_94.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 94",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/94"
-          }
-        },
-        {
-          "tokenId": 93,
-          "sourceImage": "images/Architecture_93.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 93",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/93"
-          }
-        },
-        {
-          "tokenId": 92,
-          "sourceImage": "images/Architecture_92.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 92",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/92"
-          }
-        },
-        {
-          "tokenId": 91,
-          "sourceImage": "images/Architecture_91.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 91",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/91"
-          }
-        },
-        {
-          "tokenId": 90,
-          "sourceImage": "images/Architecture_90.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 90",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/90"
-          }
-        },
-        {
-          "tokenId": 89,
-          "sourceImage": "images/Architecture_89.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 89",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/89"
-          }
-        },
-        {
-          "tokenId": 88,
-          "sourceImage": "images/Architecture_88.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 88",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/88"
-          }
-        },
-        {
-          "tokenId": 87,
-          "sourceImage": "images/Architecture_87.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 87",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/87"
-          }
-        },
-        {
-          "tokenId": 86,
-          "sourceImage": "images/Architecture_86.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 86",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/86"
-          }
-        },
-        {
-          "tokenId": 85,
-          "sourceImage": "images/Architecture_85.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 85",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/85"
-          }
-        },
-        {
-          "tokenId": 84,
-          "sourceImage": "images/Architecture_84.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 84",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/84"
-          }
-        },
-        {
-          "tokenId": 83,
-          "sourceImage": "images/Architecture_83.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 83",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/83"
-          }
-        },
-        {
-          "tokenId": 82,
-          "sourceImage": "images/Architecture_82.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 82",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/82"
-          }
-        },
-        {
-          "tokenId": 81,
-          "sourceImage": "images/Architecture_81.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 81",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/81"
-          }
-        },
-        {
-          "tokenId": 80,
-          "sourceImage": "images/Architecture_80.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 80",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/80"
-          }
-        },
-        {
-          "tokenId": 79,
-          "sourceImage": "images/Architecture_79.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 79",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/79"
-          }
-        },
-        {
-          "tokenId": 78,
-          "sourceImage": "images/Architecture_78.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 78",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/78"
-          }
-        },
-        {
-          "tokenId": 77,
-          "sourceImage": "images/Architecture_77.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 77",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/77"
-          }
-        },
-        {
-          "tokenId": 76,
-          "sourceImage": "images/Architecture_76.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 76",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/76"
-          }
-        },
-        {
-          "tokenId": 75,
-          "sourceImage": "images/Architecture_75.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 75",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/75"
-          }
-        },
-        {
-          "tokenId": 74,
-          "sourceImage": "images/Architecture_74.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 74",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/74"
-          }
-        },
-        {
-          "tokenId": 73,
-          "sourceImage": "images/Architecture_73.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 73",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/73"
-          }
-        },
-        {
-          "tokenId": 72,
-          "sourceImage": "images/Architecture_72.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 72",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/72"
-          }
-        },
-        {
-          "tokenId": 71,
-          "sourceImage": "images/Architecture_71.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 71",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/71"
-          }
-        },
-        {
-          "tokenId": 70,
-          "sourceImage": "images/Architecture_70.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 70",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/70"
-          }
-        },
-        {
-          "tokenId": 69,
-          "sourceImage": "images/Architecture_69.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 69",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/69"
-          }
-        },
-        {
-          "tokenId": 68,
-          "sourceImage": "images/Architecture_68.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 68",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/68"
-          }
-        },
-        {
-          "tokenId": 67,
-          "sourceImage": "images/Architecture_67.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 67",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/67"
-          }
-        },
-        {
-          "tokenId": 66,
-          "sourceImage": "images/Architecture_66.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 66",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/66"
-          }
-        },
-        {
-          "tokenId": 65,
-          "sourceImage": "images/Architecture_65.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 65",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/65"
-          }
-        },
-        {
-          "tokenId": 64,
-          "sourceImage": "images/Architecture_64.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 64",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/64"
-          }
-        },
-        {
-          "tokenId": 63,
-          "sourceImage": "images/Architecture_63.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 63",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/63"
-          }
-        },
-        {
-          "tokenId": 62,
-          "sourceImage": "images/Architecture_62.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 62",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/62"
-          }
-        },
-        {
-          "tokenId": 61,
-          "sourceImage": "images/Architecture_61.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 61",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/61"
-          }
-        },
-        {
-          "tokenId": 60,
-          "sourceImage": "images/Architecture_60.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 60",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/60"
-          }
-        },
-        {
-          "tokenId": 59,
-          "sourceImage": "images/Architecture_59.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 59",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/59"
-          }
-        },
-        {
-          "tokenId": 58,
-          "sourceImage": "images/Architecture_58.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 58",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/58"
-          }
-        },
-        {
-          "tokenId": 57,
-          "sourceImage": "images/Architecture_57.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 57",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/57"
-          }
-        },
-        {
-          "tokenId": 56,
-          "sourceImage": "images/Architecture_56.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 56",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/56"
-          }
-        },
-        {
-          "tokenId": 55,
-          "sourceImage": "images/Architecture_55.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 55",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/55"
-          }
-        },
-        {
-          "tokenId": 54,
-          "sourceImage": "images/Architecture_54.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 54",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/54"
-          }
-        },
-        {
-          "tokenId": 53,
-          "sourceImage": "images/Architecture_53.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 53",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/53"
-          }
-        },
-        {
-          "tokenId": 52,
-          "sourceImage": "images/Architecture_52.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 52",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/52"
-          }
-        },
-        {
-          "tokenId": 51,
-          "sourceImage": "images/Architecture_51.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 51",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/51"
-          }
-        },
-        {
-          "tokenId": 50,
-          "sourceImage": "images/Architecture_50.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 50",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/50"
-          }
-        },
-        {
-          "tokenId": 49,
-          "sourceImage": "images/Architecture_49.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 49",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/49"
-          }
-        },
-        {
-          "tokenId": 48,
-          "sourceImage": "images/Architecture_48.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 48",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/48"
-          }
-        },
-        {
-          "tokenId": 47,
-          "sourceImage": "images/Architecture_47.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 47",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/47"
-          }
-        },
-        {
-          "tokenId": 46,
-          "sourceImage": "images/Architecture_46.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 46",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/46"
-          }
-        },
-        {
-          "tokenId": 45,
-          "sourceImage": "images/Architecture_45.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 45",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/45"
-          }
-        },
-        {
-          "tokenId": 44,
-          "sourceImage": "images/Architecture_44.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 44",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/44"
-          }
-        },
-        {
-          "tokenId": 43,
-          "sourceImage": "images/Architecture_43.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 43",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/43"
-          }
-        },
-        {
-          "tokenId": 42,
-          "sourceImage": "images/Architecture_42.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 42",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/42"
-          }
-        },
-        {
-          "tokenId": 41,
-          "sourceImage": "images/Architecture_41.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 41",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/41"
-          }
-        },
-        {
-          "tokenId": 40,
-          "sourceImage": "images/Architecture_40.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 40",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/40"
-          }
-        },
-        {
-          "tokenId": 39,
-          "sourceImage": "images/Architecture_39.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 39",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/39"
-          }
-        },
-        {
-          "tokenId": 38,
-          "sourceImage": "images/Architecture_38.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 38",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/38"
-          }
-        },
-        {
-          "tokenId": 37,
-          "sourceImage": "images/Architecture_37.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 37",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/37"
-          }
-        },
-        {
-          "tokenId": 36,
-          "sourceImage": "images/Architecture_36.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 36",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/36"
-          }
-        },
-        {
-          "tokenId": 35,
-          "sourceImage": "images/Architecture_35.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 35",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/35"
-          }
-        },
-        {
-          "tokenId": 34,
-          "sourceImage": "images/Architecture_34.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 34",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/34"
-          }
-        },
-        {
-          "tokenId": 33,
-          "sourceImage": "images/Architecture_33.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 33",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/33"
-          }
-        },
-        {
-          "tokenId": 32,
-          "sourceImage": "images/Architecture_32.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 32",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/32"
-          }
-        },
-        {
-          "tokenId": 31,
-          "sourceImage": "images/Architecture_31.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 31",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/31"
-          }
-        },
-        {
-          "tokenId": 30,
-          "sourceImage": "images/Architecture_30.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 30",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/30"
-          }
-        },
-        {
-          "tokenId": 29,
-          "sourceImage": "images/Architecture_29.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 29",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/29"
-          }
-        },
-        {
-          "tokenId": 28,
-          "sourceImage": "images/Architecture_28.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 28",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/28"
-          }
-        },
-        {
-          "tokenId": 27,
-          "sourceImage": "images/Architecture_27.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 27",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/27"
-          }
-        },
-        {
-          "tokenId": 26,
-          "sourceImage": "images/Architecture_26.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 26",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/26"
-          }
-        },
-        {
-          "tokenId": 25,
-          "sourceImage": "images/Architecture_25.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 25",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/25"
-          }
-        },
-        {
-          "tokenId": 24,
-          "sourceImage": "images/Architecture_24.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 24",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/24"
-          }
-        },
-        {
-          "tokenId": 23,
-          "sourceImage": "images/Architecture_23.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 23",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/23"
-          }
-        },
-        {
-          "tokenId": 22,
-          "sourceImage": "images/Architecture_22.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 22",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/22"
-          }
-        },
-        {
-          "tokenId": 21,
-          "sourceImage": "images/Architecture_21.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 21",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/21"
-          }
-        },
-        {
-          "tokenId": 20,
-          "sourceImage": "images/Architecture_20.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 20",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/20"
-          }
-        },
-        {
-          "tokenId": 19,
-          "sourceImage": "images/Architecture_19.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 19",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/19"
-          }
-        },
-        {
-          "tokenId": 18,
-          "sourceImage": "images/Architecture_18.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 18",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/18"
-          }
-        },
-        {
-          "tokenId": 17,
-          "sourceImage": "images/Architecture_17.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 17",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/17"
-          }
-        },
-        {
-          "tokenId": 16,
-          "sourceImage": "images/Architecture_16.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 16",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/16"
-          }
-        },
-        {
-          "tokenId": 15,
-          "sourceImage": "images/Architecture_15.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 15",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/15"
-          }
-        },
-        {
-          "tokenId": 14,
-          "sourceImage": "images/Architecture_14.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 14",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/14"
-          }
-        },
-        {
-          "tokenId": 13,
-          "sourceImage": "images/Architecture_13.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 13",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/13"
-          }
-        },
-        {
-          "tokenId": 12,
-          "sourceImage": "images/Architecture_12.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 12",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/12"
-          }
-        },
-        {
-          "tokenId": 11,
-          "sourceImage": "images/Architecture_11.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 11",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/11"
-          }
-        },
-        {
-          "tokenId": 10,
-          "sourceImage": "images/Architecture_10.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 10",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/10"
-          }
-        },
-        {
-          "tokenId": 9,
-          "sourceImage": "images/Architecture_9.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 9",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/9"
-          }
-        },
-        {
-          "tokenId": 8,
-          "sourceImage": "images/Architecture_8.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 8",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/8"
-          }
-        },
-        {
-          "tokenId": 7,
-          "sourceImage": "images/Architecture_7.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 7",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/7"
-          }
-        },
-        {
-          "tokenId": 6,
-          "sourceImage": "images/Architecture_6.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 6",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/6"
-          }
-        },
-        {
-          "tokenId": 5,
-          "sourceImage": "images/Architecture_5.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 5",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/5"
-          }
-        },
-        {
-          "tokenId": 4,
-          "sourceImage": "images/Architecture_4.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 4",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/4"
-          }
-        },
-        {
-          "tokenId": 3,
-          "sourceImage": "images/Architecture_3.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 3",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/3"
-          }
-        },
-        {
-          "tokenId": 2,
-          "sourceImage": "images/Architecture_2.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 2",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/2"
-          }
-        },
-        {
-          "tokenId": 1,
-          "sourceImage": "images/Architecture_1.jpg",
-          "metadata": {
-            "creator": "GlupoX",
-            "collection": "Moloch",
-            "date": "2022",
-            "name": "Untitled 1",
-            "description": "A vision in response to Howl by A. Ginsberg",
-            "external_url": "https://glupox.com/nft/1"
-          }
+            "tokenId": 107,
+            "sourceImage": "images/Architecture_107.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 107",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/107",
+                "image": "ipfs://QmZxU7WJ4wDJMb7mAYEQVsrgpRSKg8Wo6Kv3dr4jVtEFz1",
+                "width": 1494,
+                "height": 1719
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAIBAgUFAQAAAAAAAAAAAAECBAMRAAUGByESMTJBgdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AC/TW2aStpsy1LIqx3n1FZ40d2N0opyzCx82IAF7gC/s8EvwYUslzmZT05VpK69CxDTAI7Cx/cFt8GTNaf/Z",
+            "webOptimizedImage": "images/Architecture_107_web.jpg",
+            "tokenURI": "ipfs://QmQWLkPWPe3tYX4Lxv5e7hZqHAAFgk6fRNcQjDzLzjPrpW",
+            "signature": "0x341155b80a948677dc5f0e04e06d54211c8dabccf346aca65d711a87e429aaff6dd9f056d10ce552e4f702c3de15dfcf4086185cfe5957d8e4fadf60511756fa1c"
+        },
+        {
+            "tokenId": 106,
+            "sourceImage": "images/Architecture_106.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 106",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/106",
+                "image": "ipfs://QmSZkBRJLzcyN928LJm2DiBuzPeNDPWcTnu8jn5kNAQaiR",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgcI/8QAIhAAAgEEAgEFAAAAAAAAAAAAAQIEAwURIQASMQYWMjNh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABkRAAIDAQAAAAAAAAAAAAAAAAARAQISQf/aAAwDAQACEQMRAD8AzrSsU1LK0oJTKVUVvkD1Q7BO9Z66z+8PlSDjlDuvqqr7StNroQ41GPRABCr9gJBPbW84HngySY5k1Skfopc4UOdDPjimqDt8P//Z",
+            "webOptimizedImage": "images/Architecture_106_web.jpg",
+            "tokenURI": "ipfs://QmcDTSG514eHMKXw3yNoHoAxYNsQ2HmRv35bMkTueN1jQm",
+            "signature": "0x5101fd7e55023703ccd74bcfefb785fcf39537a1ebd4af1681b5ef75d13d4e95601688e7445cd3592432cafdf577061999cdcc6c5e03a44deae3888c5c62a1fe1b"
+        },
+        {
+            "tokenId": 105,
+            "sourceImage": "images/Architecture_105.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 105",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/105",
+                "image": "ipfs://QmQ1Ai242MWioMor3CKDUEmBEE5bzBzjHKNnzGJE7bvTP8",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgAF/8QAJhAAAQIFAwMFAAAAAAAAAAAAAQIDBAUREiEABgcTMUEUFSJhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAQIAAyH/2gAMAwEAAhEDEQA/ADe2uLJTFw8FATx1tMWl5twrZdIZIUSOgryK2mjmCVYOCnW7E8BbV9Q7ZMJi2m80QHkfEV7ZTXRvaO84f2TqRsnTFPvwiGXlGIKQ6EgdwE/QIzjxqe5NmpdXYiibjQFQUQP23Oq6q0A2F3Zjk//Z",
+            "webOptimizedImage": "images/Architecture_105_web.jpg",
+            "tokenURI": "ipfs://QmeFxmQ46ce6GPGtySb6e9hALgkxtT6SS52hzYwkyoUHkz",
+            "signature": "0xfeee720f8d1313cc8a00f921dafb77db7432a61dd0e34ee378eb3f9c1f9a93ec1a0a3881d38d97def6ae411b34d4cb6c6ba559bedcdd9d662e9c2544ffe195bd1c"
+        },
+        {
+            "tokenId": 104,
+            "sourceImage": "images/Architecture_104.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 104",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/104",
+                "image": "ipfs://QmbXdJPUhu8QaYmAtXsPY2NjJx9PianPXFkMtJK7D7cxr2",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAJxAAAQMCBAUFAAAAAAAAAAAAAQIDBAAFBhESMQchIjJBQlFhcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAABBP/EABkRAAMAAwAAAAAAAAAAAAAAAAABAgMRMf/aAAwDAQACEQMRAD8AzLh7h2JdY8qTcCyW2iFJQ4vSVJHcB+bfVDXDDdybnyUMQtTKXVBBT1ApzOWR8j5oqESFpI351TsSHgw2A84AEj1H2o4VY1Fxpo//2Q==",
+            "webOptimizedImage": "images/Architecture_104_web.jpg",
+            "tokenURI": "ipfs://QmXKzfjqTnskUaHmPyfTnpHUfCTwvdpXdrvGC51cVvQhUK",
+            "signature": "0x37e94c543adc42ced591aa892440ec51924574087d4738dcb828e876290b05303a275500163586759fa746eecde125bf787cbab1b53544779750a48926b9e9311b"
+        },
+        {
+            "tokenId": 103,
+            "sourceImage": "images/Architecture_103.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 103",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/103",
+                "image": "ipfs://QmNiXcb4TbcmxR7FnQLQQeagApveB3Vy7zbJf96tGTHudb",
+                "width": 2048,
+                "height": 2046
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwj/xAAoEAABBAEBBQkAAAAAAAAAAAACAQMEEQAFBgcSFCETIzEyQUJzgbH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAAMBAAAAAAAAAAAAAAAAAAABAiH/2gAMAwEAAhEDEQA/ADfQt1Ru7LszZjDqvyG+0GhtKq06+n3hlL0OWxKea4B7syHzX4LWVdsWZHuyhKZES8sfVVv3Lk/z1XnpPyF+5KKbG9P/2Q==",
+            "webOptimizedImage": "images/Architecture_103_web.jpg",
+            "tokenURI": "ipfs://QmSWvP1JHbMWuDyEzy1mijsCFN228Db8SkvV69Gou9DQVL",
+            "signature": "0x7ba4e1ef52358db8fd13ed00ecff5656c7c241dd643e9b8495995efb665208bb35690fd9c4115d7f64f785d72a3edbd95ad17516d3815b099731cf070b625e181c"
+        },
+        {
+            "tokenId": 102,
+            "sourceImage": "images/Architecture_102.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 102",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/102",
+                "image": "ipfs://QmYKA88PYtLGDMjkCmp61wB8FFAWfHkZ59Q4ofTjnE9yx3",
+                "width": 1679,
+                "height": 1679
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAmEAABBAECBAcAAAAAAAAAAAABAgMEEQYABRITIVEUIzJBQoGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQADAAAAAAAAAAAAAAAAAAAAAjH/2gAMAwEAAhEDEQA/ADqTiDs6U9Ih45BkbPzUgrbUpDykp6KKaNd7odfrUZueFOp3KWmG8gxg6sNWbPBZr8rSricp8Y0kB90AJ9lnRdJed8Q75i/Wfke+jUlYf//Z",
+            "webOptimizedImage": "images/Architecture_102_web.jpg",
+            "tokenURI": "ipfs://QmdxWZi9kCsbqemCwmireRcQG8dAiE3edwFnDw9op5ftvW",
+            "signature": "0xe46c81c4f36a9d7ee918779bf11f83409a7270d842b84da02c61d9957723239028491b93eae1997f632753e6c90aa391c64723d7308d9e2deb1c9858069b2c5a1b"
+        },
+        {
+            "tokenId": 101,
+            "sourceImage": "images/Architecture_101.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 101",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/101",
+                "image": "ipfs://Qmag51W4qTB9hSNrX9M14UsJLsciF4Thpu5o7V2XiWvNuk",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAf/xAAjEAACAQMCBwEAAAAAAAAAAAABAgQAAxEFBhIhIiQxQVGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABgRAAMBAQAAAAAAAAAAAAAAAAABERIh/9oADAMBAAIRAxEAPwCQbN0LQ5uyp8qc/eLkJ0g4/fVTdlXiOG5Z+UuJeuJDuIlx1U+QGIBoFJBpvjP/2Q==",
+            "webOptimizedImage": "images/Architecture_101_web.jpg",
+            "tokenURI": "ipfs://QmRbpZGjPdHEHnaEqtDEzqMjnsDCMCfcocijYQfGGRgoVF",
+            "signature": "0x89b00d45f5e5a18dea13927f0bcfd8aa68293eeea143e607275106d31d37350b75c69cbe8902e4f6513234f97d501415672df0797dbbe3f4b59673058e8c02871c"
+        },
+        {
+            "tokenId": 100,
+            "sourceImage": "images/Architecture_100.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 100",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/100",
+                "image": "ipfs://QmPmRFnNq3JVzCiht7jQidTC16RinMUrmBk4hymafZdZFa",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIhAAAgIABQUBAAAAAAAAAAAAAQIDBAAFERIhBxUxQVEi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAXEQADAQAAAAAAAAAAAAAAAAAAARES/9oADAMBAAIRAxEAPwAEOkdha9m4JKTxUeNqoWE24Apz9OunI8jFSLo3lgiQWc4qLOABIFZtA3sD8+NcbzkwHbYU0GyRIS6+mO88n7gvaJW1MFJADkAD1ziVjKP/2Q==",
+            "webOptimizedImage": "images/Architecture_100_web.jpg",
+            "tokenURI": "ipfs://QmdoBJxkKhSSy5qXXyVcuqsuyE8uXMbeAgZayautgtk81e",
+            "signature": "0x9d973f69003afd4c057bb635ac37aac7593f50eca624991fe80427ca8916cd511a92a875715e339d9cda4b2f75ee087c2d0a58def244acd1142c061262567dd21c"
+        },
+        {
+            "tokenId": 99,
+            "sourceImage": "images/Architecture_99.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 99",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/99",
+                "image": "ipfs://QmU77V9YqD46HjCvFvfb93xxWAy4PDsRPsG3fvxqMZM5ds",
+                "width": 1900,
+                "height": 1925
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAhEAACAgEEAgMAAAAAAAAAAAABAgMEEQAFBiETIkKBsf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGREBAAIDAAAAAAAAAAAAAAAAAQACAxIx/9oADAMBAAIRAxEAPwCU8b5HSmoF7W2zJEiFfKkalSwGezj80Rs8nZrMpjggKFyVJjxkZ6022+R4uG7WInZB7dKcfJdS2+oF6wAAAJG6+9XyU1CE6z//2Q==",
+            "webOptimizedImage": "images/Architecture_99_web.jpg",
+            "tokenURI": "ipfs://Qma3xo5xHguRtGE1kJV7TyLPD1dNQea2JncvwBDuF3inyS",
+            "signature": "0xa64a35a3b6e7ea02be1a03c905cdd18ea82057921b4617d4c3ece8e7d500ece977820b5a3103f79eee704e22749ac8b6ea189c166f22c80883620eb0add15fa91c"
+        },
+        {
+            "tokenId": 98,
+            "sourceImage": "images/Architecture_98.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 98",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/98",
+                "image": "ipfs://QmYPTEbVxY9aApvAWAQdamEg3tmeQy1VYAkdrnJAQyxFGx",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMCBwAAAAAAAAAAAAABAgMFABIhBCIHETJCUWFx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAABQf/aAAwDAQACEQMRAD8AmEJDwkfw7lprRMuPzC72mFOLw0hITeUgd2458A1L1a98km4590qgXXBEMoC12Wr288ZVQpXUftNpx//Z",
+            "webOptimizedImage": "images/Architecture_98_web.jpg",
+            "tokenURI": "ipfs://QmQKhnHXcurRPwgeykM5utCpWSGuesb4QYRFnYyjCrPh5n",
+            "signature": "0x98094841bf600ee068912d92afc2989173230bbd1b4331c38aaf0cc1bc81c3d81d879139f67e8c7d00d67d11958306381b53b420fb53aef8c5795d42d83e90541b"
+        },
+        {
+            "tokenId": 97,
+            "sourceImage": "images/Architecture_97.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 97",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/97",
+                "image": "ipfs://QmUA8BP3o9vvMwCgpLLBxBfuBeTXsgUmQr34B2qC51BtS6",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAkEAACAQMDAwUAAAAAAAAAAAABAgMABAYFERIHIjEVQWFzsv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQADAAAAAAAAAAAAAAAAAQARIkH/2gAMAwEAAhEDEQA/AInpzhmPX+EWV9rSEX8pmaFlI4AbcVLg+e4UKXERinkjZVDIxUj5BpXxUk2mPoTuhgQlT4Pe3tRfrJPq9998n6NPM0Dsl//Z",
+            "webOptimizedImage": "images/Architecture_97_web.jpg",
+            "tokenURI": "ipfs://QmdqpqysYqDHjTL8EmSKFdE4SAPny5gq5gHRsr3tvTf4WU",
+            "signature": "0x768e30493eddccfb80f3b6c14eabb13bab42bb229e21a0b32f4efb34e4361a11260d384f42b3376435642a67ab5ebd372ea8b7dc089d410f0f70279b9740db081b"
+        },
+        {
+            "tokenId": 96,
+            "sourceImage": "images/Architecture_96.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 96",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/96",
+                "image": "ipfs://QmdhaE4eNYVPBGhfY7QurnVat8guiTuWCmjfMhuhdHgwBB",
+                "width": 1774,
+                "height": 1755
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAiEAADAAECBgMAAAAAAAAAAAABAgMEABEFBgcSITGCkbH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhEDEQA/AB3IvAeXq9P8nGOCLZ+Xib3upV7d7E9gmjMPA2J+Le9Q3IxLwvSVI0V5sVYFT4IOx0m4Rl5MZyMsiyEHH27XI22Z9v0/ejVq0arszsWLEkk+9JIjf//Z",
+            "webOptimizedImage": "images/Architecture_96_web.jpg",
+            "tokenURI": "ipfs://QmPe3LUPQ3upCQhR1ZZvVLkWkbtQwAY6u2enXXPfANQNFR",
+            "signature": "0x397762d9521f1d861bdb0e515b6a965f165375e8906d713ee2fbb04abcc215b670cf2620b253bfb50c8dc23921033d8164cf6f323e186466da943dbb192568fa1b"
+        },
+        {
+            "tokenId": 95,
+            "sourceImage": "images/Architecture_95.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 95",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/95",
+                "image": "ipfs://QmcqTwd8n38dd6FTzDtcjPThWWZWzW8oDxurQCxbkNiZ1x",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAYH/8QAJBAAAgECBQQDAAAAAAAAAAAAAQIDBAUAERIhIgYHEzEVUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/ALC39xjTxfDXGUJcKW9U9LNMsUmgxSEyKyrpzOaqVy+9/WNsXwyKHC7MMxmpBwULmTVdn7vNUkzTQ2G2SRyScmRtc/IE+j+jCL6WkdumLQzOxY0cJJJ3PAYtT0ESf//Z",
+            "webOptimizedImage": "images/Architecture_95_web.jpg",
+            "tokenURI": "ipfs://QmU5VaK4ntwXdMZiAYJQBvvjkJ8LehrHipPRP8rGuhBLoL",
+            "signature": "0x6e5a3ec9effac63b1ebce39ea61dbd77bfe0f053cdd390a8c7a1b045e88f1cbc0cb120bf998fa5466fc65deb90c8a94c532dd37f162a08b0332fb2f01223e9431c"
+        },
+        {
+            "tokenId": 94,
+            "sourceImage": "images/Architecture_94.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 94",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/94",
+                "image": "ipfs://QmZZjLYB7Y4Y4xmMaChZFc1NP4V8g1qzjcgBctf4gbS8gi",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQGB//EACAQAAICAgICAwAAAAAAAAAAAAECAwQFEQASB0EiMVH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACIf/aAAwDAQACEQMRAD8AgfHXiyhnMWkdzvNkbNVpy8bfCqroTEW173136HbW+YvZhetYlgnUrLE5R1Pog6I4ziMhcx9xJKFuxWkOlLQyMhI/Ng/XCsTSPYld5HZmYkksSSd8HXZC/9k=",
+            "webOptimizedImage": "images/Architecture_94_web.jpg",
+            "tokenURI": "ipfs://QmQHAYWSEdkgZW1bNLkAP2uBoygqNrM8krg9ub5fq4xHtL",
+            "signature": "0x4f0216f066c9943c4af052af5899ede2b14975829a643e9b879956dbe0c03dd6633ace9b3f7573cdf8cc2bd6d36ce017bebc6f1ae7e9091e07a1e624a79a39cb1c"
+        },
+        {
+            "tokenId": 93,
+            "sourceImage": "images/Architecture_93.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 93",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/93",
+                "image": "ipfs://QmejM3bvh3wxVuaEyFYQ7jxLXyr2CumftD3oFbi4iUCMrp",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwMF/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDAAQFERIxBxQjMjNBUZL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAMAwEAAhEDEQA/ABzOYbGQ9PbW5juEGYEqobUbSxG1WYsNNdRu++BR6Ul19s/it+zuZu6kuGkZpmHrPII+ai+Qut7eVuatB7Nv/9k=",
+            "webOptimizedImage": "images/Architecture_93_web.jpg",
+            "tokenURI": "ipfs://QmUoB1BqfbxxttgFHL8vus5GewEN9WPcVQSdGauBscB3tK",
+            "signature": "0x0f8103fc7d0afda62ae2ded0993bada8e9c1e7d2edba0febc6f0864785384eb01250fdc55c4ed5c55fe2b377bc0481e2a17e254200dcf6e6bae6923cedb72fab1c"
+        },
+        {
+            "tokenId": 92,
+            "sourceImage": "images/Architecture_92.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 92",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/92",
+                "image": "ipfs://QmTAhexLGGKHLaRCR5MoCndNV2wUbNp6jyHcrav9QHLm24",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAiEAACAQMEAgMAAAAAAAAAAAABAgMABBEFBhIhEzFRU2H/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCP7Y2k99oMVxFdxLHOZFYPkFOCFzjH4KDT2kaTSKHyAxGfnulW3ZpV0KMLK4HOXoMfpah0jHyN2fZpBtf/2Q==",
+            "webOptimizedImage": "images/Architecture_92_web.jpg",
+            "tokenURI": "ipfs://QmPkMAD9ygaboa8c4gz3wFGbqiYMY4z7RpsWgtAKbQ3Dco",
+            "signature": "0x6a14edb38f53dc5e2bbd7e2f8fb56b9778e1fd759042655b7b54dadc7bc0869d2f5508c195394d1b8afd9a2dd1a1ce2b5f9291fc2e39a621c0faa5f51dc1da6b1b"
+        },
+        {
+            "tokenId": 91,
+            "sourceImage": "images/Architecture_91.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 91",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/91",
+                "image": "ipfs://QmRfkyFmXbhsXd1gHw71XAeFyBJ4LiP56U33e9EXgcFGXr",
+                "width": 1851,
+                "height": 1851
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAIxAAAgIBBAAHAAAAAAAAAAAAAQIDBBEABRIhEzEyUVJygf/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oADAMBAAIRAxEAPwAthiq7VtTq25RblXZQ/gS0MhiVXrlyBBHpP16yMZLbTK1qYpCIVLkiP4DPl+a12yMzXawZiRyY4J9hkamXFVrc7MoLF2JJHZ71SQV2/9k=",
+            "webOptimizedImage": "images/Architecture_91_web.jpg",
+            "tokenURI": "ipfs://QmayPV7oqhuiHbLKHtmFdMfNLgajfWDfCH99caZq6uMax6",
+            "signature": "0xe65edefd3ade37859e9c9bc92765c3c90cb5b222abc1cb50c7b8d68c5161f1cb02f9a5aa8ce3740d31c7583b851a727b6f6375ffd1f920a04bd6e016e00dca471c"
+        },
+        {
+            "tokenId": 90,
+            "sourceImage": "images/Architecture_90.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 90",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/90",
+                "image": "ipfs://QmchAuuwcoqzixSPp2a4PxqTYsmvXduUa9t9LxjKfPEuUw",
+                "width": 1537,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAJhAAAgIABAUFAQAAAAAAAAAAAQIDBAAFBhESISNBcRYiMVGRof/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQIRIf/aAAwDAQACEQMRAD8Aq1S2aVtQZVVkisWZ8wUEyR8lLKoZhsDt7dxv4wjm9RLM61r9iSAMRG4jQ8S9j+Yysy03SnuWb7y3EnysRvAIpyq7yN1CR3LKeH+4UJpqmUXqTry+FcgDwPrDc4gunT4f/9k=",
+            "webOptimizedImage": "images/Architecture_90_web.jpg",
+            "tokenURI": "ipfs://QmPuZrtEwnT2ZpNrgsLaLZV2JDsyUD5sXtB38cdvUdXbWN",
+            "signature": "0x9847f97641fe1841acdaa8abc036551c5df820c4216d7792ef85f07cb4b322261feb0b7c86bd9eb01c0e88463ef9dac89afb60b6154f8f94f9c7d65ce2f078061c"
+        },
+        {
+            "tokenId": 89,
+            "sourceImage": "images/Architecture_89.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 89",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/89",
+                "image": "ipfs://QmTsURpGyLNqkWkZf7rHggnRH6m6sf6HpyRXXc1nawPvf4",
+                "width": 1538,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAACAAUEAgMAAAAAAAAAAAABAgADBRETBAYSIRRBMTJh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAwDAQACEQMRAD8AgA2VUEpBqDzNH4uQJlzgL9SfcHToZ4NiFBHosIRbmrM3xW0ElMchyjsOZPaiy2HwB1Bnk57Ltc/sAjm3/9k=",
+            "webOptimizedImage": "images/Architecture_89_web.jpg",
+            "tokenURI": "ipfs://QmbEC899hijMfBB4rZzJzuc4hAyfmPXMoJJUKrTwqAjP6W",
+            "signature": "0x6cfbff09e58599d9035955b2166bb5b9940c4a7a80377fc5211bd2d7ca1dfe8767952a280322c927fb0ce1908011d6a04acb8bf3ca644665a927a4e14f9a75431c"
+        },
+        {
+            "tokenId": 88,
+            "sourceImage": "images/Architecture_88.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 88",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/88",
+                "image": "ipfs://QmTc18N6JBYJUD5gWFc658DEsrykayEi3K3LeXCjGRNZTT",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIxAAAgEEAgEFAQAAAAAAAAAAAQIDBAURIQAGMRITMlFisf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQIhQf/aAAwDAQACEQMRAD8AyK2dTiu1BBbqSoo4DX+7PTNVHGHRiuFbyPUEPyyDoed8My9C7NHK6G0VLFWK5UAg4+jnY5Tluc1LN19YtCCmjC7/AGSf6eJZe53BZXULHgMRvPEpXQO9P//Z",
+            "webOptimizedImage": "images/Architecture_88_web.jpg",
+            "tokenURI": "ipfs://QmWZi7a4erpFCtx3hjCsMYrNhZKfgAgoWom6sh9XJhYTs8",
+            "signature": "0x96710c4f97d5c8e2aca0dcb4c567d4e9cffc7c72155fb1ae1af97c48c46ef0565b98435d054cf3fa5a5f52d880971ea9f4a823e3933b1d47176b607b1dc49de11b"
+        },
+        {
+            "tokenId": 87,
+            "sourceImage": "images/Architecture_87.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 87",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/87",
+                "image": "ipfs://Qmb8vTDYz8Hbz8kdNUDPVdjuPcCgXLpbJysSBPoaC7Q42G",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAiEAADAAEDBQADAAAAAAAAAAABAgMEAAURBhIhIjJxgZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCQdK7ZtW89DFLYUlyEsYHIlTuorn2RnUjlQR3AEHgleCPI1N8iRjekm+kYqf0eNO4m+Xw8itIogLY058DwPXsIP9UaBtRq2ej/AE7Fj+TqQf/Z",
+            "webOptimizedImage": "images/Architecture_87_web.jpg",
+            "tokenURI": "ipfs://QmP8b8mdAs9PzKgwPXqX87GVnJsw8Ksh5thLmRCCH7P86t",
+            "signature": "0xa8749fefac54602f6c5638b2c37392dddb45dbbadeb6264e6560e26fce631870173b54d642466470f21fc6ae9f1b3e92d22039d994c402ca7558fe52eeac57f21c"
+        },
+        {
+            "tokenId": 86,
+            "sourceImage": "images/Architecture_86.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 86",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/86",
+                "image": "ipfs://QmdFEF1VEiQzCs5tA3asTW1qsmD3ELLHG5qJBiNNm3NAaV",
+                "width": 1442,
+                "height": 1924
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABgcICf/EACIQAAIBBAEEAwAAAAAAAAAAAAECAwQFESEABgcSEzEyUf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIDEjH/2gAMAwEAAhEDEQA/ADanjtnTtJeYmrrZVCetNZHNS3EhneWTyK+pSdJgbOiOOB6G2u7MVgyxz9hzP/sKA/dSyxOqssplQgjWDG3Kok6YpfY3jLUIuThVlYAD8G/jj1roo1wSP//Z",
+            "webOptimizedImage": "images/Architecture_86_web.jpg",
+            "tokenURI": "ipfs://QmR38pcm8fXs5JMHBNGjEzaFRktf5WiFSroqcRupoXuRno",
+            "signature": "0x4e602375deb2315323b86f45071e6322b770bcb7549be731e93214223a44afee1f17de911eac20229b3237e251010fe9cd3265c465cf4a17d2baa575e6e1dfe11c"
+        },
+        {
+            "tokenId": 85,
+            "sourceImage": "images/Architecture_85.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 85",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/85",
+                "image": "ipfs://QmU6dwKH6fY5ZPfN3NDSomxijcXdJn9baMhwuHdQ91rEb3",
+                "width": 836,
+                "height": 1115
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgMH/8QAJhAAAgEDAgQHAAAAAAAAAAAAAQIDBAURABUGEjFREyEiQ2Gh0f/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAESE0H/2gAMAwEAAhEDEQA/AMgqOK5toXbaakpZy3K6NG0hC48mDfWMfOiz3S5s7FqwZJycQt+afC60s1TZTtNIkTllljQkCT0MRk9e3TtqctXb/FfFphAyfcbU2o4NqP/Z",
+            "webOptimizedImage": "images/Architecture_85_web.jpg",
+            "tokenURI": "ipfs://QmQwBFbxsZvpJV3spPpjDUZXknvYahESkV1CvSL8GsuejM",
+            "signature": "0x13adf8b6326d9f6e8f800476bad9e81e272c1a93923bbbe9771fffed9310121c14a2ffae9697c2ca09e3cabd16cac2e565d85bb96ab9b2009cbc0b2cf2f7713a1b"
+        },
+        {
+            "tokenId": 84,
+            "sourceImage": "images/Architecture_84.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 84",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/84",
+                "image": "ipfs://Qmag2zzMTauv9DUcykm1mnNoSmi6w7BQjXnizggWhz4SNj",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACMQAAEDAwIHAAAAAAAAAAAAAAECAwQABRMxYQYREhQhQXH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhEh/9oADAMBAAIRAxEAPwDD7fIskTgt2HKhJfnvN90mUPCk9Si3j+AJChuTtUKdTR7qlGM2Co8sCRr6yGl9Xk8CB3f/2Q==",
+            "webOptimizedImage": "images/Architecture_84_web.jpg",
+            "tokenURI": "ipfs://QmQGUY1LR3e3DthUD4gRxfhSdk273t196uFZExrDpyK19Y",
+            "signature": "0x55892a462947a0999fb8978f9ebf34507a2f9afa3a430b526a15d2c2f0a43e1f12cc51c562c6ea579911de9eac2afe8f1e047efbde9e4171454c963e8c1f34b81c"
+        },
+        {
+            "tokenId": 83,
+            "sourceImage": "images/Architecture_83.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 83",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/83",
+                "image": "ipfs://QmYFF1Yxr2GaJx1j55ogfbzJA19JtKgSjvU3jVozJKQDtu",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAJhAAAQMCBAYDAAAAAAAAAAAAAQIDBAAhBQYREgcTFBUjQVFUkf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAGREAAgMBAAAAAAAAAAAAAAAAAQIAESES/9oADAMBAAIRAxEAPwDFcq5RhToqJMx5a23AW0BB2+T4OvoC5PskAU6eHGDAkKxtnUWN6DOJORcsnpkhpXJSNyTe61a1H93nfZc/arSoN2Bbo4Kn/9k=",
+            "webOptimizedImage": "images/Architecture_83_web.jpg",
+            "tokenURI": "ipfs://Qmf661HPQEE65BV3Lc2DKkyrwyoHaGPauQWt6B6yjXnFsV",
+            "signature": "0x8a1cc8f9b96806e1c78daaf0d06b8b4092b6907cd2aca0280e4babf73287d35566c6e9c50816582e5b70349c4625844026aaca51cce4ae243ae676eb1d78ce6a1b"
+        },
+        {
+            "tokenId": 82,
+            "sourceImage": "images/Architecture_82.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 82",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/82",
+                "image": "ipfs://QmSahFW2zEg3nkXKXc83MzQVHr441DYzz1bQkCx34bfVVa",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAJRAAAgEDAgUFAAAAAAAAAAAAAQIDBAURACEGBxIxQRMUIzKB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIRITH/2gAMAwEAAhEDEQA/AM6XklcmelAqrYMxxdYNQ27Z+TcLjt20cquVN/NVN7QUbU/WfSLVAyVztn80ei4wvsMMcUdwkCIiIBhey/Xx41Mnu9fPPJLLUyNJIxZifJJydMu4Umq0/9k=",
+            "webOptimizedImage": "images/Architecture_82_web.jpg",
+            "tokenURI": "ipfs://QmaKUFncMLEttdmLXHcAUTf6C8V6DmZ9hiDXUxUgudhdtV",
+            "signature": "0x83a933e55bc0a9d862fcc17e8e096bc632cfd1281c1b10b215cd716c56019dbe0324a15e6fb84ca918f614af43c57f8a4b3354cce80b36dbaaa742f622f3818e1b"
+        },
+        {
+            "tokenId": 81,
+            "sourceImage": "images/Architecture_81.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 81",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/81",
+                "image": "ipfs://QmeyVkphcfxsxw8E3gJo4Qi41TwUQwixCsVGZJJCdbYf7m",
+                "width": 1352,
+                "height": 1804
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAJBAAAQMDAwQDAAAAAAAAAAAAAQIDEQAEBQYSIRMiI1ExcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEUH/2gAMAwEAAhEDEQA/AMG0ppBvJKdOWu02KEgFKlH59g/lTFw153Oiz4tx2z6nimczqa+vMiwSUts2/ahlAhMRBkfVAOoAdWE8CTAqkORt/9k=",
+            "webOptimizedImage": "images/Architecture_81_web.jpg",
+            "tokenURI": "ipfs://QmbMQ18abxSdo5E36nWa4hWv7JwQHccPfhjykyDXFEmPSX",
+            "signature": "0xae91f072921e5f7857e8b2d611b54938231cfbf535897e41dd7f8d2981d3d6de2772fb9e6e5e9991c14332360770ba880416cf866917d207801a6cb97f6b86821c"
+        },
+        {
+            "tokenId": 80,
+            "sourceImage": "images/Architecture_80.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 80",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/80",
+                "image": "ipfs://QmY9iXNPUv7fmsiyNPZvcJciMePcki6G2kpgBUwqgFG9o3",
+                "width": 2048,
+                "height": 2046
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIhAAAQMDAwUAAAAAAAAAAAAAAQIDBAAFERMhURIVQWHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8Awa2WeL2m9KKQ5JbtzElkZA2LjeoTnhJNQhLhgDMEk+TqEfKUWxaixMBUcCwDbPtNBuo8mi1//9k=",
+            "webOptimizedImage": "images/Architecture_80_web.jpg",
+            "tokenURI": "ipfs://QmPGbGUF3yxW8a2qTdFZYJVYPR9cERq4hT4e8nNJMgvJuz",
+            "signature": "0xa3da32072aa7a96c71c9b3998681ccbf2d4c926488b97c6d03b04babc2e44b0527c24ac02c9f318fc575118e964f3a4f0e28cf8f6570c8c57a5c4227a5c8aa251b"
+        },
+        {
+            "tokenId": 79,
+            "sourceImage": "images/Architecture_79.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 79",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/79",
+                "image": "ipfs://Qme8HJ5eD6wiJxxLNwSk14VQ7wxezwLWSX43Lbd79PkLHD",
+                "width": 2048,
+                "height": 2046
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAmEAACAgEDAAsAAAAAAAAAAAABAgMFBAAGERMVISQxMjNCUWGi/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABgRAAMBAQAAAAAAAAAAAAAAAAABEQIh/9oADAMBAAIRAxEAPwCf5NFSw7CdI6SOSyzYMeCuyRC4MkhJLuXYgAsCOB9aCy7H3Esjg0qKQSCOlXs/WlolkMdIhkcqojKjk8Dy+GiVjl5PWGV3ib1W95+TpWqGtzh//9k=",
+            "webOptimizedImage": "images/Architecture_79_web.jpg",
+            "tokenURI": "ipfs://QmWR1DSiAxowr8xBMcnVQkphDbwD279c7RhvbX9YeQfN9s",
+            "signature": "0xf11dd50a38c1a9eed7f0b60e059e4cc0353dd8c50b744b0e360cdaeefdec29360bc6e60f4b06cc51e929d5dc3e7fa617f668b4a79b9982acb4e283f569dea0bd1b"
+        },
+        {
+            "tokenId": 78,
+            "sourceImage": "images/Architecture_78.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 78",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/78",
+                "image": "ipfs://QmXz8MSzgLc8KLUomER56padEFXyiKmoWVsM9FgBYGfR6b",
+                "width": 1535,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAgEAABBAICAwEAAAAAAAAAAAABAgMEBQARBiEHEiNh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABgRAQADAQAAAAAAAAAAAAAAAAEAERIx/9oADAMBAAIRAxEAPwAbyQ/AoZsaHV0FIpqUSyt1cVBX6jQPev04kzU8XWy2pcCMlRSCQGmwAdZEL/k8+zeZclqCltglJHWu8PHI7HQ+xxaB5Hgon//Z",
+            "webOptimizedImage": "images/Architecture_78_web.jpg",
+            "tokenURI": "ipfs://QmP7xzRrvpLVe8KGQTZv2C6qiBtch1ssGMGwKDGmSAeGqb",
+            "signature": "0x2cd0cd66c9ac363af5c5afd246eaff310ff61ceafc77b465120162c0fb95e6dc59722750b38d09edf21940aa391d7fd249fed0be2b34ac843dcc85340f60ab3a1b"
+        },
+        {
+            "tokenId": 77,
+            "sourceImage": "images/Architecture_77.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 77",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/77",
+                "image": "ipfs://QmeL8fktnRfMB9R2ytAxwA8obyKZ32HxEZF2GTHN3m47b2",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAHRABAAEFAQEBAAAAAAAAAAAAAQIAAwQFEQYhMf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/ANr9m7U915+OFfYYE0Mm2R6XAl07V7RmwjF2eKsRTnFPz7SlLfETicqmf//Z",
+            "webOptimizedImage": "images/Architecture_77_web.jpg",
+            "tokenURI": "ipfs://QmbKqi4oUx58TCoo2mV4XTTUYdg55WNhzESXZ7r4NFvPy1",
+            "signature": "0x3d49492eed4e78143054a9764ce5a68121ae3b297bedea9e4bf3b3efe957eaf3113a1d040424a118478971812e93115d76160a2dbb740eab64e10b28f9d5a82e1c"
+        },
+        {
+            "tokenId": 76,
+            "sourceImage": "images/Architecture_76.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 76",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/76",
+                "image": "ipfs://Qmb34hPoxySVsHEbXFYK5xC5Ys6vkWiEHgjSecsLQQ8zBJ",
+                "width": 1490,
+                "height": 1987
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAhEAACAQMEAwEAAAAAAAAAAAABAgMEBREABiExEkFhUf/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAGBEBAQADAAAAAAAAAAAAAAAAAQAhMUH/2gAMAwEAAhEDEQA/AA++t/XSyb1p6CC3xLFThVkjePJkJHYOeR7B4znnVWjgq541lFnRA4DeMlSisM84IK8H5oVuGy0953BBeZS0dVCxKBeRmMBsnPZZixb9zjTBL5VKiiCSaGIDCRpKfFF9KPg61KnJg3f/2Q==",
+            "webOptimizedImage": "images/Architecture_76_web.jpg",
+            "tokenURI": "ipfs://QmRxzGLQonDx2edtX1u9Rn9zdQF2cvY871pUEkE7BnNgab",
+            "signature": "0x0d860b91f6b331f70521eea2b5677f871866d088a6b3813e165a548b6ece71794886137de71054f9575f3169e5f8e41de5071b1516a645d411dcae66cac65cfb1b"
+        },
+        {
+            "tokenId": 75,
+            "sourceImage": "images/Architecture_75.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 75",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/75",
+                "image": "ipfs://QmbBLYzYiK38yG9sLSc7biKJC1b4XVxL1koDTFGoBReDzb",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQH/8QAIxAAAgEDAwQDAAAAAAAAAAAAAQIDBAURAAZRBxITISJSof/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECEf/aAAwDAQACEQMRAD8AyGy9Ft13e00ddBFRxR1KuwWon8bqFGfa4z7HGdDZ9q32GaSJrTWlkYqSIWIyDjjTQdU7/A1B2SLmgBERJ+y4P5qabfl4lleRpj3OxY/LnV5Ul//Z",
+            "webOptimizedImage": "images/Architecture_75_web.jpg",
+            "tokenURI": "ipfs://QmSDkVqyPyG3UynGsVhDWB9UD18eWnJaYivZ1mW19hueSy",
+            "signature": "0x7e9a86de205403a3d2e196cfca449beb7688b24c9f73cc91ce00c4da91679d3a392d80731e53a79ddf9d67ea3570bda49ec4696b1e777bb41186675b543dbb961c"
+        },
+        {
+            "tokenId": 74,
+            "sourceImage": "images/Architecture_74.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 74",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/74",
+                "image": "ipfs://Qme7jFYdQqYpZGzVM598JBPSqZTebJKS1Mx1MmMB8pLdD8",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAIBAAAgIBBAMBAAAAAAAAAAAAAQIDBAUAERJxBgchE//EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCf9PeEnO+s7+XFSs740yGHmilnYAM33obd6wCWEfq+wAHI/NN4/J36mNvV6t21DBIo5xxysqt2Adjo7SxOV//Z",
+            "webOptimizedImage": "images/Architecture_74_web.jpg",
+            "tokenURI": "ipfs://QmTu2DTVTr1FZUDrntCJioGBfsXo3eTHFqa6rrogj3rmZP",
+            "signature": "0x2247481923671a375b7eaecbf3e79bc8c1a968a7cca4eddfdd22c56c63aba50d7f841a2f01f69daeb5b8d6cdcd35785f93138547ea7a7cb4aa297073ff2a911e1b"
+        },
+        {
+            "tokenId": 73,
+            "sourceImage": "images/Architecture_73.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 73",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/73",
+                "image": "ipfs://QmPUxrTaDeLF3bZK3sr612CVD8AZ3p9RH5ZTokv7NpKMDD",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAYH/8QAIxAAAQQBAwQDAAAAAAAAAAAAAQIDBAURABIhBgcxYRMiwf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oADAMBAAIRAxEAPwCe6V7J0dz0XW2EmXKjTJkVh7dv+qFK3E8Ec5BTx696P9nDXBspcRYUFx3ltEEYOUqI/NI5jucul6VgMN1LbpDbEdCvnKMAJCRuwMnxnGRrJbaRFlWsyQuE0lbry3CEobABKieBs8aIJJd5f//Z",
+            "webOptimizedImage": "images/Architecture_73_web.jpg",
+            "tokenURI": "ipfs://QmQkZ7HwEFoF4YgFV7je9TCQNzbyfTdJfwwNjw1to1acLW",
+            "signature": "0x8616d2b6c3f9aac9dce47f34f9311948be86c859c6e5b4733c9c09755519e33c3f2d105681690b62f40f1fecf7e0ed20253fec394981cd58f79d5542902b09f01c"
+        },
+        {
+            "tokenId": 72,
+            "sourceImage": "images/Architecture_72.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 72",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/72",
+                "image": "ipfs://QmQKS1dNT7nnwiJknHqqZb3V9Kh7BXH8Mf3LW33sUQ4Dkn",
+                "width": 1875,
+                "height": 1817
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAEEAQQDAQAAAAAAAAAAAAECAwQFEQAGEiEHYaFi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAMAwEAAhEDEQA/AA+Hqmnb2xSxrKkqZrklpTy3JDCFOkcs5AIJUBkDP6Gsb3PsWS3uW2RD4iKmW8loAYAQFnj8xqdjXlswhoM2k5sNtlCOEhY4pJGQO+h0OvWllW1ipRKrCWSTkkvK7+6kCKzXS//Z",
+            "webOptimizedImage": "images/Architecture_72_web.jpg",
+            "tokenURI": "ipfs://QmVNQQnnV7TEwmuq3EzHdEyFQ5e4mQvaVC9nfpeh4tX1HT",
+            "signature": "0x88b9f09e7d7368e7534b60582ccab9cacc289fd795a0dd95efb26ed315ed7ae96c36e679a5e9f986bac8fbf3a3211191c2d66a04968343f6073a8207759284b71b"
+        },
+        {
+            "tokenId": 71,
+            "sourceImage": "images/Architecture_71.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 71",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/71",
+                "image": "ipfs://QmTqKvKv4qc5yRtsccnu8uoUbCDN1YFTMvM3eLbE9PhZ1n",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAARBgUSQVEhIjH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECERIx/9oADAMBAAIRAxEAPwBKblNCKwKleWqksQCyDuBA9b1+E4Pa51xuC1NFNarCWNyrgRk6IOj8+cwhOVXV6v1S4qoJLbxs48fVtjJu9ZaxdsTOB3SSM517J3hyhSd8P//Z",
+            "webOptimizedImage": "images/Architecture_71_web.jpg",
+            "tokenURI": "ipfs://QmdChikqdh3HtLkZZGEav42UE3CqiCA7vAvghoyKyF7Ws6",
+            "signature": "0xbc49f6817950a873ee96f9c5a5374b11c5528916a21fe3c743210d500e321eae118faa034493e83f271d3033ce4fdd1b9703455cb8cb21706dc29199016c85791c"
+        },
+        {
+            "tokenId": 70,
+            "sourceImage": "images/Architecture_70.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 70",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/70",
+                "image": "ipfs://QmcLTtE8bHP4G9VjCgrquXPBSAFx3QC4vS4514gWLwF9h3",
+                "width": 1537,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUI/8QAJBAAAQMCBQUBAAAAAAAAAAAAAQIDBAARBQYHEjEVFlFSU6H/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAgABQf/aAAwDAQACEQMRAD8AQNQc+TsM1ZytAgQ2noKxZxZUdy95sbeLc0t9VifQVjifmydIxyK+4El1lJKFHkX5q13zivv+0NL5PQr/2Q==",
+            "webOptimizedImage": "images/Architecture_70_web.jpg",
+            "tokenURI": "ipfs://QmNtVwnw1MDrmSmwZ1dphxwJsqRZbA6uU39N5yL5AXFe21",
+            "signature": "0xd53661ca84a577c73c99e29f5027a8c52aeedd811babac7bcf38100e4dc0b4da3a480cc508582fd126f76e6346e29f7679e36624081e8c91645afa91cb28a1fa1b"
+        },
+        {
+            "tokenId": 69,
+            "sourceImage": "images/Architecture_69.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 69",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/69",
+                "image": "ipfs://QmdB6gjYK9wqeraAVSev63xGxb6jiRenv1mNyhDbhawXkB",
+                "width": 2021,
+                "height": 2021
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFCP/EACIQAAIBAwQCAwAAAAAAAAAAAAECAwQFEQAGEiEjMUFRkv/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAXEQEAAwAAAAAAAAAAAAAAAAAAASGB/9oADAMBAAIRAxEAPwB59xXWk3xS2KkvFOtqqu1MMMTCIFTxXkQcn1nP3oZd2WeKV457PJLMjFXkBUBmHs9D51m2qkdKeVldlYJ0QcEdagmqqMnzy/s6TQ3L/9k=",
+            "webOptimizedImage": "images/Architecture_69_web.jpg",
+            "tokenURI": "ipfs://QmNZFqr4e4mwbrXiDT1jSTPoMbPTP5PfBwvmpcPrrh5Mf2",
+            "signature": "0xfd8fae96f86de05b532edfb64fbb7d0fee07199b5642deaf75304ddef262ffc7258a3ba46bc9a4c6873b3d45f809b60a91a626011a51eb32bbdc78d11101976e1c"
+        },
+        {
+            "tokenId": 68,
+            "sourceImage": "images/Architecture_68.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 68",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/68",
+                "image": "ipfs://QmVHgUkgdEYU7eP54tocUnxf7poP5orVgSPAZRrPoxgPzi",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGB//EACUQAAEDBAECBwAAAAAAAAAAAAECAxEABAUhBiIxEhMyQVFhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEUH/2gAMAwEAAhEDEQA/AMzxfAcNcYQ3Lj482DPqITrUkCBP2RUa5xy2S4sBzQJHeiWWdfaxlwyWmlqUOlxQlaNR0n2+f2lar58qJ8ZEnsDQr0tqJ//Z",
+            "webOptimizedImage": "images/Architecture_68_web.jpg",
+            "tokenURI": "ipfs://QmTVUycyYizFyarogH9uhFzAafGGhg1sP57YGkpyzEoXQ6",
+            "signature": "0xe1bd6d81cd59bcfffd7b49f216231dd516b9424b38ed032f67e0b3468ea299aa5f994c9659aadae723ce56cfef34b615cbfd5441510fa402d270840e78a135f61b"
+        },
+        {
+            "tokenId": 67,
+            "sourceImage": "images/Architecture_67.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 67",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/67",
+                "image": "ipfs://QmWYtaDcAj2BovQdFVsEMvbmsqZ9x1K4Ecmk1Z7voPw8eU",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQMH/8QAIBAAAQMEAwEBAAAAAAAAAAAAAQIDBAAFERIGITETUf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAIRAf/aAAwDAQACEQMRAD8AZ5byB2LZLda7O9Gtt4KESArTZDqhtlvB9GOyD+U9Avtqfgx3pdgWJLjaVuhDo1CyMnHXmc1kb8xc11LMwB34n6trPRSdifaknmU1tIQG04SMDuqWlAVm3LT/2Q==",
+            "webOptimizedImage": "images/Architecture_67_web.jpg",
+            "tokenURI": "ipfs://QmZ4zgKQqtjRxa8JSZU9YWf2g3fJCQ2rjeEskHGKtDwMid",
+            "signature": "0x6a8896f8276c84b7bd2e0171666d58b5e2fd9489ff2209bb972ca85fa09d3c4a60e4c62676540ca7d28eb3d9a2c0ce5628fc5b6affd6b811ae45036860b899601c"
+        },
+        {
+            "tokenId": 66,
+            "sourceImage": "images/Architecture_66.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 66",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/66",
+                "image": "ipfs://Qmb9mJbznhxLv8qWUVuKrXVU537XwDmntWsuFSdj6SEkso",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAIxAAAQMDAgcAAAAAAAAAAAAAAQIDBAAFEQYxExQhUWFxgf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwDFNJaEN90ddLwLpCj8qAQw6rC143xUCsYWoDvScS73CFAfhRZTjUWUlPFbTsrHUevlGODDih5NBmsf/9k=",
+            "webOptimizedImage": "images/Architecture_66_web.jpg",
+            "tokenURI": "ipfs://QmRr9ddHZyaUjohQf1pWALFomz7GR1pSLmogKeLCLVKu6y",
+            "signature": "0x0cf2370dafa7942d5ed44ba3ac01e5dd9148f68830962fb4354182a6adb10c521a738c03f6eef2dede34202dc5e69b026d1a7ac0713a0677b2bdc21fda68fd8f1c"
+        },
+        {
+            "tokenId": 65,
+            "sourceImage": "images/Architecture_65.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 65",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/65",
+                "image": "ipfs://QmTAvd5pgpptrepnYkA2ev14a8SERHcwRLZMFiyPiDYhVG",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAhEAACAQQCAgMAAAAAAAAAAAABAhEAAwQFIUEGkSIjcv/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECEiFB/9oADAMBAAIRAxEAPwCGw9N4G2CHytcHvFPscZLKJABMAGB36oC/r9Kl+4lqzjC2rELKSYnjmpPX20LJKr31+KKCLA+I9VXeK4HrP//Z",
+            "webOptimizedImage": "images/Architecture_65_web.jpg",
+            "tokenURI": "ipfs://QmPKWtqg4hJSxZrHeCb6jhgVJfLSjXWWLNUsMR1Rit25S2",
+            "signature": "0xb85b9c752913a3e1b68cd086e08df2d590593f70c98a5c5f1a869339128a4fe9608a34e031a585a5a4bd594c313c1502f8574cc882e6073b4349c832d729eeb01c"
+        },
+        {
+            "tokenId": 64,
+            "sourceImage": "images/Architecture_64.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 64",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/64",
+                "image": "ipfs://QmRRN9pUhZLhx11dNQrMGRz1XPzpg8j5hhhJujMyJkVD3w",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQH/8QAIhAAAgIABgIDAAAAAAAAAAAAAQMCEQAEBQYSIRNhQVFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQIhUf/aAAwDAQACEQMRAD8AN7Z2Xo424zzsXNq4mQmTYIq7BrsfN1fGjQBGM8ze0dMXmnQbrC1MjOQlCSm3E32DxiR16JHs4QbW15qNI0O1Rmcix0wZG/LyVdT+wD2LxK/cjpPYRlcqLkTQWOu/zFOMG5cJPp//2Q==",
+            "webOptimizedImage": "images/Architecture_64_web.jpg",
+            "tokenURI": "ipfs://QmY89HXoq63pjyoPPSK7UpYDZr8rDEhY72PdWQ6qB8SYkX",
+            "signature": "0x0a026b727bf1a274c551deaecdeeaf2aea6cad08aeecec95f6b68d4f8db634c03aa7ce7037cd2d386602025967f7d51e5ca18b0ca5d339c03a63304e511b3eb31b"
+        },
+        {
+            "tokenId": 63,
+            "sourceImage": "images/Architecture_63.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 63",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/63",
+                "image": "ipfs://QmUZhFgxc4dv3fPmkibrf1A5593uP4XPLiPieDW3LFHzzo",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGB//EACEQAAIBAwQDAQAAAAAAAAAAAAEDAgAEEQUGEiEUMVHR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAIUH/2gAMAwEAAhEDEQA/AH2ydlaayx4Jt1OamLJFjJgl0ZZxywMgjIx8qfnoW2zImSwJE9jI6NYyNxa1d31ugalcWsHLmGeJOSywAepdnI/TRS1wJHlXfXx0hUaU1//Z",
+            "webOptimizedImage": "images/Architecture_63_web.jpg",
+            "tokenURI": "ipfs://QmRsqrAfC2Km4emMiwGs9pZZdhLZwQ8ZwLP9Ci6dX3v8vu",
+            "signature": "0xc93fd99f0e00e205513eb1394fb8ef24b59a5d12d8e5f880bb6fd7c78e2243d071df7b168e7622e893b308011d9ea2d0288c015c519c326606a1e3f7d2a44b2b1b"
+        },
+        {
+            "tokenId": 62,
+            "sourceImage": "images/Architecture_62.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 62",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/62",
+                "image": "ipfs://QmZA6uq7kuAy9z6XYLAQWLFcz3PjZzERV1CYpyi8JLwKmb",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAKhAAAAQDBQgDAAAAAAAAAAAAAQIDBQAEEQYSFCIjExUhJTEyQVFhkaH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERIVH/2gAMAwEAAhEDEQA/AIjA0Oilj3heYsvZiYnQ2WDWM1pgYoCbUG7TPQtBCv7AxSTeAOYFG5hvgI3uUJdfqNqY1VNyF1D8Ce4GzJzYlXMbvHz8w9YFLP/Z",
+            "webOptimizedImage": "images/Architecture_62_web.jpg",
+            "tokenURI": "ipfs://Qmf8CZRj1u2HNHvapHtME6nWFe2mG9ZSkjqr2bSHZ9FLDC",
+            "signature": "0x6f9fb6a168c310f2fa2317c2768aa0a085fb33803a77f0af8b056aa6c9f9676813e0d75aa1e8a61aa15740f25223df0053ed3a52e57061cad0ef8b6109d100581b"
+        },
+        {
+            "tokenId": 61,
+            "sourceImage": "images/Architecture_61.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 61",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/61",
+                "image": "ipfs://QmXWyFfUWM2f4FnuNq1WGTwhe57jyYDfqaoJ7GN88KUZ8y",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwQG/8QAJBAAAQQBAgYDAAAAAAAAAAAAAQIDBBEhAAUGBxIUIkEjMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAAhH/2gAMAwEAAhEDEQA/ADXauUc6VsjrwkJQAcpcaIWq0jA9CjqBzlsG3Fo+VXSSL/a0ycN71Jc2dhzwT4GwG0ZIxdlN+tYSXxbI7p64cQnrVkos/ehpWvC//9k=",
+            "webOptimizedImage": "images/Architecture_61_web.jpg",
+            "tokenURI": "ipfs://QmYve6NCc4sqXUfdiz6enxFC5EDo2CPbRDcHsoymHsbi5s",
+            "signature": "0x3b75fb06fd7662d41a2db92d70617a7fc84a9bed42da2c21c0b6dda1d72484514152077850eba8fd651cd907f65f0899227b8fad4514438fbfcd9d747fdfa5ef1b"
+        },
+        {
+            "tokenId": 60,
+            "sourceImage": "images/Architecture_60.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 60",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/60",
+                "image": "ipfs://QmPBZygFxTaEoXKJse8zFMGHtTs2VW546AryCBwayn7Z67",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUI/8QAIhAAAgIBAwUBAQAAAAAAAAAAAQMCBBEABSEGEjFBURUW/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAgD/2gAMAwEAAhEDEQA/ABO30Suva2GsywuNi8HlkCeV44Xn53HgfdQf5544kCCPIPrWwen37db6cY+3s1Jz4qXGLJxzICODHnHo86Nb/wCc29ZZLa090mSkcSPkk6TYqaGaN//Z",
+            "webOptimizedImage": "images/Architecture_60_web.jpg",
+            "tokenURI": "ipfs://QmY61vDGSEwjQkxrTjfGru9zTB3HHqHuVcuys4u5NVEMHY",
+            "signature": "0xf4aa3333ac32989d9dd7f0c2a950323b81cc9b6e1e291fd1b67696f7c40ee6d31192070080e7efefb2b6748aee4a68e2b63c84dbc042f46f8179945db2a9048b1b"
+        },
+        {
+            "tokenId": 59,
+            "sourceImage": "images/Architecture_59.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 59",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/59",
+                "image": "ipfs://QmS6Wb3swyJjSmysoBjeQKf6U5g7Y1LBUwhoMvyKKF968h",
+                "width": 1488,
+                "height": 1985
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgAF/8QAIhAAAgEDBAIDAAAAAAAAAAAAAQIDBAURAAYSIRMiIzFR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIREv/aAAwDAQACEQMRAD8A17hvY3W8Wu1QVbUNuDzMyUx8fIIvoGx2RkdjRuXc1I0rsQhJJP1opR0aS7voJizD4ZnI/SQNRECHj4AcdZzoGqOb03//2Q==",
+            "webOptimizedImage": "images/Architecture_59_web.jpg",
+            "tokenURI": "ipfs://QmXab1ASVWgRucJEpf8wyyhAkXc7jip3Sa32RCniZRwRF6",
+            "signature": "0x5cd7fe79049e07777d90f6c9aa65a75ce3dcb8c34c754be974c8ccf4581e85a02fb1cfdb5a4f03104b2988bc7748516105332d98267aff331ddabe4941aba3511b"
+        },
+        {
+            "tokenId": 58,
+            "sourceImage": "images/Architecture_58.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 58",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/58",
+                "image": "ipfs://QmQvG2LgMMqJgapHQFh45mvzRh9riJcqsov8DYRzsAC9eV",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQQH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBQAEERIVITEyUYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDLo+DsdmZWWipzSkqyO9SMjH2hJGIt7eQumU9NuqQOPRIq6Ol39oaTkkJRgDPHjihbqVeVcvKUASVkkk980VX/2Q==",
+            "webOptimizedImage": "images/Architecture_58_web.jpg",
+            "tokenURI": "ipfs://QmU3tuxMBuo8mJpsFmwpRWVw4PcnsAZi6Ggo4kA45zYYNq",
+            "signature": "0xa6d744d20c2acd805d1523308eaca07a56a6d0835efdd540fa8e10f73af9db6235fccc0faf241dc40e5734523134e470b73c0597ca030022cb57b2d54b8a1a8e1c"
+        },
+        {
+            "tokenId": 57,
+            "sourceImage": "images/Architecture_57.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 57",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/57",
+                "image": "ipfs://QmPt9PyxftNUHTAHV9rcHaU2XHkuPaGdSJtvW4kyNh3CXa",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAYH/8QAJBABAAAEBAcBAAAAAAAAAAAAAQACAwYEBQdRERIUISMxMoH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQACEf/aAAwDAQACEQMRAD8Aw607Sc3s/Ns06HE1nDfNamykkm/MPd/IhYVWgAOgVzKCk2L4O3hILB6gVVWO2YT/2Q==",
+            "webOptimizedImage": "images/Architecture_57_web.jpg",
+            "tokenURI": "ipfs://QmfP9roBcoKiwN7nJDiMpyzpB5gQ9PAxnvqYK3QszM7dHb",
+            "signature": "0x3f0f048b6b8901737f24a82b78b5bb0e01fef2a77b83799c73af8fb8a2ec1c512e872378e9db95ae0680830bfca11637a8530251b00348050390c1b781c11ed71c"
+        },
+        {
+            "tokenId": 56,
+            "sourceImage": "images/Architecture_56.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 56",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/56",
+                "image": "ipfs://QmUryF23UWxk47DCMjARdCY83sbH6ARzDvHarbiocyhakG",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAJBAAAgIBBAEEAwAAAAAAAAAAAQIDBBEABRIhBgcTIjEygZH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhFB/9oADAMBAAIRAxEAPwBLpweM0mq7RYqUZtqucHglX4hJG/Hj30T1grj71Yk8Bo82xauAZOAQjH+lcnRpb3mHcoStimyxSxAMkUxTA4g4BABX9aytr1d3PabU23QC+8VRzXRpLwZmVDxBJ9vs9feoi9nJ1f/Z",
+            "webOptimizedImage": "images/Architecture_56_web.jpg",
+            "tokenURI": "ipfs://QmRsUaPKjiMd21FhT3pVEUnbJj8futzpxCmHTkagtpG8CT",
+            "signature": "0xc7711ebe1dd83e70a3df58a2c900fdb64f9d45caf13ab37efc8039ab242f900e5ab7ece7c846a8cf9122d552c107018a4a8223100093dd39921e96e532a450b21c"
+        },
+        {
+            "tokenId": 55,
+            "sourceImage": "images/Architecture_55.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 55",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/55",
+                "image": "ipfs://QmfJ38n1yE2fHpehXqk9hJjz2nrhSSS3vC4HPdTtZRbs4R",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABv/EACQQAAIBAwMDBQAAAAAAAAAAAAEDAgQFEQAhUQYHEhMxQmFx/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABgRAQADAQAAAAAAAAAAAAAAAAEAAhEx/9oADAMBAAIRAxEAPwAVSWG1sqAKS026dEgJ9RjKczlI/vG0c7HOTzpW3tv0DWMnUrmFQcSyK1zAjEHfA+hnRXohzY2mo8WzG8faR40PdUODmANZjyPyOktTNhy7yf/Z",
+            "webOptimizedImage": "images/Architecture_55_web.jpg",
+            "tokenURI": "ipfs://QmfL1ov5cAz8p96qa3PRDrn68ZyTxwYLAph1DphrNBH2Mk",
+            "signature": "0xaf121c5e4a209f47679025081019edbb0a3b4a34c0868093c98ff89911762ae654c33a9caefa4611aa7b17ddc3ec9fbd82e5f29a50b4ca4912e904bd765423e31b"
+        },
+        {
+            "tokenId": 54,
+            "sourceImage": "images/Architecture_54.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 54",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/54",
+                "image": "ipfs://QmVvjpEUu6GUG5rYLHtqreaRfZkAb3sbPJ9jtXfHUZKE8S",
+                "width": 1414,
+                "height": 1884
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQGCP/EACYQAAIBAgQFBQAAAAAAAAAAAAECAwQFABEhMQYHEhNBM1FhcXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AKOLnLC0Jjs1upa2JdO1AvVJ07ZnxuCMHDzIs1RCk72ySNpFDlGp2zUnXI/OM1ycU3OjprayvFP3KZXZaiMSKGEjageNh94Qq+J6oVUwFHb8g7D0T7/rDiYt/9k=",
+            "webOptimizedImage": "images/Architecture_54_web.jpg",
+            "tokenURI": "ipfs://QmUZDJyhgmNnUYTPMqaTF1g1MfnNhv4yScTkrA1qT43srr",
+            "signature": "0x8971683a6a34626d76d7440390682539ad5bc15f2e7b249c5b48ca36ff56edd54c66eb323f03ee750b73963a1a6d99d2a7e9e482be9ccde5c884dbf424f0e0111b"
+        },
+        {
+            "tokenId": 53,
+            "sourceImage": "images/Architecture_53.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 53",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/53",
+                "image": "ipfs://QmQ6RoKEpnjwxkaA2hv6WQqu7qPCeMvEdx6eerxxwvjBbw",
+                "width": 646,
+                "height": 861
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURAAYSByFBFBZRYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhEh/9oADAMBAAIRAxEAPwCT07skftm1bgiq5mSeWGKWhaUGKNZGZCVA7rhlzk+Dj40rR0W3ZEVzYZRyAOPUHtrKez3ntNcqUU7ItwEtDMPBRlJB/VYKw+xp2tPUOva1UbS00LyGFCzZxyPEZOManLBqmj//2Q==",
+            "webOptimizedImage": "images/Architecture_53_web.jpg",
+            "tokenURI": "ipfs://QmQE7cJMnwG2dd9aZ1y9XkLDohX9ikbTW7XGTq6EcyzFFj",
+            "signature": "0xd5b81167b68c2ce1305d71554a94ade8c57ac42c828e81ce0a56c58a075681f72935994d6affe763b2c7c401868cbf553fc6dcfd84948ebec1fa5b22cfdc844f1c"
+        },
+        {
+            "tokenId": 52,
+            "sourceImage": "images/Architecture_52.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 52",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/52",
+                "image": "ipfs://QmZrEqACtwtKe77rTbf26c2e6j8TWYJ9rfg5GoH1rbyxJ8",
+                "width": 1535,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAf/xAAlEAACAQQABAcAAAAAAAAAAAABAgMABBESBTFBYQcTFiEiQlH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/ACcf8T1u+CrLBaWdrA8QeNWPmyMpLDLHIAPx5D961L/X9kfeSyuN/tqRjPbtU/nupWXQsdVXUDPQCiFjnnV2wQ//2Q==",
+            "webOptimizedImage": "images/Architecture_52_web.jpg",
+            "tokenURI": "ipfs://QmdHD6JmqSrq2eadT2NGQebeYxyM8MUCaVK4cuZ1WuwdXT",
+            "signature": "0xd77729df8bf03dab90a175f006791482c6f26b2ce2b0380d2d0212cd65bced2067986c24ce1a23969e722724ed347d3b7a874a4e63f26796979c7eef09de309a1b"
+        },
+        {
+            "tokenId": 51,
+            "sourceImage": "images/Architecture_51.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 51",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/51",
+                "image": "ipfs://QmYUPQ452eKc83z6BkgFQPC2aB9KudeiiZPpPfoa3L7SDP",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQEG/8QAJBAAAgIBBQAABwAAAAAAAAAAAQIDBAUABhEhMQdBQkNSYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAMQL/2gAMAwEAAhEDEQA/ALvLeWer5ZcHtLbF+a0ZRE81mmWVm/FU5KgdduzE8D6Rrc19n3Ja8UlrZGAFhlDSAXxwGI7+yfn+z/TovK/EnIRW6uMoUqtOxkeTJcjBLLx6QD0T16dCyYCtLI0k01qSVyWd2nclifSe/dChtRyuX//Z",
+            "webOptimizedImage": "images/Architecture_51_web.jpg",
+            "tokenURI": "ipfs://QmWXMHU2krZKKcv3tuSBYbAaLrDR8Pa5vxJp9oTu3ikhyo",
+            "signature": "0xa80d9a8f57f9ffc9154a2d41ae6771003e839e734c68b3b9de4b4f04f4b8a9536af54387a92c3842e822d824871c92978dbc5930638858ca62eab9a4d06345e31c"
+        },
+        {
+            "tokenId": 50,
+            "sourceImage": "images/Architecture_50.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 50",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/50",
+                "image": "ipfs://QmRrPoEMA84N8cSMABx6zgwTcUmY5V73pTvJgGEFHZSSsV",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQYH/8QAIRAAAQMEAgMBAAAAAAAAAAAAAQIDBQAEERIhQQYiUZH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABgRAAIDAAAAAAAAAAAAAAAAAAASAQIR/9oADAMBAAIRAxEAPwAyQZjYbx+Fu5aMdt7QW+yjsgvLdyQlsNj2AUcHbOAD9rHXETDzinTdLbKyVFDaQEpz0BjgVUzKm5FmLkblva6ZS0yCTxrtkYHXf7RS5NYWoBtPBqlWBm2H/9k=",
+            "webOptimizedImage": "images/Architecture_50_web.jpg",
+            "tokenURI": "ipfs://QmeUjUvMDw3Cu1CLEqxboTSqi7Bn5qxvzXt3DLhhG51iXo",
+            "signature": "0x41c38f616b2d99f087c2cc0eb81f4a61c0ee56cb4e0825303c6a35908bc9d93d6a39025671bf47049e9f74284e266abf35c9e4073e6f87c0e60b64cd0cb854db1b"
+        },
+        {
+            "tokenId": 49,
+            "sourceImage": "images/Architecture_49.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 49",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/49",
+                "image": "ipfs://QmXq64DKgeYe3d34S8AzFPpeBpFywFuLwZYiWgpzXPss8h",
+                "width": 1462,
+                "height": 1950
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EACMQAAICAQIGAwAAAAAAAAAAAAECAwQRAAYFEhMhMVFBUoH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQADAQAAAAAAAAAAAAAAAAEAERIh/9oADAMBAAIRAxEAPwCHxGTa9KvHFakYWXYPFFVHO7R98kL4B/c9s99CU9pSosiPV5XHMOqcPg/bL5z71ndowVIeH15kqJ1CXZj7OG0hJLEZGJrx+T8arlQyDSz/2Q==",
+            "webOptimizedImage": "images/Architecture_49_web.jpg",
+            "tokenURI": "ipfs://QmaU3rVcZtaUFpsNkskCo4CQj1kzUQ58K6BxNrPJ2vzcAz",
+            "signature": "0x67bae0cbac9e9b86c017422cec8a6ff779ba7001c84d71cb29b461b80ad6f57c69dab1b6bb861f24912c513aa437cb0d791185c061b25749014d85ec24f755b11c"
+        },
+        {
+            "tokenId": 48,
+            "sourceImage": "images/Architecture_48.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 48",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/48",
+                "image": "ipfs://QmeshAevC7c6BJkpXF3LeLdQtYv1THfafVtYcQPCbtHkSC",
+                "width": 1535,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwP/xAAjEAABAwMEAgMAAAAAAAAAAAABAgMFBAYRABIhYQcxEzJB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAYEQADAQEAAAAAAAAAAAAAAAAAAVEEE//aAAwDAQACEQMRAD8AHXK2GS4Umnk6gjgulzbz0NXS9DqSCK+SSCM7SnOOvenrx/a0TcFuyT5omKZyLd+FASjclSfsOD+jJ5yc6PZG2beTIVKVxzpUHVAlFQUjOT6GOB1p0qI88Z//2Q==",
+            "webOptimizedImage": "images/Architecture_48_web.jpg",
+            "tokenURI": "ipfs://QmU5WqqzuuPmtPo2hj9NsArfDVqbFArnex39T9YXnX4y4A",
+            "signature": "0x0d427de4494489a750c121185e4809dedfc896795c9130d733c9901ccd5e3ad350cff5729aa31fd65184bc8f9b0caa430635cf45fbd40b884fc8dd3f23f15d031c"
+        },
+        {
+            "tokenId": 47,
+            "sourceImage": "images/Architecture_47.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 47",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/47",
+                "image": "ipfs://QmRxEx1dEotv2wxmpmbQtWAEw4qfbYduSW4ZftT8Tqv3ct",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwP/xAAkEAABAwMDBAMAAAAAAAAAAAABAgMEAAURBxIhBhNhgRSRof/EABUBAQEAAAAAAAAAAAAAAAAAAAAE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEkH/2gAMAwEAAhEDEQA/AFOxqhQLRbGZM5KPhx0IkhYJO4IBBJ9585o2u/QDT92mvFHLj61n2omr6msymNYIUGNL7cKQqF3GdhIVyBzz4H0M5p3fssdb7iiTlSif2qbx0NH/2Q==",
+            "webOptimizedImage": "images/Architecture_47_web.jpg",
+            "tokenURI": "ipfs://QmTkTGdKmsbjTDFZ4NAf2KNGs4XX78719Q95jhKr4gmxFQ",
+            "signature": "0x078c3616490442a8962353f071289c263dd35c30fa38c445cabce6b846e602214ab4cdbeba4ad05a5e69eca69ce9ef893d2001edaec00cf88daf9e8892d9e3941c"
+        },
+        {
+            "tokenId": 46,
+            "sourceImage": "images/Architecture_46.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 46",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/46",
+                "image": "ipfs://QmWDS8Zd8y1gdZPTVXYfST3uTM6aDPMzKRPywqoH4XVoVL",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAJBAAAQQBAgYDAAAAAAAAAAAAAQIDBBEFAAYIEhMVIUEiYaH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AFnIYDcW18w1lIW7HX8Ap9ImRcokvdJtRokLuyLoeaoG7Nav+0Ytfy7fCN+b6CDf5oG4vstLxcTbYaWHIb6pCXorgtDlBFKP2LNH1esmuZGbzq6UyU23Z5UJeVSR6A86FP/Z",
+            "webOptimizedImage": "images/Architecture_46_web.jpg",
+            "tokenURI": "ipfs://QmSa3zziJPE6HPgUbHU36ziUuGVPMupkd7HAmwKaHN3CaA",
+            "signature": "0xb1d0ef17e6706e5dd42176cf1389236072e9a2bc2c9883f5c013721b480bf3100a5ea7d66629c2737e44836e5676a39b7063948ca586502f1662c74703ef1ac11c"
+        },
+        {
+            "tokenId": 45,
+            "sourceImage": "images/Architecture_45.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 45",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/45",
+                "image": "ipfs://QmWXXYTe2iPvAJ3b8W4ueyXHVrvrxWeGCLsyRU7wpLMYdw",
+                "width": 1537,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAJhAAAQQABAUFAAAAAAAAAAAAAQIDBBEABQYSBxMhMVEVIjJSkf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMx/9oADAMBAAIRAxEAPwDOuGkOOZGrH1MhXJjIYTtPvQlahVeBZTZ8dMV1ZU0pRPISbN/EYBac1BmEfOs0iQnUsQpUgvPMhtJKyCaG6rA69u2F/rL/ANfxRxRrrtCynEf/2Q==",
+            "webOptimizedImage": "images/Architecture_45_web.jpg",
+            "tokenURI": "ipfs://QmQDCbPvYSfZeBFDgV6SZPvDZu1CT55wD22QeohoQbwLtm",
+            "signature": "0x93bc471cdc0b9b1180ce92d29ad6892ed77a79123ad51b621019b013e4a5f0413dba159efa2d712b17fe72db869da5609381df1e3061868949d9ff97c2abb4a91b"
+        },
+        {
+            "tokenId": 44,
+            "sourceImage": "images/Architecture_44.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 44",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/44",
+                "image": "ipfs://QmdLEbqcqaaGtN4vaoayjH7V3zWjMKnpU5SXfBJdxVPayL",
+                "width": 1507,
+                "height": 2011
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUG/8QAIRAAAgIBBAMBAQAAAAAAAAAAAQIDBAUABhESITFBFWH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABoRAAICAwAAAAAAAAAAAAAAAAABAhESIUH/2gAMAwEAAhEDEQA/ADYjbNhsNRlt4Z4JbkMl0wCLqtOuX6xJI7HzIw5bqBzwPmol3ak0V2xH+NkX6SMvaOsHU8H2G7eR/dOxm8bj49HkjV3APBLeiPuszNvC60rkxx8lidOeXGWjSWz/2Q==",
+            "webOptimizedImage": "images/Architecture_44_web.jpg",
+            "tokenURI": "ipfs://QmbMXEuC9GtGCPjWV5uhFzB1ZG8DuNiaL7cVVXZYj6zuTA",
+            "signature": "0xb21fc2eef28fb7a370f1ec8c83a7138dfa5d9d7173111974807991e025f4cc0e77b31694e69d038f5d0a6ea290589d57c169ba09bf5dbc399fb21c1081254d7e1c"
+        },
+        {
+            "tokenId": 43,
+            "sourceImage": "images/Architecture_43.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 43",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/43",
+                "image": "ipfs://QmSzAD9rETwdGrb8JCGvVWGZeZV1tyyC9B5Tk6qUJY6RyC",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAhEAACAQMFAAMAAAAAAAAAAAABAgMEBREABxIhMRNBQv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACUf/aAAwDAQACEQMRAD8AFgtlois9POsVJmoUsAzqkjKP0y+ge4JyDqSmobcZnKcgnI4Ax0NG0+4NzpqYQU8NOssr/HNO0au7t7y7HX0Avgxo59w7szs3GNcnOASANWdEE5f/2Q==",
+            "webOptimizedImage": "images/Architecture_43_web.jpg",
+            "tokenURI": "ipfs://QmarX4M3FN1FN9QdvVxwkgmxxqqZBHiWhBjsrNKuQ6Xme3",
+            "signature": "0x93a74b52ced99ce0b3af7fb2196155082225bca0643b3ce09e6f979102d671ea66e98bdb84ab632e08870141659c886b6d8849cb9a9697ae718a9b1184de386e1b"
+        },
+        {
+            "tokenId": 42,
+            "sourceImage": "images/Architecture_42.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 42",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/42",
+                "image": "ipfs://QmXFoZ3CMEowzWqYzUJmifJMjT5B78BXv8dB9AN3NJ8GTa",
+                "width": 1408,
+                "height": 1878
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwME/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDAAQFBhESByExIlFhkfD/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwBF07mMNdqbDL4azihYcVlhUn73/fFWl6caSeV3DIAxJ24eKLMbmJHtYZDGOTEr59qzPrK/V2UDsDsPVQRRX//Z",
+            "webOptimizedImage": "images/Architecture_42_web.jpg",
+            "tokenURI": "ipfs://QmUNh5nNmGxh8Md43zgUB5cWcabshdrNZioHUkPXqvZV7v",
+            "signature": "0xa32af663b3e239afb29b5a1072ab9223baca5071f7e26f30973ed6707d014821104dcc8c3a92d963d3523cd43582d1734583110c441c6abd476da08cb4db14151c"
+        },
+        {
+            "tokenId": 41,
+            "sourceImage": "images/Architecture_41.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 41",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/41",
+                "image": "ipfs://QmSFMhqbF7mGyVFFBHYeCF3aBC3Ce9C7R4xV67gcZ8wuoc",
+                "width": 1537,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAjEAACAgMAAgAHAAAAAAAAAAABAgMEBREhADESFDJBYZGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAMf/aAAwDAQACEQMRAD8Ae1CrHI8L1YlSF0rOzVwxEf1QP77o/b9nyVdxGMa5O1vGRLZMjGUFE4++/wB35WwOMmux4qOxNWPzTSYaQiqOhQGjl6Ttl3ruz+R4hcsaqiCbH4uxLEPgeZqi7kI4WPvp9+WOv//Z",
+            "webOptimizedImage": "images/Architecture_41_web.jpg",
+            "tokenURI": "ipfs://QmQVW3sQ7nhHQTGRuQXAbLYPuCeF6eLcpQiQsQHJrKhS4X",
+            "signature": "0x2c5e3febadf2e92baab3c9fc791fc2fa0babd8bbd2d0fb2fc1ebe3b463763fda1603bf04db9c8cb42a8978f283b4da201130cd99c6792100f4ea1ee38133bd521c"
+        },
+        {
+            "tokenId": 40,
+            "sourceImage": "images/Architecture_40.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 40",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/40",
+                "image": "ipfs://QmWP7wUzDdQC4s69EQKetgXTeeb8xZkxyrCxdN7Hr7KZgJ",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAjEAACAQIGAgMAAAAAAAAAAAABAgMEBQAGERIhUQdBEzFx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AqM9/noYKWW4R0Ucc0Yb5Hq4413e1BLaH1yNRz94SiucskSOttrCrAMCoVgdeiDof3Bl7ytabtlOG0VtJDJRwRIsSMgOzaABp1xifHxPY1JEdRcI0HColTIFUdABuBh1SANv/2Q==",
+            "webOptimizedImage": "images/Architecture_40_web.jpg",
+            "tokenURI": "ipfs://QmRbjjpQmUoeNLLY4mxqPgNo6jQinC8nPfYwqQdcVF6fVj",
+            "signature": "0xb629924556104435ee4b95a9e2931cb645089a820e756603df9fdfe7cd24960021fc757d32a57ce0477f1c50e27ca0a29ff94ec84c7a6e7be36af10a06bfb9d21c"
+        },
+        {
+            "tokenId": 39,
+            "sourceImage": "images/Architecture_39.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 39",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/39",
+                "image": "ipfs://Qmd4zzDzjNwGmFkB9LK82JgUa2XW4TUBPBMkjwknCCEjVp",
+                "width": 1348,
+                "height": 1798
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQGB//EACcQAAIBAgQEBwAAAAAAAAAAAAECAwQRAAUGEiEiMUEHE1FSodLw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARIT/9oADAMBAAIRAxEAPwCXj8QKiiPk5pSvFOezp09PjAHU+qXO6PKKkoeKnl4jtjTJtP5TJdZKd33cxLMp6G3t/Xw4umqFVAV5wALAWj+mHsmzl//Z",
+            "webOptimizedImage": "images/Architecture_39_web.jpg",
+            "tokenURI": "ipfs://Qmd8GSZxF15coVyzaMz3kKooVfimSdBvWktiykwV9u6nEq",
+            "signature": "0xd25c226f8d245e13448bccb3672be53b296483483a54f8e12188feb27a741a7253dd16d190b69084a0f14615249d68ed82cfa6f0428f72d5763442a1ae0339f01b"
+        },
+        {
+            "tokenId": 38,
+            "sourceImage": "images/Architecture_38.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 38",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/38",
+                "image": "ipfs://QmW6EbpZFHE29wc81MSxyVeY8bUsN94RSyANWbZKtfw5WB",
+                "width": 1120,
+                "height": 1496
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAMH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIDBAURABIxQQYHISL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAQf/aAAwDAQACEQMRAD8A1tXDNNHFVW6rVnZCaWRY2UhVBV4yf0w43Ag42/DnR4u/p6Ce61syGVVkndwoBwAWJxpCewY7P4sIpqawW+eWrkd8ypkJJtJL47ztUdcDVYfEnmiSVq6BS6hiqUEQUZ6Axxqgmxf/2Q==",
+            "webOptimizedImage": "images/Architecture_38_web.jpg",
+            "tokenURI": "ipfs://QmNNeufYgcvmPEsewGcifoneXh1ZSK5ngac7hXVay7udrS",
+            "signature": "0x3acf0209fedfbd16db247ffbedb402a8421a44d6f233fbad9aced61683e572135a9efc95cffc7be606f35c97b61c652e6964071433bdaf65ec91e5b7455d17691b"
+        },
+        {
+            "tokenId": 37,
+            "sourceImage": "images/Architecture_37.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 37",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/37",
+                "image": "ipfs://QmUEQcJdCq2f4R7ZNe7fvPYSmgKAmd2gZDbBt5YofXqnpM",
+                "width": 1534,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAHRABAQABBQEBAAAAAAAAAAAAAQIDAAQREiEGUf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8AQ5d7UFdM19q4cgKL7z66vn6bbEg4d4IcIZBNGs9VOLc3VVdVM36/rrNct8vroYV5TP/Z",
+            "webOptimizedImage": "images/Architecture_37_web.jpg",
+            "tokenURI": "ipfs://QmSRZfhEaYxfwoHpXVyk1sMGbNZUhzvZwWfe97XpX4tWcb",
+            "signature": "0xa14b4e68cc61152f327fc6bd5747d7dbff0f5544e93b3bbc146e9b7c4db1715722ceccd77d440240d57dc7c19d6028d7230e5cae270aa351a5e6eba41571df0e1b"
+        },
+        {
+            "tokenId": 36,
+            "sourceImage": "images/Architecture_36.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 36",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/36",
+                "image": "ipfs://Qme3TpToB44Cj86BLGAdaLzezsLAwcFXMMHYhd83LCx4NQ",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAJhAAAQIEBQQDAAAAAAAAAAAAAQIDAAQRIQUGEhQzMVJhcYHR0v/EABUBAQEAAAAAAAAAAAAAAAAAAAQF/8QAFxEBAAMAAAAAAAAAAAAAAAAAABEhUf/aAAwDAQACEQMRAD8Awl5uxhxksNzOMqLelKgqYSUpN7cfryb1gYzfPpAG9xC1uVv8Rbcty6Hkolag6RVm49GtukG3jna38g/cSqwmH//Z",
+            "webOptimizedImage": "images/Architecture_36_web.jpg",
+            "tokenURI": "ipfs://QmSjkHgBc9wiYXSNcwpKPrviUHJrTfmwAmeDfTz7oHg4uT",
+            "signature": "0x82e1757a0abdf74109beb4d42d5c27e8df98cd569c2f7aa6904fe0092b09e81d4664d372bd098285c13c3e67ed6d9218cdac270e0b122cf7e4e6cd1db6f93dc21b"
+        },
+        {
+            "tokenId": 35,
+            "sourceImage": "images/Architecture_35.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 35",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/35",
+                "image": "ipfs://QmTUbxkAoQ8aa5Em2zQU2PQ9U8CCZoGrZZmrpZfDfJfD74",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGCP/EACQQAAEEAgECBwAAAAAAAAAAAAECAwQFABEHEjEGEyEyUZGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIR/9oADAMBAAIRAxEAPwCu4Vqrm74tpLE+IbauMZgssxGFNhtaWyeknqST66+e2ZEv5s2XfWUmQ24l56S44sEdlFRJ/ThDuZrEXympD6Ea9qXCB9DFq5DilqJOyTs4BW67f//Z",
+            "webOptimizedImage": "images/Architecture_35_web.jpg",
+            "tokenURI": "ipfs://QmcHQHS5r3V6KbPioYtVvzUFGFaw2GhzSUv2fYhgNkZX7P",
+            "signature": "0x5ad70933aaf1af6fd4f42d5007922ac72b65da1a93cf6d3122393807037b490d4d8b116b6d65415f2868aa6ad21cb047de740e21a6c0037d072271512db6c3521b"
+        },
+        {
+            "tokenId": 34,
+            "sourceImage": "images/Architecture_34.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 34",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/34",
+                "image": "ipfs://QmT9tANY1yJUdq4GXnhyDUyt6K8ESkvqormYFqJaoCpK8C",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgAD/8QAJhAAAQIEBAcBAAAAAAAAAAAAAgEDAAQFEQYSITEHEyMkQVJUcf/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEhQf/aAAwDAQACEQMRAD8AqNgegsUttioTylPvqYAqFcUMEuX7paDp8PZtwlNmpS/KJbjmc1t4vB2UfdKoYcUnTXu5/cl+cY2CYeyD1nNvZYlq0aP/2Q==",
+            "webOptimizedImage": "images/Architecture_34_web.jpg",
+            "tokenURI": "ipfs://QmeUYCdNXjWB1nKNSJ6MHECsc8c5BLaowPD7ZXZpXjYz4c",
+            "signature": "0x54b894d745fa26bf4566931b858dd0dde1b6301f196c33ea31dbc63a0974928852026bdb749f53d96dbf3c471d9a8305936d8481445c10f9c51080660d8b17251c"
+        },
+        {
+            "tokenId": 33,
+            "sourceImage": "images/Architecture_33.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 33",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/33",
+                "image": "ipfs://QmYYy82banZ5Lmha5EFkqqryiMyGpzKUCmNw9rpiNyB6pX",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAlEAAABAUCBwAAAAAAAAAAAAABAgMEAAUGERIHIRMiQXORodH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAMBAQAAAAAAAAAAAAAAAAABIQIR/9oADAMBAAIRAxEAPwByb1nT60+TlCDlNUXKvDKQDZ5n93DYfEVwMGdtmje3bL8gyoGUS1vqjUi6EvZpLJibBQiJSmLkbmsIBcL9YVoGFKU3xOH/2Q==",
+            "webOptimizedImage": "images/Architecture_33_web.jpg",
+            "tokenURI": "ipfs://QmaTVB5Y74VU7EwT8v9YYPFqTn48v4gypHLod1w5r7VGdM",
+            "signature": "0x5a6b4a4dda9cdcaea64b12dfe18c031382f5571bc98294632181ce0dea93702b3f6a2fe1de1537e1339762d8d8d6e4520fd508ad896548939479227bf1a24d9a1c"
+        },
+        {
+            "tokenId": 32,
+            "sourceImage": "images/Architecture_32.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 32",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/32",
+                "image": "ipfs://QmZtFKNFhxYWae6GL2HunVakmdpfXMDVsiSpartQJoWBS2",
+                "width": 1269,
+                "height": 1693
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQQH/8QAJhAAAgEDAgQHAAAAAAAAAAAAAQIDBAURACEGEjFxFiIjQVFhwf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAESUf/aAAwDAQACEQMRAD8A0eC8XCtXNJWVMrKSOWFmkIYbkZUEH977av8AFVwh9OSkVnTysxjYZI6nGmm4ejuCXNblXXCtjqWCSw1M5aLlGCFWMYVV+gO5OhuDYCSVuFcq+yiZth8ddS3jEln/2Q==",
+            "webOptimizedImage": "images/Architecture_32_web.jpg",
+            "tokenURI": "ipfs://QmcrQPEkSfKChNyzv7QJcpvJbYAnKn2kBR5K8Aav2XwZPy",
+            "signature": "0x1d2fbc1d1c8a4bd409aa36d31e202eb0e4f75c7a56dc48d359580a23d18a2da42a2b6710da1d334adb72c54cef585281f490fb6de25f66b79bbabf3fb3ddd85d1c"
+        },
+        {
+            "tokenId": 31,
+            "sourceImage": "images/Architecture_31.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 31",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/31",
+                "image": "ipfs://QmNnupTx2tNa3mQagfcAxtvhAupNT1RGGaR8ns5hxnyHJe",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUH/8QAJxAAAQMDAgQHAAAAAAAAAAAAAQIDBQAEERMhEhUjQRYiMjNRwdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM1tL6OdiJqRvGuO9QNG0KicNlw7qA+cd6h86iGumiIdcSjyheoRxAd6LcKMXfM6PUQs+hzJAx9U7xs6nbk8Ptt7B/aqydf/2Q==",
+            "webOptimizedImage": "images/Architecture_31_web.jpg",
+            "tokenURI": "ipfs://QmTWgwa1KMWQxVobG81SGQjWWi3xpDK5jGUH617qhMh3QP",
+            "signature": "0xaaeb0ffda0b105b0bffacae78fa37b95a9a8bc5a674cfe87303f92057619450a66926f11deeb7b3d9c4414096e8890ba53ec94e3c1c948d9386726e2eb6c44631c"
+        },
+        {
+            "tokenId": 30,
+            "sourceImage": "images/Architecture_30.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 30",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/30",
+                "image": "ipfs://QmQ1qwqR8qBaDP4o11F1twY8af1W6xehUqjp1NyG3UnJ1G",
+                "width": 1538,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgIF/8QAIhAAAgEDBAIDAAAAAAAAAAAAAQIDBBEhAAUSQQYxByJR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AC3gsm2RxbDtc0yTTQJVJUzqluMcqiyKD7PIC1+zrB3Cp+PYa+pialr6hklZTMsj2ksSOQsLZ94xoftm+S0cssyCUS/YF1kzxUrgcgbZ7HWNSPJd1AASrdVGAB0PzQX/2Q==",
+            "webOptimizedImage": "images/Architecture_30_web.jpg",
+            "tokenURI": "ipfs://QmWsHhWpEucsA7dHu32MpMcdcKXB19miwLpHDevJ2zdJX4",
+            "signature": "0xe1ff83f4031ea3245c59df894a1c5a7491f5ee9ce4a09d8fd39b6299a28af2ba73615e2e06600cbaaad4c379c4d8f5f85a4d4825a880c77c5e6e71d6523c21b11c"
+        },
+        {
+            "tokenId": 29,
+            "sourceImage": "images/Architecture_29.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 29",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/29",
+                "image": "ipfs://QmW4hiGdZFBk4MhS82QDphM71Vkgehy1TY4rc1LmkvDjYr",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAkEAABAwIGAgMAAAAAAAAAAAABAgMEABEFBhIhMUEUFSIk0v/EABUBAQEAAAAAAAAAAAAAAAAAAAIF/8QAGREBAAIDAAAAAAAAAAAAAAAAAQACAxEh/9oADAMBAAIRAxEAPwCv5wmyRFWESFJuLEINu6AKxCZqP2X+aO50z3OxaFJEZhuCw2pIShvdWokC5VYEgX47PdAvaYor5ee4L78q/VTnG27uIZ//2Q==",
+            "webOptimizedImage": "images/Architecture_29_web.jpg",
+            "tokenURI": "ipfs://QmWUSqVM58soNjvRgctNQ6YeYxSjqowxZ2SZLyak9jYtxM",
+            "signature": "0x2f8f0d527a5cc1568cf4e2c1e51685c3b20813585144b187891aff5801898ff626bc0ce56f6443652ef811259a6896c925c672504d30e2bf550ee6195284e7651b"
+        },
+        {
+            "tokenId": 28,
+            "sourceImage": "images/Architecture_28.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 28",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/28",
+                "image": "ipfs://QmNy8vuKhTPDKaTCDPs7BhZujcUivBK5gERr6cFauCnD1C",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwb/xAAgEAABBAICAwEAAAAAAAAAAAABAgMEEQAFBkESGHFz/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIDEf/aAAwDAQACEQMRAD8AXzzjRucdm7qFIcmwYqFLWWGzavEWQkKq8KvZXT9cd2Vfu3gZL388awxQ8oMlFlIJr5kosAKIrvDjymbFv//Z",
+            "webOptimizedImage": "images/Architecture_28_web.jpg",
+            "tokenURI": "ipfs://QmRhGqmN8KNbXjq69T9BHzpHM4W2Ysv2TVX7w4D3U7gG7m",
+            "signature": "0x9dced961970de33cbb4ea25d5a33462f7bd1518d9a12c22f26f17963c25d8e0678e41ea91d0e4b6f87547edb587e462bfe332b30bf456c4cdcbc138aaef4235a1b"
+        },
+        {
+            "tokenId": 27,
+            "sourceImage": "images/Architecture_27.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 27",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/27",
+                "image": "ipfs://QmSZuE43dftQFbsQafkXBC8qLk8pHrPJ2S5R6KnXdMM49V",
+                "width": 1299,
+                "height": 1732
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQQFB//EACQQAAAEBQMFAAAAAAAAAAAAAAECAwQABRESMQYHFCEjUpGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQEAAgMAAAAAAAAAAAAAAAABABECAyH/2gAMAwEAAhEDEQA/AKU2nu6eq5C6ljuXoyc5E+WR+yUOmY9hg7eRzX5DzbczdFJukmGiGKlpQLedZS41AyPXMbqDdMGwp0AQoIQOMn4F9RKY7DtkVk//2Q==",
+            "webOptimizedImage": "images/Architecture_27_web.jpg",
+            "tokenURI": "ipfs://QmaLSEQK9VXaU2BV9WM4Wd4ZJ7NkeFUcPb5gUkhnpMqUSK",
+            "signature": "0x33f74c78f31434a6ae7c8c10c537c6c9ee646c50e983c115e12486e41e14de0602717163af62e4458487fc3898482fb4b44a9049fdad8c0be74aaffc8afab8361c"
+        },
+        {
+            "tokenId": 26,
+            "sourceImage": "images/Architecture_26.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 26",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/26",
+                "image": "ipfs://QmSLuMQjtksC2KckinCbLf3Wv1yb5tGKvxr5rqGpXJq3QK",
+                "width": 1442,
+                "height": 1922
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACQQAAEEAQMDBQAAAAAAAAAAAAECAwQFEQAGIQcSIghSYnGx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AO7OoeoOl0i8uEtJn37LbECOwAgQ45PccA+7xzjJweTydK+36Ckl0FbIkuRXX3ozTji0nhSigEkfZ0M+oG9esdyVEVTaGmK+ChLSUfI5P4NOlPcKRUQUFtSylhA7luZUrxHJOOToklHG//9k=",
+            "webOptimizedImage": "images/Architecture_26_web.jpg",
+            "tokenURI": "ipfs://QmPYu4C8gCPicyM4rTZbDLceKdMuitKSJDcMAqQ6dQcX6V",
+            "signature": "0x12d9061f07ef908a77c62372c63c46a4f3bbfcd3bce9f02e4ca9470f0739982204d56fdc928680dc9a191c27caebbdf2ad93bb3b99261f87b14a3c9259252b2e1c"
+        },
+        {
+            "tokenId": 25,
+            "sourceImage": "images/Architecture_25.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 25",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/25",
+                "image": "ipfs://QmW4GcTiNs5NTbnNvQbKutZBDZrki8un46bwo6EPNm1VBs",
+                "width": 1538,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwYHCP/EACIQAAICAgEDBQAAAAAAAAAAAAECAwQFEQAGITETIiOh0f/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAZEQADAAMAAAAAAAAAAAAAAAAAAQIDQVH/2gAMAwEAAhEDEQA/AL5H1LTC0hbK15bblY4zIrHXfR+uHXqTDsoYZKpojY+Vf3mE7fWeWnzlTJy2JGvV3HpuW9qhe40o7eeLU+VtPNIxlcFmJOm0PPAWOtsd1PD/2Q==",
+            "webOptimizedImage": "images/Architecture_25_web.jpg",
+            "tokenURI": "ipfs://QmQNKMdkkr6HVSuschPXQtVZqywJEjabU8HFC9e1zLKLqy",
+            "signature": "0x3447b9f387f61f74ddbf50b82735c8127a13bd998e865a9e7f9570532e9f6d581958e695a046893b8872035af2d5f84f435c84acc2b17545288f33f5c5339e641c"
+        },
+        {
+            "tokenId": 24,
+            "sourceImage": "images/Architecture_24.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 24",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/24",
+                "image": "ipfs://QmRrHV8y5gwGian6qavqZu5F6sVJ3t7KSYKSdwNcQzsNoP",
+                "width": 988,
+                "height": 1317
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwQG/8QAJBAAAQMDBAEFAAAAAAAAAAAAAQIDEQAGIQQSMTIFUWFiodL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABoRAAEFAQAAAAAAAAAAAAAAAAABAhEhQVH/2gAMAwEAAhEDEQA/AE25LTvVtjZ4i51usjELkFKRwkZJPuokkn04rOJtG9ikbrhXMZ7/AKpPGsdkqBIhG/n4gx91anVuKSDDeRPWpLsUVw//2Q==",
+            "webOptimizedImage": "images/Architecture_24_web.jpg",
+            "tokenURI": "ipfs://QmZ2nybZKk22kx5iRnkk9duJbQDMDjEbRccrkmo9ooogrz",
+            "signature": "0x32d36747451c23ff4120131c5e0dd501cb4160e3cb510c021b12d90b6f710d907047bdb66422bede606e3448d56fb198742f64bc104ad5e1a78cb894ffead6a01c"
+        },
+        {
+            "tokenId": 23,
+            "sourceImage": "images/Architecture_23.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 23",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/23",
+                "image": "ipfs://QmePnjZtvi3cx3TTMBTthcgyhrnMGE4s5ifFhgVbmbA7ZC",
+                "width": 1515,
+                "height": 2020
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAUH/8QAIxAAAgEDBAEFAAAAAAAAAAAAAQIDBAURAAYhMQcXQlFWk//EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGREAAwADAAAAAAAAAAAAAAAAAAECETFB/9oADAMBAAIRAxEAPwCNtqo2zdfKNS9yigWnlKvNDMizIxYyErkjKKGYEYIwBzxrcvTzaH1u1/gNB61Vc1DPR3JJC08s5V8+4H50gqTed9ipYY47jUqioqqofoAcDrU7xOxqXw//2Q==",
+            "webOptimizedImage": "images/Architecture_23_web.jpg",
+            "tokenURI": "ipfs://QmPm5wuftVbEXHETUCkGD7wyCKF5ak9oykKprvrvZd6dUP",
+            "signature": "0x2ca4dded2b4be8de74748a7d48117816c1f00db1b92e1b09fa89e08dc877d08371a0fe8b1c1dffdaed1f87052fb44d02a2a628e52ed729d5e95fb37de880f60c1b"
+        },
+        {
+            "tokenId": 22,
+            "sourceImage": "images/Architecture_22.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 22",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/22",
+                "image": "ipfs://QmXtnKC94N2RX8zygQVM6yQ9FMTCHQ4xv32LB4Rn51vnCX",
+                "width": 1369,
+                "height": 1825
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAJRAAAgECBQMFAAAAAAAAAAAAAQIDBAUABhESMSJBYQcWITKR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQIEE//aAAwDAQACEQMRAD8A0i253sdVbbpUwmRYraQJV2BmcFFYFAD1DqA8HnTBGf1fy4s8ipa6+RQxAfYF3DXnQ8YnWGhp4smQzwR7KmGnnkDtowPIGoI7fngYGe9YB8SWKkdx9mEjDU9zp2xfVsFXif/Z",
+            "webOptimizedImage": "images/Architecture_22_web.jpg",
+            "tokenURI": "ipfs://Qmcj9QucQ8GB1zLHPo6xp84i2HLS8EarJr3pjJfxu9cXkp",
+            "signature": "0x458064e88a4da9d1399e9f62d1175e9ce22654555da65daf526a2191c96727562998b796779a59196aac2dd7cc78fde2893de9cd4262bb3231b7e8229e0637601b"
+        },
+        {
+            "tokenId": 21,
+            "sourceImage": "images/Architecture_21.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 21",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/21",
+                "image": "ipfs://QmY2KScVbAG932pwzPxzPpTfxgfF3C33BJcJ38w3YjQAn6",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAwIEBwAAAAAAAAAAAAECAwQFEQASIjFBcQYTIVKRofD/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/EABgRAQEAAwAAAAAAAAAAAAAAAAEAAxEh/9oADAMBAAIRAxEAPwBncr/b7XRFY1heTbkKxwAPcx6D8NZrL4lpWldjW1xJJOUiAU9hjlqPrry4VVePzOHfxNkfHU986BF4qGG4NIM+uN/L61HMSnZd3//Z",
+            "webOptimizedImage": "images/Architecture_21_web.jpg",
+            "tokenURI": "ipfs://QmULH3ebUwdKVFZQP8YoJA8NQVw8VybTFTfWUxmBCCPXBN",
+            "signature": "0x140e2e9a54a974377ac7102040c5a05561730cf6f3059fd8bc7c6915051296a41225221f17a62cea3968819bea47a050245731b60b6b305a7651c87e0fe9c22a1b"
+        },
+        {
+            "tokenId": 20,
+            "sourceImage": "images/Architecture_20.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 20",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/20",
+                "image": "ipfs://QmSukF3nzivQv5Pw1W5NDHhaY5J4QrsLotGgVpDdmtkLS3",
+                "width": 991,
+                "height": 1321
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUGCP/EACUQAAIBBAEBCQAAAAAAAAAAAAECAwAEBRESIQYTFDJRcXKRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACEf/aAAwDAQACEQMRAD8Azlj8TPBZJkLi3LxShu7QqdkAeb2/dGmSdnbh0V5L20R2G2Ri21PoelGjyDvjsRGyjjFb7+XEkgfZqffLXzuzeJkHI70D0FQ66WW//9k=",
+            "webOptimizedImage": "images/Architecture_20_web.jpg",
+            "tokenURI": "ipfs://QmSeLwSyPVH4FSoMaMyHxAMsAgQjaW9sPyZwffn9e3aw7E",
+            "signature": "0xcef01f418432bee1ecfdffc3a27cd62d95f2ea2725d89a48342dbdb6fab634ef7a17d718857a9eb267ea5f5114cd66bbee601b42ad90c362d2a927e282d1d8f51b"
+        },
+        {
+            "tokenId": 19,
+            "sourceImage": "images/Architecture_19.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 19",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/19",
+                "image": "ipfs://QmY9D2993FfGrifPw3FsqBDkXjnxPjkwWPh1JKqjLPP5Rm",
+                "width": 1352,
+                "height": 1804
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFB//EACUQAAIBAwMCBwAAAAAAAAAAAAEDAgQFEQAhUQYTEhciQXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIRAxEAPwDCV9EVj6qpRT3Cnn2SR3CJCMjnGx+R+aY8pusJ+qNuXIHcEVC9/vV63U6rTb0vBbUNaBKIZPEIHHAGfbnREKomoWwUKgJxEsFjDjI58WkFp1oL/9k=",
+            "webOptimizedImage": "images/Architecture_19_web.jpg",
+            "tokenURI": "ipfs://QmWb5gYQy92D8kMmgsjrxpBXuRy3ktzpQJrLbDHeoVDzBe",
+            "signature": "0x14eb4919a745221afd9f6ca3b13cd88c97b2096b0111568ee536d1b54fc0e57444783d39d831853e3d08c2a2108c19b0e3be399d31380d16c5f1c2236d1b58cb1c"
+        },
+        {
+            "tokenId": 18,
+            "sourceImage": "images/Architecture_18.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 18",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/18",
+                "image": "ipfs://QmSMTpM54eQoxx2hz13MToMgaf2UbY7eFpLrW6FTkqPUn8",
+                "width": 669,
+                "height": 893
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAIhAAAgIBBAEFAAAAAAAAAAAAAQIDBBEABQYhExQxQmGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAZEQEAAgMAAAAAAAAAAAAAAAABAAMREhP/2gAMAwEAAhEDEQA/ADLl0+58Yro7WLElSVjCvjtFmSQYJVjgdEe3WRjBzo9s8h3drEp9XMuWJwHOB3rTWIDudizHZkJijiWRUx8j0WP3jUq/RhivWY1HSyMo/CdRLhcR5az/2Q==",
+            "webOptimizedImage": "images/Architecture_18_web.jpg",
+            "tokenURI": "ipfs://QmNi5FFQUueBkBs4toc8Z9DoycyCasog5qTTpofmXzc7PE",
+            "signature": "0x7abd419545130771393baf8ed9f34d3815bbea6a8aa81246eaa19900b4d198ce57154120c4dfeac42f301527e6a66fc18d963df1513101c3e4d079c938189b621b"
+        },
+        {
+            "tokenId": 17,
+            "sourceImage": "images/Architecture_17.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 17",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/17",
+                "image": "ipfs://QmWbQh2rxk6c7P4ALC3X8psDRDQ95s8yWfUwk7sZw5YL1y",
+                "width": 1489,
+                "height": 1987
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgUGB//EACMQAAICAQMDBQAAAAAAAAAAAAEDAgQRAAUTEiExBkFSYaH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAMBAQAAAAAAAAAAAAAAAAABAhEx/9oADAMBAAIRAxEAPwDMFb5u9Yci7F228xWoQ48QPUSw/eYx/NE/1PuDnMalLJKnIygR7gntpxduLg/gr1oK6oTnyjBnE4EexIwOwx41Ivq7KhzExoXOlcjAYukeDj46SrCNSq6f/9k=",
+            "webOptimizedImage": "images/Architecture_17_web.jpg",
+            "tokenURI": "ipfs://QmZv3UtYuC3VoFbad7zt7kNxWhisd7eWLjDbAQ9M9KqA7u",
+            "signature": "0x131b75ddd89e0a91642d31328390930e9a926efed7bc3fdf093140fe0d95e36d53e9cbf10ffef744333c7b544fc1022efc2877d1a954195503bc40c6abff117b1c"
+        },
+        {
+            "tokenId": 16,
+            "sourceImage": "images/Architecture_16.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 16",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/16",
+                "image": "ipfs://QmbpwaokVqTqQuMoxJEPHaHNPsWgBW28GNEUGqh2tXqkkM",
+                "width": 1536,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACMQAAEDBAIBBQAAAAAAAAAAAAECAwQABhEhBUESEzEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/AM5Nt2+xI49l54odLawsKYX8s9a3+/VBmW3bglvhuYyUBagk+J2M66qQuSZLPLF2RJdkOIOQpxWTs4wT3TiOYlBCcCOBj29FNKVOv//Z",
+            "webOptimizedImage": "images/Architecture_16_web.jpg",
+            "tokenURI": "ipfs://QmPMWhXReoBuxBYQWGKZBEWh6tJVNXzYQtP9NTjHnTutaF",
+            "signature": "0x763351195c6d5c0501c0a08f374cc8c00812a447466b1737828bd68ca4a3b8c7606b8e83c4db935485a39fde182f359d82e51e06ac3fbec1f547ea24ccee6aad1c"
+        },
+        {
+            "tokenId": 15,
+            "sourceImage": "images/Architecture_15.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 15",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/15",
+                "image": "ipfs://QmbnXQ4EY1umcHT2pLmuHPsmcscTA6DvDkv35jVGV4VBR1",
+                "width": 1537,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQGB//EACEQAAIBAwQDAQAAAAAAAAAAAAECAwAEEQUGIVESEyIy/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AgtP3Htv3r7b+8imkBVngMixI2Plhhie89UePfu8bSNba31KGSGECNHMjkso4B/XQrHorINBJ94HkOMU0unqVBMjcilVDcP/Z",
+            "webOptimizedImage": "images/Architecture_15_web.jpg",
+            "tokenURI": "ipfs://Qmb18NV4kvAyuFp8dR1trHUkTpN15MEjxeQjMxn2nrbEwb",
+            "signature": "0x40adcc0080a62c4c569945286e1cb4a98c4a499c7767008967aba62f2465a4627a5987654ad7ebafb2c8e9375200a13eff283091217ae54533f816b3e710988f1c"
+        },
+        {
+            "tokenId": 14,
+            "sourceImage": "images/Architecture_14.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 14",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/14",
+                "image": "ipfs://QmZ6JqLyArWxXfrjKuchqKirRgrShuPayGtWgShUPseVNn",
+                "width": 1535,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQF/8QAIhAAAgIBAwQDAAAAAAAAAAAAAQIDBAYABREHEiFBNJHC/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/xAAaEQABBQEAAAAAAAAAAAAAAAABAAIDESES/9oADAMBAAIRAxEAPwDH6dYxi9DHUuZMVVDJJCyhS8h9ghR51XLQ6dLK4F1uASPjuPzoTkOxxWcqeVJpoXaONh2MRwQvg/Y0Ys7nbFiUNKSQ55IHHvU0N720wuMeVi//2Q==",
+            "webOptimizedImage": "images/Architecture_14_web.jpg",
+            "tokenURI": "ipfs://QmcQxzWGTe4DVbdqPptgNLUkr8UsyT4yHtzSBmsb8hhpCg",
+            "signature": "0x3173a3f728163f8b89e0671b2606814a51e99aef934a838dcf06989fa30c10ec5532126aaf0d9d9fe212c86f79b1cff333943764c261a8de79c16973b681c6d51b"
+        },
+        {
+            "tokenId": 13,
+            "sourceImage": "images/Architecture_13.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 13",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/13",
+                "image": "ipfs://Qmepa56FdWnh5Vaauxh5y6mz27bfbkMFCqMNAxAf27Eohf",
+                "width": 1534,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIH/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIRAAMEBRIhMQZBcdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAABEA/9oADAMBAAIRAxEAPwDFc3GVMhL9vUky9XBja9oiCOyGnn7IPFAN5Zqu4zlZPfq+/wC0Y2fdIKpCEiCw7iqFhYFBol//2Q==",
+            "webOptimizedImage": "images/Architecture_13_web.jpg",
+            "tokenURI": "ipfs://QmfLa4T4CXvnRLKMvSxEKe3iNHE6jhSUGuUjPyRmT415vv",
+            "signature": "0x4c3f0d2dbe3d55d1bca47fc488f82299ba8eeed44c38e6a2951ab4bcbec6ae5364478e4c4bb97145ffa85a4ad8c16c843ca2bba8805d07c5e7bbb8e0ff853c031c"
+        },
+        {
+            "tokenId": 12,
+            "sourceImage": "images/Architecture_12.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 12",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/12",
+                "image": "ipfs://Qmc885iWwoVMgeRyEogcb1R1DmP8yn3Bxne48gVfUCNovk",
+                "width": 1534,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAREgUGIYETFKH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8Awod6dVt3bNL4Ranqni8qsoV9eOak6BHvBpuqzNNIxrTKSxJHHevYOSi/1oZDEoBcHZwB7krOx5uNnetjx+ZEYGQ23//Z",
+            "webOptimizedImage": "images/Architecture_12_web.jpg",
+            "tokenURI": "ipfs://Qmc5PwGim8DoUkHpp4xr9oFqYEbbAv9vxW5tfaZUkuehzC",
+            "signature": "0x5bc3de7da3ac89cd4e847fda3bd64bc1627de2fa806fbb1d81eaaf26fd1227a52fe4ecc21a473ef9088b3d3a234e7821908e5c32001e970af110b026bdbe36f71c"
+        },
+        {
+            "tokenId": 11,
+            "sourceImage": "images/Architecture_11.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 11",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/11",
+                "image": "ipfs://QmXskYpBsmGypBfFwpx1545SKoL3HudatCWKa73SpLWjVg",
+                "width": 1490,
+                "height": 1490
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwL/xAAlEAACAQMDAgcAAAAAAAAAAAABAgQDESEABSIGQRIUIyRCUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwCd6rVI8dYyj29UDC2Ba3b8vofntB89I5Rx6jYpQPEgz8SckfR02blTR+kILuis9qvIi5wMZ0dR+MekFwAoAA7Y0aU6LryjdP/Z",
+            "webOptimizedImage": "images/Architecture_11_web.jpg",
+            "tokenURI": "ipfs://QmWhquaZTn1q39WtwdeBiC9N3ZLfAT9aJTvnLP8beiUuZX",
+            "signature": "0xd39bea62be8d7ac27a60e972be1a6cbdfefbb2c27ac954349065007cf71a293739f5f7d438938c218378f05da7ffd9ffb2a02d228112e823f47d0b024722dbee1c"
+        },
+        {
+            "tokenId": 10,
+            "sourceImage": "images/Architecture_10.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 10",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/10",
+                "image": "ipfs://QmeEAwBspHHjQTZEYe5QVeqBNEeQtytjjTEdWKuw7UgJnZ",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAAFIQYRE0ESMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDKxp6HItr8y2uBiU2grU24MLSMnxPoHajBU0STytHfvNXrASuM8FkqHEvBz0KB7D4KBoS//9k=",
+            "webOptimizedImage": "images/Architecture_10_web.jpg",
+            "tokenURI": "ipfs://Qmdjmb1oySbbzeqZRarCW2Y7X9HjCEWzGvNgZNB5t2BUAB",
+            "signature": "0xee8ddca195ff148a2541edc812d20f952804de8c2180db5565ddaa02e687b809419fe68238e049903a49128a67b33105af25047aa596f3426a67a8c9a2d60cf51b"
+        },
+        {
+            "tokenId": 9,
+            "sourceImage": "images/Architecture_9.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 9",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/9",
+                "image": "ipfs://QmZYDmn5ydwtnNMVuiMSsDitNPkihHkzpbRyq3mdQ9LiDV",
+                "width": 1414,
+                "height": 1415
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAjEAABAwMDBQEAAAAAAAAAAAABAgMEAAUhEhUxBzJBQ2HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AI29LU7YLpMtyG4jMdbEeOlofFnk9x05J+0L3y6jAuMwAeA6qmYSEdOZIQAkbpwMepv9NT9SjqOTzRrGE//Z",
+            "webOptimizedImage": "images/Architecture_9_web.jpg",
+            "tokenURI": "ipfs://QmNqq8UiiH2cVn5mesQN9EhbAc1hXv6NcbtT3bujahr9FC",
+            "signature": "0x6d3b2a71ff8739de4680f46b699cfac0310ebf5c1647e6b57b66ba9cae36283a5afed504dc6ee860d154a7db6b235aab184b7887552b23e4305413b0f1dca9a11c"
+        },
+        {
+            "tokenId": 8,
+            "sourceImage": "images/Architecture_8.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 8",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/8",
+                "image": "ipfs://QmfMd366yaDEU5D4FDKcTyGHD46pD54SbiDybmU56G8MX3",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAABAUGB//EACYQAAIBAgUCBwAAAAAAAAAAAAECAwARBAYSIUEFExUjMkJRYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMuyu8c+GnfGRIEjcozoLBNIuGA42P5Q/hT+/Gyq/Ki9gfilcDMuXeq6WI84jY/QqihUdlNh6RxRUkf/2Q==",
+            "webOptimizedImage": "images/Architecture_8_web.jpg",
+            "tokenURI": "ipfs://QmQ7YZcwN9kFR6wRCwHLpUPCyANXKYQNonKZxmk5ZUTF8W",
+            "signature": "0x11e686f70ca283e5e6a69a6624ff026e0d77bfa03871efe502f4487c5af3a8bc3255629b7c789368c0d9509ff1663be4d338149ae26a9e9e85cc03c6719423061c"
+        },
+        {
+            "tokenId": 7,
+            "sourceImage": "images/Architecture_7.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 7",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/7",
+                "image": "ipfs://QmR3KUNCTzhaBpr6F2pqz3SsmRNCf7cV6MtkNGtTaosLxw",
+                "width": 1016,
+                "height": 1355
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EACMQAAEDBAAHAQAAAAAAAAAAAAECAwQABRESBxMxQVJhsXL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAQADAAAAAAAAAAAAAAAAAAABA1H/2gAMAwEAAhEDEQA/AC/iHa2J8hu4NJCFuNkcsY1SARjAH6OfYondTo4tPiSKVYG8+5z0SFkpZbwgDoBrt9ovuAxPkgdnVfTUq8Mv/9k=",
+            "webOptimizedImage": "images/Architecture_7_web.jpg",
+            "tokenURI": "ipfs://QmXPzJGd8zEKHtcQkhGRLqRQS9YzDK3qwPKUdWMhxLSWYw",
+            "signature": "0x6e54ae61aeb827ea76f1dd256c66c6a132bee6199300fd44e8956bed37610c6b0407f18e487c4ceef60311991aa837b65007147f74792f80dac8478c89c0a79a1b"
+        },
+        {
+            "tokenId": 6,
+            "sourceImage": "images/Architecture_6.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 6",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/6",
+                "image": "ipfs://QmQXppD2qBo2n9GweeYp7dWSsF6KGqMGDHJmKkffFhfLrT",
+                "width": 1533,
+                "height": 2045
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAACAcJ/8QAJRAAAQMDAwMFAAAAAAAAAAAAAQIDBAAFEQYSMRMhgQckcZGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAZEQABBQAAAAAAAAAAAAAAAAAAAQIEESH/2gAMAwEAAhEDEQA/AKV69OsTdMC1rCvc5AVs3JycAA/JPjsaCc9noTpLWMdNxSfokVoPf7I1cJrE2W84tphQCY/bbnPOeecHxQH1U2G9T3dCeEzHgP2akirlDef/2Q==",
+            "webOptimizedImage": "images/Architecture_6_web.jpg",
+            "tokenURI": "ipfs://QmNYLJCeSJrzcEZLRqif7awcr8wPnQCqCGcVar8kFUytsw",
+            "signature": "0x161cbd90fdd8f3765e241f165f11fbe6ab68caad5be31ed9b7c3737bd3cd95fa2258bee7005532e4944f26f9b772e1445481ab2481934450f7bc40e8f2d083cd1c"
+        },
+        {
+            "tokenId": 5,
+            "sourceImage": "images/Architecture_5.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 5",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/5",
+                "image": "ipfs://QmfJ3UMRftRp9RoJNQ5EjvpBbCXotkMkJsDDFfHHPcBUrZ",
+                "width": 1639,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAMAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAACAX/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAYRBQcSITEjUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwCJupcGnXTbM93TFPpkjjzaUypsJBOMFKusYzgjsEe0cCMEinVvDZ+jxLNmTI8cofbB4kH7B9oLuD5Ffpq0f//Z",
+            "webOptimizedImage": "images/Architecture_5_web.jpg",
+            "tokenURI": "ipfs://QmVtbPGnQ12z2buPs9R1aKiffRj3nWNyXedsMkKcNFaKHY",
+            "signature": "0x7238a538845c4e3d8337fcc9e32814f5859b0060904dcace998330d33533d6a367d9dac3d9f21c0b757f73b9feab2aadc833b0c5f5e77191d4fd39651bfc45c41c"
+        },
+        {
+            "tokenId": 4,
+            "sourceImage": "images/Architecture_4.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 4",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/4",
+                "image": "ipfs://Qmej6ACmo7x3p4xAT7QduL4CNJc5DeMyKb6czYNdFESRru",
+                "width": 1757,
+                "height": 1757
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwYI/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAQFIQcRBjFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AIfjbIR5DKQWtzBJdQSwlQDK6FnXYdej2p9jXvdO0fCmMuI1mlkZZJAHYFVYgnZ2V39oK4XVT5t40CoILr3r7W3QB0NVbpCL/9k=",
+            "webOptimizedImage": "images/Architecture_4_web.jpg",
+            "tokenURI": "ipfs://QmcFjnNVY16kRbUVURU2H22pPrfmrw4ZzuH1nLzDMtz7Jj",
+            "signature": "0x83e285d8743d38131e4c7a3a2a9121b0881f5ae277632abddaf10a3d0f04545f095d5589ef1d3adff56f57b9b6e8e8b6209492084333c805cf773c8214992f161b"
+        },
+        {
+            "tokenId": 3,
+            "sourceImage": "images/Architecture_3.jpg",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 3",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/3",
+                "image": "ipfs://QmQK4YgAdPsyvYyG4E8PPK4c3a1SGbAJvcPZpn96Msxqn9",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQf/xAAkEAEAAgAEBQUAAAAAAAAAAAABAgMABAURBgchYYESMUFCUf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCacrtFjqWi8QXUZeq7P1lUapTirVHfeTH469DCxkM+ASpkSPc74M5XqcPcRI7JWyOyAj4QfGLjmKKm+xaob+p+p+4D/9k=",
+            "webOptimizedImage": "images/Architecture_3_web.jpg",
+            "tokenURI": "ipfs://QmbARrxEscEaV9E31DuFHtzRG8kpVbs5Z35U3TztMwUdGV",
+            "signature": "0x3dc81fa4d3020616bc2bcb1955c8b24236c33f8da6f3e487b96cacd89c6e5283492ec4ebd45f6e3da245ae9170e150936d6277fb9c6cd6d6baaeb81fc95937e41b"
+        },
+        {
+            "tokenId": 2,
+            "sourceImage": "images/Architecture_2.jpg",
+            "mintPrice": "1000000000000000000",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 2",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/2",
+                "image": "ipfs://QmTTUhTpQ6MYhRcLEEUZFip4wkfsTzfdBCpqw2W1SihYKU",
+                "width": 2048,
+                "height": 2048
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAnEAABAwIFAgcAAAAAAAAAAAABAgMEAAUGERIhMhNxFBUiQVFSYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEE/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAMAwEAAhEDEQA/AHRsODPIXrYyzbjDdCJXQ8KeotenMhtzf65HbaiYseCDuzYIrjR4L18h7HjVcx1Cirn2xS4zClJQhsEtgkJ1D09vyjE62wBNkAQooAcUAA0n57VRFZYH/9k=",
+            "webOptimizedImage": "images/Architecture_2_web.jpg",
+            "tokenURI": "ipfs://QmR8hDUw52srwodA2FA44xTc9Wz9t3ajgXUQT9XmzLPdmZ",
+            "signature": "0xf6fee632b10861bbf5ba45903c31b2864ff2975602f2f963d3207e5fc311a6b60ab98ae6c62b14a0d3091be80b875b5e9d80c19c37d5de80f347fcf72a53345a1c"
+        },
+        {
+            "tokenId": 1,
+            "sourceImage": "images/Architecture_1.jpg",
+            "mintPrice": "0",
+            "metadata": {
+                "creator": "GlupoX",
+                "collection": "Moloch",
+                "date": "2022",
+                "name": "Untitled 1",
+                "description": "A vision in response to Howl by A. Ginsberg",
+                "external_url": "https://glupox.com/nft/1",
+                "image": "ipfs://QmTgBVtj2hrhGFm14Sg8Y9vFzPMQ1dhfR82opbyERpTfew",
+                "width": 551,
+                "height": 551
+            },
+            "placeholderImage": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgQI/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDBAURABMhBgcSIjFBUXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AE0XZektFJMvWkF/jq0ONy3iNqfBBwwcgkj2zwPn901tPYS31Nqo5xZhNuwo+49e6l8qDkgcAn6GtFoiyDxdQynggjI1dEPCJFT0qFAAHAA0H/9k=",
+            "webOptimizedImage": "images/Architecture_1_web.jpg",
+            "tokenURI": "ipfs://QmfLLsKt9Hq49mDkGbKBFEzT29Q84DT3XMjchbA8iZ3cLg",
+            "signature": "0xa57a2dbb5c40aacc6780981efb46117fb6a5ddc3e77ff2481ad323249e58bcbd04ff778b72931ed93c47f46eafb8da9d3e508b640e0c226c6e78844bc9a562501b"
         }
-      ],
+    ],
     "context": {
-        "creatorAddress": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
-        "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
-        "chainId": 31337,
-        "mintPrice": "50000000000000000",
-        "royaltyBasisPoints": "500"
+        "creatorAddress": "0xa861DfE09358A43fE007ef5873c50d45fcDa3765",
+        "contractAddress": "0x1344E224E47EAB00b3213e5c44c5e5EE4f750d95",
+        "chainId": 4,
+        "baseMintPrice": "50000000000000000",
+        "royaltyBasisPoints": "495"
     }
 }
